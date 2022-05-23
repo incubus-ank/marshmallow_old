@@ -1,4 +1,6 @@
-# marshmallow
+ <h1 align="center">
+  marshmallow
+</h1>
 
 <p align=center>
 Репозиторий выпускной квалификационной работы студента <br />
