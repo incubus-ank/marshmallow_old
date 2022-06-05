@@ -1,0 +1,7 @@
+11:52:20 **** Incremental Build of configuration Release for project Blink_New002 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-objcopy -O ihex Blink_New002.elf Blink_New002.hex 
+Info: Parallel threads used: 0
+
+11:52:20 Build Finished (took 625ms)
+
