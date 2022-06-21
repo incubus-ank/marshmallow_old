@@ -1,0 +1,12 @@
+D:\SDK\sdk\SDK\SDK\bin\Debug\SDK.exe.config
+D:\SDK\sdk\SDK\SDK\bin\Debug\SDK.exe
+D:\SDK\sdk\SDK\SDK\bin\Debug\SDK.pdb
+D:\SDK\sdk\SDK\SDK\obj\Debug\SDK.csproj.CoreCompileInputs.cache
+D:\SDK\sdk\SDK\SDK\obj\Debug\SDK.exe
+D:\SDK\sdk\SDK\SDK\obj\Debug\SDK.pdb
+D:\SDK\Delta2A(C#版)\SDK\bin\Debug\SDK.exe.config
+D:\SDK\Delta2A(C#版)\SDK\bin\Debug\SDK.exe
+D:\SDK\Delta2A(C#版)\SDK\bin\Debug\SDK.pdb
+D:\SDK\Delta2A(C#版)\SDK\obj\Debug\SDK.csproj.CoreCompileInputs.cache
+D:\SDK\Delta2A(C#版)\SDK\obj\Debug\SDK.exe
+D:\SDK\Delta2A(C#版)\SDK\obj\Debug\SDK.pdb
