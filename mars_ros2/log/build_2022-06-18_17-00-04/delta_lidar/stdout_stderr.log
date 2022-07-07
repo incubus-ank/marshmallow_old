@@ -1,0 +1,27 @@
+[35m[1mScanning dependencies of target delta_lidar_node[0m
+[ 14%] Built target delta_lidar_node_client
+[ 21%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/src/node.cpp.o[0m
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:110:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kdev[m[K’ was not declared in this scope; did you mean ‘[01m[Kdiv[m[K’?
+  110 |  string opt_com_path = ""/[01;31m[Kdev[m[K/ttyUSB4"";
+      |                           [01;31m[K^~~[m[K
+      |                           [32m[Kdiv[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:110:31:[m[K [01;31m[Kerror: [m[K‘[01m[KttyUSB4[m[K’ was not declared in this scope
+  110 |  string opt_com_path = ""/dev/[01;31m[KttyUSB4[m[K"";
+      |                               [01;31m[K^~~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:176:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  176 |                 printf("Receive Lidar count [01;35m[K%u[m[K!\n", [32m[Klidar_scan_size[m[K);
+      |                                             [01;35m[K~^[m[K      [32m[K~~~~~~~~~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K      [32m[K|[m[K
+      |                                              [01;35m[K|[m[K      [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lu[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:179:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstart_node[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  179 |                 int [01;35m[Kstart_node[m[K = 0, end_node = 359;
+      |                     [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:179:37:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kend_node[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  179 |                 int start_node = 0, [01;35m[Kend_node[m[K = 359;
+      |                                     [01;35m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/delta_lidar_node.dir/build.make:63: CMakeFiles/delta_lidar_node.dir/src/node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/delta_lidar_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

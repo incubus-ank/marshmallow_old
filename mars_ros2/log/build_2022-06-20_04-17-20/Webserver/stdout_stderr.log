@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/Webserver/Webserver.egg-info
+writing ../../build/Webserver/Webserver.egg-info/PKG-INFO
+writing dependency_links to ../../build/Webserver/Webserver.egg-info/dependency_links.txt
+writing entry points to ../../build/Webserver/Webserver.egg-info/entry_points.txt
+writing requirements to ../../build/Webserver/Webserver.egg-info/requires.txt
+writing top-level names to ../../build/Webserver/Webserver.egg-info/top_level.txt
+writing manifest file '../../build/Webserver/Webserver.egg-info/SOURCES.txt'
+reading manifest file '../../build/Webserver/Webserver.egg-info/SOURCES.txt'
+writing manifest file '../../build/Webserver/Webserver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/incubus/mars_ros2/build/Webserver/build
+creating /home/incubus/mars_ros2/build/Webserver/build/lib
+creating /home/incubus/mars_ros2/build/Webserver/build/lib/Webserver
+copying Webserver/__init__.py -> /home/incubus/mars_ros2/build/Webserver/build/lib/Webserver
+copying Webserver/Flask.py -> /home/incubus/mars_ros2/build/Webserver/build/lib/Webserver
+running install
+running install_lib
+creating /home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages/Webserver
+copying /home/incubus/mars_ros2/build/Webserver/build/lib/Webserver/__init__.py -> /home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages/Webserver
+copying /home/incubus/mars_ros2/build/Webserver/build/lib/Webserver/Flask.py -> /home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages/Webserver
+byte-compiling /home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages/Webserver/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages/Webserver/Flask.py to Flask.cpython-38.pyc
+running install_data
+creating /home/incubus/mars_ros2/install/Webserver/share/ament_index
+creating /home/incubus/mars_ros2/install/Webserver/share/ament_index/resource_index
+creating /home/incubus/mars_ros2/install/Webserver/share/ament_index/resource_index/packages
+copying resource/Webserver -> /home/incubus/mars_ros2/install/Webserver/share/ament_index/resource_index/packages
+copying package.xml -> /home/incubus/mars_ros2/install/Webserver/share/Webserver
+running install_egg_info
+Copying ../../build/Webserver/Webserver.egg-info to /home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages/Webserver-0.0.0-py3.8.egg-info
+running install_scripts
+Installing Flask script to /home/incubus/mars_ros2/install/Webserver/lib/Webserver
+writing list of installed files to '/home/incubus/mars_ros2/build/Webserver/install.log'

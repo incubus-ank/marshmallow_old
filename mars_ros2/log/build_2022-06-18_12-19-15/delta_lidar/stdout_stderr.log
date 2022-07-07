@@ -1,0 +1,33 @@
+[35m[1mScanning dependencies of target delta_lidar_node_client[0m
+[  7%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/src/node.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/delta_lidar_node_client.dir/src/client.cpp.o[0m
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:22:10:[m[K [01;31m[Kfatal error: [m[Kclock.hpp: No such file or directory
+   22 | #include [01;31m[K<clock.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/delta_lidar_node.dir/build.make:63: CMakeFiles/delta_lidar_node.dir/src/node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/delta_lidar_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:[m[K In function ‘[01m[Kvoid scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:25:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdegree[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   25 |         float [01;35m[Kdegree[m[K = RAD2DEG(scan->angle_min + scan->angle_increment * i);
+      |               [01;35m[K^~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:35:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriber[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   35 |     rclcpp::[01;31m[KSubscriber[m[K sub = create_subscription<sensor_msgs::LaserScan>("/scan", 1000, scanCallback);
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:37:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Node[m[K’ {aka ‘[01m[Kclass rclcpp::Node[m[K’} has no member named ‘[01m[Kn[m[K’
+   37 |     auto lidar_info_sub = node->[01;31m[Kn[m[K.subscribe<sensor_msgs::msg::LaserScan>(
+      |                                 [01;31m[K^[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:37:72:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   37 |     auto lidar_info_sub = node->n.subscribe<sensor_msgs::msg::LaserScan[01;31m[K>[m[K(
+      |                                                                        [01;31m[K^[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:38:25:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   38 |                         [01;35m[K"scan"[m[K, 1000, scanCallback);
+      |                         [01;35m[K^~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:38:39:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   38 |                         "scan", 1000, [01;35m[KscanCallback[m[K);
+      |                                       [01;35m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/delta_lidar_node_client.dir/build.make:63: CMakeFiles/delta_lidar_node_client.dir/src/client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/delta_lidar_node_client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

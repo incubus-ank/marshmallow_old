@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/Webserver/Webserver.egg-info/PKG-INFO
+../build/Webserver/Webserver.egg-info/SOURCES.txt
+../build/Webserver/Webserver.egg-info/dependency_links.txt
+../build/Webserver/Webserver.egg-info/entry_points.txt
+../build/Webserver/Webserver.egg-info/requires.txt
+../build/Webserver/Webserver.egg-info/top_level.txt
+../build/Webserver/Webserver.egg-info/zip-safe
+Webserver/Flask.py
+Webserver/__init__.py
+resource/Webserver
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,27 @@
+[1.127s] Invoking command in '/home/incubus/mars_ros2/src/py_pubsub': PYTHONPATH=/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/incubus/mars_ros2/build/py_pubsub/build install --prefix /home/incubus/mars_ros2/install/py_pubsub --record /home/incubus/mars_ros2/build/py_pubsub/install.log --single-version-externally-managed
+[1.359s] running egg_info
+[1.360s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.361s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.361s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.361s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.361s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.415s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.416s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.416s] running build
+[1.417s] running build_py
+[1.417s] running install
+[1.418s] running install_lib
+[1.421s] running install_data
+[1.422s] running install_egg_info
+[1.424s] removing '/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[1.425s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[1.425s] error removing /home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info/requires.txt'
+[1.425s] error removing /home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info/dependency_links.txt'
+[1.426s] error removing /home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info/PKG-INFO'
+[1.426s] error removing /home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info/top_level.txt'
+[1.426s] error removing /home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info/SOURCES.txt'
+[1.426s] error removing /home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info/zip-safe'
+[1.426s] error removing /home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info/entry_points.txt'
+[1.426s] error removing /home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info: [Errno 39] Directory not empty: '/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info'
+[1.426s] error: [Errno 13] Permission denied: '/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info/requires.txt'
+[1.454s] Invoked command in '/home/incubus/mars_ros2/src/py_pubsub' returned '1': PYTHONPATH=/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/incubus/mars_ros2/build/py_pubsub/build install --prefix /home/incubus/mars_ros2/install/py_pubsub --record /home/incubus/mars_ros2/build/py_pubsub/install.log --single-version-externally-managed

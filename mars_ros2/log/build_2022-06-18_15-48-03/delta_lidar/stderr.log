@@ -1,0 +1,111 @@
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:119:23:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[Kscan_pub[m[K’
+  119 |     rclcpp::Publisher [01;31m[Kscan_pub[m[K = node->create_publisher<sensor_msgs::msg::LaserScan>("scan", 1000);
+      |                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:145:39:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Krclcpp::Time rclcpp::Clock::now()[m[K’ without object
+  145 |  start_scan_time = rclcpp::Clock::now([01;31m[K)[m[K;
+      |                                       [01;31m[K^[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:174:40:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Krclcpp::Time rclcpp::Clock::now()[m[K’ without object
+  174 |     end_scan_time = rclcpp::Clock::now([01;31m[K)[m[K;
+      |                                        [01;31m[K^[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:175:36:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Krclcpp::Clock[m[K’ and ‘[01m[Krclcpp::Clock[m[K’)
+  175 |     scan_duration = ([32m[Kend_scan_time[m[K [01;31m[K-[m[K [34m[Kstart_scan_time[m[K).toSec() * 1e-3;
+      |                      [32m[K~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~~~~~~[m[K
+      |                      [32m[K|[m[K               [34m[K|[m[K
+      |                      [32m[Krclcpp::Clock[m[K   [34m[Krclcpp::Clock[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/9/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/9/ios:40[m[K,
+                 from [01m[K/usr/include/c++/9/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/9/iostream:39[m[K,
+                 from [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:22[m[K:
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:415:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+  415 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:415:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:175:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Clock[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+  175 |     scan_duration = (end_scan_time - [01;36m[Kstart_scan_time[m[K).toSec() * 1e-3;
+      |                                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/9/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/9/ios:40[m[K,
+                 from [01m[K/usr/include/c++/9/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/9/iostream:39[m[K,
+                 from [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:22[m[K:
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:1209:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+ 1209 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:1209:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:175:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Clock[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+  175 |     scan_duration = (end_scan_time - [01;36m[Kstart_scan_time[m[K).toSec() * 1e-3;
+      |                                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/vector:68[m[K,
+                 from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/time__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/time.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/time.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/clock.hpp:23[m[K,
+                 from [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:25[m[K:
+[01m[K/usr/include/c++/9/bits/stl_bvector.h:214:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ptrdiff_t std::operator-(const std::_Bit_iterator_base&, const std::_Bit_iterator_base&)[m[K’
+  214 |   [01;36m[Koperator[m[K-(const _Bit_iterator_base& __x, const _Bit_iterator_base& __y)
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_bvector.h:214:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Clock[m[K’ to ‘[01m[Kconst std::_Bit_iterator_base&[m[K’
+  214 |   operator-([01;36m[Kconst _Bit_iterator_base& __x[m[K, const _Bit_iterator_base& __y)
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:176:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  176 |                 printf("Receive Lidar count [01;35m[K%u[m[K!\n", [32m[Klidar_scan_size[m[K);
+      |                                             [01;35m[K~^[m[K      [32m[K~~~~~~~~~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K      [32m[K|[m[K
+      |                                              [01;35m[K|[m[K      [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lu[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:193:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+  193 |                 [01;31m[Kros[m[K::Clock start = start_scan_time;
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:196:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kauto[m[K’
+  196 |                 [01;31m[Kauto[m[K scan_msg = std::make_shared<sensor_msgs::msg::LaserScan>();
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:198:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_msg[m[K’ was not declared in this scope
+  198 |                 [01;31m[Kscan_msg[m[K->header.stamp = start;
+      |                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:198:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart[m[K’ was not declared in this scope
+  198 |                 scan_msg->header.stamp = [01;31m[Kstart[m[K;
+      |                                          [01;31m[K^~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:215:55:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[K_rslidar_data[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’})
+  215 |                     size_t current_angle = floor(nodes[01;31m[K[[m[Ki].angle);
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:221:53:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[K_rslidar_data[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’})
+  221 |                     float read_value = (float) nodes[01;31m[K[[m[Ki].distance;
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:227:54:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[K_rslidar_data[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’})
+  227 |                     float intensities = (float) nodes[01;31m[K[[m[Ki].signal;
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:232:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_pub[m[K’ was not declared in this scope
+  232 |                 [01;31m[Kscan_pub[m[K->publish(*scan_msg);
+      |                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:179:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstart_node[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  179 |                 int [01;35m[Kstart_node[m[K = 0, end_node = 359;
+      |                     [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:179:37:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kend_node[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  179 |                 int start_node = 0, [01;35m[Kend_node[m[K = 359;
+      |                                     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:150:15:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KLIDAR_GRAB_ERRO[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+  150 |         switch[01;35m[K([m[Kresult)
+      |               [01;35m[K^[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:150:15:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KLIDAR_GRAB_ELSE[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:238:13:[m[K [01;31m[Kerror: [m[Kcase label ‘[01m[Keverest::hwdrivers::LIDAR_GRAB_ERRO[m[K’ not within a switch statement
+  238 |             [01;31m[Kcase[m[K LIDAR_GRAB_ERRO:
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:242:13:[m[K [01;31m[Kerror: [m[Kcase label ‘[01m[Keverest::hwdrivers::LIDAR_GRAB_ELSE[m[K’ not within a switch statement
+  242 |             [01;31m[Kcase[m[K LIDAR_GRAB_ELSE:
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:[m[K At global scope:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:252:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  252 |     [01;31m[Kreturn[m[K 0;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:253:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  253 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/delta_lidar_node.dir/build.make:63: CMakeFiles/delta_lidar_node.dir/src/node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/delta_lidar_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,21 @@
+[1.494s] Invoking command in '/home/incubus/mars_ros2/src/Webserver': PYTHONPATH=/home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/Webserver build --build-base /home/incubus/mars_ros2/src/build/Webserver/build install --prefix /home/incubus/mars_ros2/src/install/Webserver --record /home/incubus/mars_ros2/src/build/Webserver/install.log --single-version-externally-managed
+[1.838s] running egg_info
+[1.841s] writing ../build/Webserver/Webserver.egg-info/PKG-INFO
+[1.841s] writing dependency_links to ../build/Webserver/Webserver.egg-info/dependency_links.txt
+[1.841s] writing entry points to ../build/Webserver/Webserver.egg-info/entry_points.txt
+[1.841s] writing requirements to ../build/Webserver/Webserver.egg-info/requires.txt
+[1.841s] writing top-level names to ../build/Webserver/Webserver.egg-info/top_level.txt
+[1.898s] reading manifest file '../build/Webserver/Webserver.egg-info/SOURCES.txt'
+[1.899s] writing manifest file '../build/Webserver/Webserver.egg-info/SOURCES.txt'
+[1.899s] running build
+[1.899s] running build_py
+[1.900s] running install
+[1.901s] running install_lib
+[1.903s] running install_data
+[1.904s] running install_egg_info
+[1.906s] removing '/home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages/Webserver-0.0.0-py3.8.egg-info' (and everything under it)
+[1.906s] Copying ../build/Webserver/Webserver.egg-info to /home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages/Webserver-0.0.0-py3.8.egg-info
+[1.908s] running install_scripts
+[1.932s] Installing Flask script to /home/incubus/mars_ros2/src/install/Webserver/lib/Webserver
+[1.932s] writing list of installed files to '/home/incubus/mars_ros2/src/build/Webserver/install.log'
+[1.971s] Invoked command in '/home/incubus/mars_ros2/src/Webserver' returned '0': PYTHONPATH=/home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/Webserver build --build-base /home/incubus/mars_ros2/src/build/Webserver/build install --prefix /home/incubus/mars_ros2/src/install/Webserver --record /home/incubus/mars_ros2/src/build/Webserver/install.log --single-version-externally-managed

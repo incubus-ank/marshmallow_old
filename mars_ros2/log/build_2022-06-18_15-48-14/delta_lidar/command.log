@@ -1,0 +1,2 @@
+Invoking command in '/home/incubus/mars_ros2/build/delta_lidar': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/incubus/mars_ros2/build/delta_lidar -- -j4 -l4
+Invoked command in '/home/incubus/mars_ros2/build/delta_lidar' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/incubus/mars_ros2/build/delta_lidar -- -j4 -l4

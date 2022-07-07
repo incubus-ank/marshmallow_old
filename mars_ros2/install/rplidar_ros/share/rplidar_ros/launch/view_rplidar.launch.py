@@ -1,0 +1,1 @@
+/home/incubus/mars_ros2/src/rplidar_ros2/launch/view_rplidar.launch.py

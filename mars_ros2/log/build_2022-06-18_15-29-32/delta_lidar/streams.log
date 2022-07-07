@@ -1,0 +1,11 @@
+[0.013s] Invoking command in '/home/incubus/mars_ros2/build/delta_lidar': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/incubus/mars_ros2/build/delta_lidar -- -j4 -l4
+[0.078s] [  7%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/src/node.cpp.o[0m
+[0.080s] [ 21%] Built target delta_lidar_node_client
+[0.139s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:24:10:[m[K [01;31m[Kfatal error: [m[Kclock.hpp: No such file or directory
+[0.139s]    24 | #include [01;31m[K<clock.hpp>[m[K
+[0.139s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.139s] compilation terminated.
+[0.140s] make[2]: *** [CMakeFiles/delta_lidar_node.dir/build.make:63: CMakeFiles/delta_lidar_node.dir/src/node.cpp.o] Error 1
+[0.141s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/delta_lidar_node.dir/all] Error 2
+[0.141s] make: *** [Makefile:141: all] Error 2
+[0.143s] Invoked command in '/home/incubus/mars_ros2/build/delta_lidar' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/incubus/mars_ros2/build/delta_lidar -- -j4 -l4

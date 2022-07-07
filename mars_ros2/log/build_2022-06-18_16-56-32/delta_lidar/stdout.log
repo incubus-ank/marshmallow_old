@@ -1,0 +1,56 @@
+[35m[1mScanning dependencies of target delta_lidar_node[0m
+[ 14%] Built target delta_lidar_node_client
+[ 21%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/src/node.cpp.o[0m
+[ 28%] [32m[1mLinking CXX executable delta_lidar_node[0m
+[100%] Built target delta_lidar_node
+-- Install configuration: ""
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/lib/delta_lidar/delta_lidar_node
+-- Set runtime path of "/home/incubus/mars_ros2/install/delta_lidar/lib/delta_lidar/delta_lidar_node" to ""
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/lib/delta_lidar/delta_lidar_node_client
+-- Set runtime path of "/home/incubus/mars_ros2/install/delta_lidar/lib/delta_lidar/delta_lidar_node_client" to ""
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/launch
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/launch/view_delta_lidar.launch
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/launch/delta_lidar.launch
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/rviz
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/rviz/delta_lidar.rviz
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CCountDown.h
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/C3iroboticsLidarProtocol.h
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CArcTime.h
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CSerialConnection.h
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CTime.h
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CLidarPacketReceiver.h
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/typedef.h
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CLidarUnpacket.h
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/C3iroboticsLidar.h
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CDeviceConnection.h
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CLidarPacket.h
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CSimulateSerial.h
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CLogUtitls.h
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CSimulateSerial.cpp
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CLidarPacketReceiver.cpp
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CDeviceConnection.cpp
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/C3iroboticsLidar.cpp
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CTime.cpp
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CArcTime.cpp
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CCountDown.cpp
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CLidarPacket.cpp
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CSerialConnection.cpp
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CLidarUnpacket.cpp
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/ament_index/resource_index/package_run_dependencies/delta_lidar
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/ament_index/resource_index/parent_prefix_path/delta_lidar
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/environment/ament_prefix_path.sh
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/environment/ament_prefix_path.dsv
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/environment/path.sh
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/environment/path.dsv
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/local_setup.bash
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/local_setup.sh
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/local_setup.zsh
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/local_setup.dsv
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/package.dsv
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/ament_index/resource_index/packages/delta_lidar
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/cmake/delta_lidarConfig.cmake
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/cmake/delta_lidarConfig-version.cmake
+-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/package.xml

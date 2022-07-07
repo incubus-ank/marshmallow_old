@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/gamepad/gamepad.egg-info
+writing ../../build/gamepad/gamepad.egg-info/PKG-INFO
+writing dependency_links to ../../build/gamepad/gamepad.egg-info/dependency_links.txt
+writing entry points to ../../build/gamepad/gamepad.egg-info/entry_points.txt
+writing requirements to ../../build/gamepad/gamepad.egg-info/requires.txt
+writing top-level names to ../../build/gamepad/gamepad.egg-info/top_level.txt
+writing manifest file '../../build/gamepad/gamepad.egg-info/SOURCES.txt'
+reading manifest file '../../build/gamepad/gamepad.egg-info/SOURCES.txt'
+writing manifest file '../../build/gamepad/gamepad.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/incubus/mars_ros2/build/gamepad/build
+creating /home/incubus/mars_ros2/build/gamepad/build/lib
+creating /home/incubus/mars_ros2/build/gamepad/build/lib/gamepad
+copying gamepad/__init__.py -> /home/incubus/mars_ros2/build/gamepad/build/lib/gamepad
+copying gamepad/xbox.py -> /home/incubus/mars_ros2/build/gamepad/build/lib/gamepad
+running install
+running install_lib
+creating /home/incubus/mars_ros2/install/gamepad/lib/python3.8/site-packages/gamepad
+copying /home/incubus/mars_ros2/build/gamepad/build/lib/gamepad/__init__.py -> /home/incubus/mars_ros2/install/gamepad/lib/python3.8/site-packages/gamepad
+copying /home/incubus/mars_ros2/build/gamepad/build/lib/gamepad/xbox.py -> /home/incubus/mars_ros2/install/gamepad/lib/python3.8/site-packages/gamepad
+byte-compiling /home/incubus/mars_ros2/install/gamepad/lib/python3.8/site-packages/gamepad/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/incubus/mars_ros2/install/gamepad/lib/python3.8/site-packages/gamepad/xbox.py to xbox.cpython-38.pyc
+running install_data
+creating /home/incubus/mars_ros2/install/gamepad/share/ament_index
+creating /home/incubus/mars_ros2/install/gamepad/share/ament_index/resource_index
+creating /home/incubus/mars_ros2/install/gamepad/share/ament_index/resource_index/packages
+copying resource/gamepad -> /home/incubus/mars_ros2/install/gamepad/share/ament_index/resource_index/packages
+copying package.xml -> /home/incubus/mars_ros2/install/gamepad/share/gamepad
+running install_egg_info
+Copying ../../build/gamepad/gamepad.egg-info to /home/incubus/mars_ros2/install/gamepad/lib/python3.8/site-packages/gamepad-0.0.0-py3.8.egg-info
+running install_scripts
+Installing xbox script to /home/incubus/mars_ros2/install/gamepad/lib/gamepad
+writing list of installed files to '/home/incubus/mars_ros2/build/gamepad/install.log'

@@ -1,0 +1,40 @@
+[0.028s] Invoking command in '/home/incubus/mars_ros2/build/delta_lidar': /usr/bin/cmake /home/incubus/mars_ros2/src/Delta_2A_ros -DCMAKE_INSTALL_PREFIX=/home/incubus/mars_ros2/install/delta_lidar
+[0.276s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.277s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.277s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.290s] CMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.291s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[0.291s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[0.291s]   set the policy and suppress this warning.
+[0.291s] 
+[0.291s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[0.291s]   Since the policy is not set the OLD behavior will be used.
+[0.291s] Call Stack (most recent call first):
+[0.291s]   /opt/ros/foxy/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)
+[0.291s]   /opt/ros/foxy/share/rcl/cmake/rclConfig.cmake:41 (include)
+[0.292s]   /opt/ros/foxy/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.292s]   /opt/ros/foxy/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+[0.292s]   /opt/ros/foxy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.292s]   /opt/ros/foxy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.292s]   CMakeLists.txt:16 (find_package)
+[0.292s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.292s] 
+[0.292s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.292s]   if given arguments:
+[0.292s] 
+[0.292s]     "NOT" "element" "IN_LIST" "rcl_RECURSIVE_DEPENDENCIES"
+[0.293s] 
+[0.293s]   Unknown arguments specified
+[0.293s] Call Stack (most recent call first):
+[0.293s]   /opt/ros/foxy/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)
+[0.293s]   /opt/ros/foxy/share/rcl/cmake/rclConfig.cmake:41 (include)
+[0.293s]   /opt/ros/foxy/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.293s]   /opt/ros/foxy/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+[0.293s]   /opt/ros/foxy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.293s]   /opt/ros/foxy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.293s]   CMakeLists.txt:16 (find_package)
+[0.293s] 
+[0.293s] 
+[0.294s] -- Configuring incomplete, errors occurred!
+[0.294s] See also "/home/incubus/mars_ros2/build/delta_lidar/CMakeFiles/CMakeOutput.log".
+[0.509s] Invoked command in '/home/incubus/mars_ros2/build/delta_lidar' returned '1': /usr/bin/cmake /home/incubus/mars_ros2/src/Delta_2A_ros -DCMAKE_INSTALL_PREFIX=/home/incubus/mars_ros2/install/delta_lidar

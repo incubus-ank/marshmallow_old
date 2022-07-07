@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/Manipul/Manipul.egg-info/PKG-INFO
+writing dependency_links to ../build/Manipul/Manipul.egg-info/dependency_links.txt
+writing entry points to ../build/Manipul/Manipul.egg-info/entry_points.txt
+writing requirements to ../build/Manipul/Manipul.egg-info/requires.txt
+writing top-level names to ../build/Manipul/Manipul.egg-info/top_level.txt
+reading manifest file '../build/Manipul/Manipul.egg-info/SOURCES.txt'
+writing manifest file '../build/Manipul/Manipul.egg-info/SOURCES.txt'
+running build
+running build_py
+copying Manipul/ToServo.py -> /home/incubus/mars_ros2/src/build/Manipul/build/lib/Manipul
+running install
+running install_lib
+copying /home/incubus/mars_ros2/src/build/Manipul/build/lib/Manipul/ToServo.py -> /home/incubus/mars_ros2/src/install/Manipul/lib/python3.8/site-packages/Manipul
+byte-compiling /home/incubus/mars_ros2/src/install/Manipul/lib/python3.8/site-packages/Manipul/ToServo.py to ToServo.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/incubus/mars_ros2/src/install/Manipul/lib/python3.8/site-packages/Manipul-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../build/Manipul/Manipul.egg-info to /home/incubus/mars_ros2/src/install/Manipul/lib/python3.8/site-packages/Manipul-0.0.0-py3.8.egg-info
+running install_scripts
+Installing ToServo script to /home/incubus/mars_ros2/src/install/Manipul/lib/Manipul
+writing list of installed files to '/home/incubus/mars_ros2/src/build/Manipul/install.log'

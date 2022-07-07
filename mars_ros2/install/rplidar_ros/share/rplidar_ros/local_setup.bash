@@ -1,0 +1,1 @@
+/home/incubus/mars_ros2/build/rplidar_ros/ament_cmake_environment_hooks/local_setup.bash

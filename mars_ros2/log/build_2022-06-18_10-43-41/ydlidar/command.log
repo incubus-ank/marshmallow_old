@@ -1,0 +1,1 @@
+Invoking command in '/home/incubus/mars_ros2/build/ydlidar': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/incubus/mars_ros2/src/ydlidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/incubus/mars_ros2/install/ydlidar

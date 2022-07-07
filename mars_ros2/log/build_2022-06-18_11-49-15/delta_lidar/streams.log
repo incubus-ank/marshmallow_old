@@ -1,0 +1,68 @@
+[0.014s] Invoking command in '/home/incubus/mars_ros2/build/delta_lidar': /usr/bin/cmake /home/incubus/mars_ros2/src/Delta_2A_ros -DCMAKE_INSTALL_PREFIX=/home/incubus/mars_ros2/install/delta_lidar
+[0.028s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.050s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.245s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.284s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.290s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.366s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.395s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.473s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.530s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.531s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.532s] -- Looking for pthread.h
+[0.602s] -- Looking for pthread.h - found
+[0.603s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.675s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.676s] -- Looking for pthread_create in pthreads
+[0.733s] -- Looking for pthread_create in pthreads - not found
+[0.733s] -- Looking for pthread_create in pthread
+[0.802s] -- Looking for pthread_create in pthread - found
+[0.803s] -- Found Threads: TRUE  
+[0.957s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.078s] CMake Error at CMakeLists.txt:43 (install):
+[1.078s]   install TARGETS given target "elta_lidar_node" which does not exist.
+[1.078s] 
+[1.078s] 
+[1.079s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.127s] Error parsing '/home/incubus/mars_ros2/src/Delta_2A_ros/package.xml':
+[1.253s] Traceback (most recent call last):
+[1.253s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[1.253s]     root = dom.parseString(data)
+[1.253s]   File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString
+[1.253s]     return expatbuilder.parseString(string)
+[1.253s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString
+[1.253s]     return builder.parseString(string)
+[1.253s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString
+[1.253s]     parser.Parse(string, True)
+[1.254s] xml.parsers.expat.ExpatError: XML or text declaration not at start of entity: line 2, column 0
+[1.254s] 
+[1.254s] During handling of the above exception, another exception occurred:
+[1.254s] 
+[1.254s] Traceback (most recent call last):
+[1.254s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[1.254s]     main()
+[1.254s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[1.254s]     raise e
+[1.254s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[1.254s]     package = parse_package_string(
+[1.254s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[1.254s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.254s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/incubus/mars_ros2/src/Delta_2A_ros/package.xml':
+[1.254s] The manifest contains invalid XML:
+[1.255s] XML or text declaration not at start of entity: line 2, column 0
+[1.276s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[1.276s]   execute_process(/usr/bin/python3
+[1.276s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.276s]   /home/incubus/mars_ros2/src/Delta_2A_ros/package.xml
+[1.276s]   /home/incubus/mars_ros2/build/delta_lidar/ament_cmake_core/package.cmake)
+[1.276s]   returned error code 1
+[1.276s] Call Stack (most recent call first):
+[1.276s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.277s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.277s]   CMakeLists.txt:52 (ament_lint_auto_find_test_dependencies)
+[1.277s] 
+[1.277s] 
+[1.278s] -- Configuring incomplete, errors occurred!
+[1.278s] See also "/home/incubus/mars_ros2/build/delta_lidar/CMakeFiles/CMakeOutput.log".
+[1.278s] See also "/home/incubus/mars_ros2/build/delta_lidar/CMakeFiles/CMakeError.log".
+[1.284s] Invoked command in '/home/incubus/mars_ros2/build/delta_lidar' returned '1': /usr/bin/cmake /home/incubus/mars_ros2/src/Delta_2A_ros -DCMAKE_INSTALL_PREFIX=/home/incubus/mars_ros2/install/delta_lidar

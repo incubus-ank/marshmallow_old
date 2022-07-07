@@ -1,0 +1,2 @@
+Invoking command in '/home/incubus/mars_ros2/build/delta_lidar': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/incubus/mars_ros2/src/Delta_2A_ros -DCMAKE_INSTALL_PREFIX=/home/incubus/mars_ros2/install/delta_lidar
+Invoked command in '/home/incubus/mars_ros2/build/delta_lidar' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/incubus/mars_ros2/src/Delta_2A_ros -DCMAKE_INSTALL_PREFIX=/home/incubus/mars_ros2/install/delta_lidar

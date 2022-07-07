@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target delta_lidar_node[0m
+[ 14%] Built target delta_lidar_node_client
+[ 21%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/src/node.cpp.o[0m
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:22:10:[m[K [01;31m[Kfatal error: [m[Kclock.hpp: No such file or directory
+   22 | #include [01;31m[K<clock.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/delta_lidar_node.dir/build.make:63: CMakeFiles/delta_lidar_node.dir/src/node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/delta_lidar_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

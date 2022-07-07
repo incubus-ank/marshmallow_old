@@ -1,0 +1,6 @@
+source;share/Webserver/hook/pythonpath.ps1
+source;share/Webserver/hook/pythonpath.dsv
+source;share/Webserver/hook/pythonpath.sh
+source;share/Webserver/hook/ament_prefix_path.ps1
+source;share/Webserver/hook/ament_prefix_path.dsv
+source;share/Webserver/hook/ament_prefix_path.sh

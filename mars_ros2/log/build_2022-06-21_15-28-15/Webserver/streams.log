@@ -1,0 +1,27 @@
+[4.682s] Invoking command in '/home/incubus/mars_ros2/src/Webserver': PYTHONPATH=/home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Webserver build --build-base /home/incubus/mars_ros2/build/Webserver/build install --prefix /home/incubus/mars_ros2/install/Webserver --record /home/incubus/mars_ros2/build/Webserver/install.log --single-version-externally-managed
+[5.241s] /home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.241s]   warnings.warn(
+[5.242s] /home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[5.242s]   warnings.warn(
+[6.534s] running egg_info
+[6.661s] writing ../../build/Webserver/Webserver.egg-info/PKG-INFO
+[6.762s] writing dependency_links to ../../build/Webserver/Webserver.egg-info/dependency_links.txt
+[7.076s] writing entry points to ../../build/Webserver/Webserver.egg-info/entry_points.txt
+[7.281s] writing requirements to ../../build/Webserver/Webserver.egg-info/requires.txt
+[7.379s] writing top-level names to ../../build/Webserver/Webserver.egg-info/top_level.txt
+[7.547s] reading manifest file '../../build/Webserver/Webserver.egg-info/SOURCES.txt'
+[7.550s] writing manifest file '../../build/Webserver/Webserver.egg-info/SOURCES.txt'
+[7.551s] running build
+[7.551s] running build_py
+[7.552s] running install
+[7.553s] /home/incubus/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.553s]   warnings.warn(
+[7.564s] running install_lib
+[7.690s] running install_data
+[7.716s] running install_egg_info
+[7.842s] removing '/home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages/Webserver-0.0.0-py3.8.egg-info' (and everything under it)
+[7.843s] Copying ../../build/Webserver/Webserver.egg-info to /home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages/Webserver-0.0.0-py3.8.egg-info
+[7.844s] running install_scripts
+[8.066s] Installing Flask script to /home/incubus/mars_ros2/install/Webserver/lib/Webserver
+[8.067s] writing list of installed files to '/home/incubus/mars_ros2/build/Webserver/install.log'
+[8.187s] Invoked command in '/home/incubus/mars_ros2/src/Webserver' returned '0': PYTHONPATH=/home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Webserver build --build-base /home/incubus/mars_ros2/build/Webserver/build install --prefix /home/incubus/mars_ros2/install/Webserver --record /home/incubus/mars_ros2/build/Webserver/install.log --single-version-externally-managed

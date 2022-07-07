@@ -1,0 +1,24 @@
+[1.529s] Invoking command in '/home/incubus/mars_ros2/src/stm': PYTHONPATH=/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/stm build --build-base /home/incubus/mars_ros2/src/build/stm/build install --prefix /home/incubus/mars_ros2/src/install/stm --record /home/incubus/mars_ros2/src/build/stm/install.log --single-version-externally-managed
+[1.792s] running egg_info
+[1.793s] writing ../build/stm/stm.egg-info/PKG-INFO
+[1.793s] writing dependency_links to ../build/stm/stm.egg-info/dependency_links.txt
+[1.793s] writing entry points to ../build/stm/stm.egg-info/entry_points.txt
+[1.794s] writing requirements to ../build/stm/stm.egg-info/requires.txt
+[1.794s] writing top-level names to ../build/stm/stm.egg-info/top_level.txt
+[1.832s] reading manifest file '../build/stm/stm.egg-info/SOURCES.txt'
+[1.833s] writing manifest file '../build/stm/stm.egg-info/SOURCES.txt'
+[1.834s] running build
+[1.834s] running build_py
+[1.835s] copying stm/ToStm.py -> /home/incubus/mars_ros2/src/build/stm/build/lib/stm
+[1.835s] running install
+[1.835s] running install_lib
+[1.837s] copying /home/incubus/mars_ros2/src/build/stm/build/lib/stm/ToStm.py -> /home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages/stm
+[1.837s] byte-compiling /home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages/stm/ToStm.py to ToStm.cpython-38.pyc
+[1.839s] running install_data
+[1.839s] running install_egg_info
+[1.841s] removing '/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages/stm-0.0.0-py3.8.egg-info' (and everything under it)
+[1.841s] Copying ../build/stm/stm.egg-info to /home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages/stm-0.0.0-py3.8.egg-info
+[1.842s] running install_scripts
+[1.864s] Installing ToStm script to /home/incubus/mars_ros2/src/install/stm/lib/stm
+[1.865s] writing list of installed files to '/home/incubus/mars_ros2/src/build/stm/install.log'
+[1.889s] Invoked command in '/home/incubus/mars_ros2/src/stm' returned '0': PYTHONPATH=/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/stm build --build-base /home/incubus/mars_ros2/src/build/stm/build install --prefix /home/incubus/mars_ros2/src/install/stm --record /home/incubus/mars_ros2/src/build/stm/install.log --single-version-externally-managed

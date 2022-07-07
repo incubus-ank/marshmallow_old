@@ -1,0 +1,27 @@
+[2.300s] Invoking command in '/home/incubus/mars_ros2/src/stm': PYTHONPATH=/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/stm build --build-base /home/incubus/mars_ros2/src/build/stm/build install --prefix /home/incubus/mars_ros2/src/install/stm --record /home/incubus/mars_ros2/src/build/stm/install.log --single-version-externally-managed
+[2.622s] /home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.622s]   warnings.warn(
+[2.622s] /home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[2.622s]   warnings.warn(
+[3.326s] running egg_info
+[3.396s] writing ../build/stm/stm.egg-info/PKG-INFO
+[3.450s] writing dependency_links to ../build/stm/stm.egg-info/dependency_links.txt
+[3.613s] writing entry points to ../build/stm/stm.egg-info/entry_points.txt
+[3.722s] writing requirements to ../build/stm/stm.egg-info/requires.txt
+[3.778s] writing top-level names to ../build/stm/stm.egg-info/top_level.txt
+[3.874s] reading manifest file '../build/stm/stm.egg-info/SOURCES.txt'
+[3.875s] writing manifest file '../build/stm/stm.egg-info/SOURCES.txt'
+[3.875s] running build
+[3.875s] running build_py
+[3.875s] running install
+[3.875s] /home/incubus/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.875s]   warnings.warn(
+[3.881s] running install_lib
+[3.949s] running install_data
+[3.964s] running install_egg_info
+[4.032s] removing '/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages/stm-0.0.0-py3.8.egg-info' (and everything under it)
+[4.032s] Copying ../build/stm/stm.egg-info to /home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages/stm-0.0.0-py3.8.egg-info
+[4.033s] running install_scripts
+[4.159s] Installing ToStm script to /home/incubus/mars_ros2/src/install/stm/lib/stm
+[4.160s] writing list of installed files to '/home/incubus/mars_ros2/src/build/stm/install.log'
+[4.208s] Invoked command in '/home/incubus/mars_ros2/src/stm' returned '0': PYTHONPATH=/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/stm build --build-base /home/incubus/mars_ros2/src/build/stm/build install --prefix /home/incubus/mars_ros2/src/install/stm --record /home/incubus/mars_ros2/src/build/stm/install.log --single-version-externally-managed

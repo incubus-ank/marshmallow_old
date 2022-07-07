@@ -1,0 +1,5 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/incubus/mars_ros2/build/delta_lidar/CMakeFiles/CMakeOutput.log".

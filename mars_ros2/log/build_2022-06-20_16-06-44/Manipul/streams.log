@@ -1,0 +1,27 @@
+[4.776s] Invoking command in '/home/incubus/mars_ros2/src/Manipul': PYTHONPATH=/home/incubus/mars_ros2/install/Manipul/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Manipul build --build-base /home/incubus/mars_ros2/build/Manipul/build install --prefix /home/incubus/mars_ros2/install/Manipul --record /home/incubus/mars_ros2/build/Manipul/install.log --single-version-externally-managed
+[5.338s] /home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.338s]   warnings.warn(
+[5.338s] /home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[5.339s]   warnings.warn(
+[6.663s] running egg_info
+[6.802s] writing ../../build/Manipul/Manipul.egg-info/PKG-INFO
+[6.914s] writing dependency_links to ../../build/Manipul/Manipul.egg-info/dependency_links.txt
+[7.251s] writing entry points to ../../build/Manipul/Manipul.egg-info/entry_points.txt
+[7.457s] writing requirements to ../../build/Manipul/Manipul.egg-info/requires.txt
+[7.560s] writing top-level names to ../../build/Manipul/Manipul.egg-info/top_level.txt
+[7.721s] reading manifest file '../../build/Manipul/Manipul.egg-info/SOURCES.txt'
+[7.723s] writing manifest file '../../build/Manipul/Manipul.egg-info/SOURCES.txt'
+[7.723s] running build
+[7.724s] running build_py
+[7.724s] running install
+[7.726s] /home/incubus/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.726s]   warnings.warn(
+[7.736s] running install_lib
+[7.881s] running install_data
+[7.908s] running install_egg_info
+[8.042s] removing '/home/incubus/mars_ros2/install/Manipul/lib/python3.8/site-packages/Manipul-0.0.0-py3.8.egg-info' (and everything under it)
+[8.042s] Copying ../../build/Manipul/Manipul.egg-info to /home/incubus/mars_ros2/install/Manipul/lib/python3.8/site-packages/Manipul-0.0.0-py3.8.egg-info
+[8.044s] running install_scripts
+[8.291s] Installing ToServo script to /home/incubus/mars_ros2/install/Manipul/lib/Manipul
+[8.291s] writing list of installed files to '/home/incubus/mars_ros2/build/Manipul/install.log'
+[8.351s] Invoked command in '/home/incubus/mars_ros2/src/Manipul' returned '0': PYTHONPATH=/home/incubus/mars_ros2/install/Manipul/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Manipul build --build-base /home/incubus/mars_ros2/build/Manipul/build install --prefix /home/incubus/mars_ros2/install/Manipul --record /home/incubus/mars_ros2/build/Manipul/install.log --single-version-externally-managed

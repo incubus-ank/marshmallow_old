@@ -1,0 +1,2 @@
+[console_scripts]
+move = keyboard.move:main

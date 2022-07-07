@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.000201] (delta_lidar) JobQueued: {'identifier': 'delta_lidar', 'dependencies': OrderedDict()}
+[0.000356] (delta_lidar) JobStarted: {'identifier': 'delta_lidar'}
+[0.011444] (delta_lidar) JobProgress: {'identifier': 'delta_lidar', 'progress': 'cmake'}
+[0.012350] (delta_lidar) JobProgress: {'identifier': 'delta_lidar', 'progress': 'build'}
+[0.013416] (delta_lidar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/incubus/mars_ros2/build/delta_lidar', '--', '-j4', '-l4'], 'cwd': '/home/incubus/mars_ros2/build/delta_lidar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'incubus'), ('LC_TIME', 'ru_RU.UTF-8'), ('SSH_AGENT_PID', '1759'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/incubus/mars_ros2/install/rplidar_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/incubus'), ('OLDPWD', '/home/incubus/mars_ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('MANAGERPID', '1580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/incubus/mars_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'incubus'), ('JOURNAL_STREAM', '8:50234'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'incubus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/incubus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ank:@/tmp/.ICE-unix/1797,unix/ank:/tmp/.ICE-unix/1797'), ('INVOCATION_ID', 'b3f7c3e21cec4b1c9939d30ca4278561'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7a916e58_8141_4355_958d_a794b7eb6cb6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.584'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/delta_lidar:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/incubus/mars_ros2/build/delta_lidar'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/opt/ros/foxy')]), 'shell': False}
+[0.060334] (delta_lidar) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target delta_lidar_node\x1b[0m\n'}
+[0.078767] (delta_lidar) StdoutLine: {'line': b'[ 14%] Built target delta_lidar_node_client\n'}
+[0.088043] (delta_lidar) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/src/node.cpp.o\x1b[0m\n'}
+[0.098379] (-) TimerEvent: {}
+[0.198675] (-) TimerEvent: {}
+[0.298954] (-) TimerEvent: {}
+[0.399249] (-) TimerEvent: {}
+[0.499558] (-) TimerEvent: {}
+[0.599873] (-) TimerEvent: {}
+[0.700157] (-) TimerEvent: {}
+[0.800502] (-) TimerEvent: {}
+[0.900798] (-) TimerEvent: {}
+[1.001086] (-) TimerEvent: {}
+[1.101385] (-) TimerEvent: {}
+[1.201695] (-) TimerEvent: {}
+[1.301986] (-) TimerEvent: {}
+[1.401158] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.401367] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:176:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%u\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[1.401449] (delta_lidar) StderrLine: {'line': b'  176 |                 printf("Receive Lidar count \x1b[01;35m\x1b[K%u\x1b[m\x1b[K!\\n", \x1b[32m\x1b[Klidar_scan_size\x1b[m\x1b[K);\n'}
+[1.401514] (delta_lidar) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~^\x1b[m\x1b[K      \x1b[32m\x1b[K~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.401574] (delta_lidar) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K|\x1b[m\x1b[K      \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[1.401632] (delta_lidar) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K|\x1b[m\x1b[K      \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[1.401690] (delta_lidar) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[Kunsigned int\x1b[m\x1b[K\n'}
+[1.401747] (delta_lidar) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[1.402040] (-) TimerEvent: {}
+[1.413884] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:179:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kstart_node\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.414084] (delta_lidar) StderrLine: {'line': b'  179 |                 int \x1b[01;35m\x1b[Kstart_node\x1b[m\x1b[K = 0, end_node = 359;\n'}
+[1.414154] (delta_lidar) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.414216] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:179:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kend_node\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.414277] (delta_lidar) StderrLine: {'line': b'  179 |                 int start_node = 0, \x1b[01;35m\x1b[Kend_node\x1b[m\x1b[K = 359;\n'}
+[1.414346] (delta_lidar) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.502154] (-) TimerEvent: {}
+[1.602448] (-) TimerEvent: {}
+[1.702772] (-) TimerEvent: {}
+[1.803086] (-) TimerEvent: {}
+[1.903384] (-) TimerEvent: {}
+[2.003704] (-) TimerEvent: {}
+[2.104034] (-) TimerEvent: {}
+[2.204351] (-) TimerEvent: {}
+[2.304643] (-) TimerEvent: {}
+[2.404958] (-) TimerEvent: {}
+[2.505222] (-) TimerEvent: {}
+[2.605588] (-) TimerEvent: {}
+[2.705876] (-) TimerEvent: {}
+[2.806155] (-) TimerEvent: {}
+[2.906477] (-) TimerEvent: {}
+[3.006759] (-) TimerEvent: {}
+[3.107057] (-) TimerEvent: {}
+[3.207338] (-) TimerEvent: {}
+[3.223572] (delta_lidar) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking CXX executable delta_lidar_node\x1b[0m\n'}
+[3.307489] (-) TimerEvent: {}
+[3.407807] (-) TimerEvent: {}
+[3.422831] (delta_lidar) StdoutLine: {'line': b'[100%] Built target delta_lidar_node\n'}
+[3.434518] (delta_lidar) CommandEnded: {'returncode': 0}
+[3.474140] (delta_lidar) JobProgress: {'identifier': 'delta_lidar', 'progress': 'install'}
+[3.484734] (delta_lidar) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/incubus/mars_ros2/build/delta_lidar'], 'cwd': '/home/incubus/mars_ros2/build/delta_lidar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'incubus'), ('LC_TIME', 'ru_RU.UTF-8'), ('SSH_AGENT_PID', '1759'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/incubus/mars_ros2/install/rplidar_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/incubus'), ('OLDPWD', '/home/incubus/mars_ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('MANAGERPID', '1580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/incubus/mars_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'incubus'), ('JOURNAL_STREAM', '8:50234'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'incubus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/incubus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ank:@/tmp/.ICE-unix/1797,unix/ank:/tmp/.ICE-unix/1797'), ('INVOCATION_ID', 'b3f7c3e21cec4b1c9939d30ca4278561'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7a916e58_8141_4355_958d_a794b7eb6cb6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.584'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/delta_lidar:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/incubus/mars_ros2/build/delta_lidar'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/opt/ros/foxy')]), 'shell': False}
+[3.495724] (delta_lidar) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.496014] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/install/delta_lidar/lib/delta_lidar/delta_lidar_node\n'}
+[3.497038] (delta_lidar) StdoutLine: {'line': b'-- Set runtime path of "/home/incubus/mars_ros2/install/delta_lidar/lib/delta_lidar/delta_lidar_node" to ""\n'}
+[3.497332] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/lib/delta_lidar/delta_lidar_node_client\n'}
+[3.497522] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/launch\n'}
+[3.498002] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/launch/view_delta_lidar.launch\n'}
+[3.498168] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/launch/delta_lidar.launch\n'}
+[3.498273] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/rviz\n'}
+[3.498366] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/rviz/delta_lidar.rviz\n'}
+[3.498504] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk\n'}
+[3.498635] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include\n'}
+[3.498878] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CCountDown.h\n'}
+[3.499040] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/C3iroboticsLidarProtocol.h\n'}
+[3.499145] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CArcTime.h\n'}
+[3.499207] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CSerialConnection.h\n'}
+[3.499269] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CTime.h\n'}
+[3.499384] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CLidarPacketReceiver.h\n'}
+[3.499455] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/typedef.h\n'}
+[3.499521] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CLidarUnpacket.h\n'}
+[3.499619] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/C3iroboticsLidar.h\n'}
+[3.499701] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CDeviceConnection.h\n'}
+[3.499760] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CLidarPacket.h\n'}
+[3.499818] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CSimulateSerial.h\n'}
+[3.499883] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CLogUtitls.h\n'}
+[3.499941] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src\n'}
+[3.499999] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CSimulateSerial.cpp\n'}
+[3.500057] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CLidarPacketReceiver.cpp\n'}
+[3.500114] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CDeviceConnection.cpp\n'}
+[3.500172] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/C3iroboticsLidar.cpp\n'}
+[3.500230] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CTime.cpp\n'}
+[3.500287] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CArcTime.cpp\n'}
+[3.500344] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CCountDown.cpp\n'}
+[3.500403] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CLidarPacket.cpp\n'}
+[3.500461] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CSerialConnection.cpp\n'}
+[3.500524] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CLidarUnpacket.cpp\n'}
+[3.500755] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/ament_index/resource_index/package_run_dependencies/delta_lidar\n'}
+[3.500934] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/ament_index/resource_index/parent_prefix_path/delta_lidar\n'}
+[3.501514] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/environment/ament_prefix_path.sh\n'}
+[3.502103] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/environment/ament_prefix_path.dsv\n'}
+[3.502924] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/environment/path.sh\n'}
+[3.503114] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/environment/path.dsv\n'}
+[3.503321] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/local_setup.bash\n'}
+[3.503467] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/local_setup.sh\n'}
+[3.503579] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/local_setup.zsh\n'}
+[3.503728] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/local_setup.dsv\n'}
+[3.503814] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/package.dsv\n'}
+[3.503958] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/ament_index/resource_index/packages/delta_lidar\n'}
+[3.504089] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/cmake/delta_lidarConfig.cmake\n'}
+[3.504400] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/cmake/delta_lidarConfig-version.cmake\n'}
+[3.504658] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/package.xml\n'}
+[3.504811] (delta_lidar) CommandEnded: {'returncode': 0}
+[3.508415] (-) TimerEvent: {}
+[3.564890] (delta_lidar) JobEnded: {'identifier': 'delta_lidar', 'rc': 0}
+[3.565767] (-) EventReactorShutdown: {}

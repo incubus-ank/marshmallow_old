@@ -1,0 +1,64 @@
+[35m[1mScanning dependencies of target delta_lidar_node[0m
+[ 14%] Built target delta_lidar_node_client
+[ 21%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/src/node.cpp.o[0m
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:142:5:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kauto end_scan_time[m[K’ has no initializer
+  142 |     [01;31m[Kauto[m[K end_scan_time;
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:172:40:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Krclcpp::Time rclcpp::Clock::now()[m[K’ without object
+  172 |     end_scan_time = rclcpp::Clock::now([01;31m[K)[m[K;
+      |                                        [01;31m[K^[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:174:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  174 |                 printf("Receive Lidar count [01;35m[K%u[m[K!\n", [32m[Klidar_scan_size[m[K);
+      |                                             [01;35m[K~^[m[K      [32m[K~~~~~~~~~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K      [32m[K|[m[K
+      |                                              [01;35m[K|[m[K      [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lu[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:191:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+  191 |                 [01;31m[Kros[m[K::Clock start = start_scan_time;
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:194:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kauto[m[K’
+  194 |                 [01;31m[Kauto[m[K scan_msg = std::make_shared<sensor_msgs::msg::LaserScan>();
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:196:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_msg[m[K’ was not declared in this scope
+  196 |                 [01;31m[Kscan_msg[m[K->header.stamp = start;
+      |                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:196:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart[m[K’ was not declared in this scope
+  196 |                 scan_msg->header.stamp = [01;31m[Kstart[m[K;
+      |                                          [01;31m[K^~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:213:55:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[K_rslidar_data[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’})
+  213 |                     size_t current_angle = floor(nodes[01;31m[K[[m[Ki].angle);
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:219:53:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[K_rslidar_data[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’})
+  219 |                     float read_value = (float) nodes[01;31m[K[[m[Ki].distance;
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:225:54:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[K_rslidar_data[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’})
+  225 |                     float intensities = (float) nodes[01;31m[K[[m[Ki].signal;
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:177:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstart_node[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  177 |                 int [01;35m[Kstart_node[m[K = 0, end_node = 359;
+      |                     [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:177:37:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kend_node[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  177 |                 int start_node = 0, [01;35m[Kend_node[m[K = 359;
+      |                                     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:148:15:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KLIDAR_GRAB_ERRO[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+  148 |         switch[01;35m[K([m[Kresult)
+      |               [01;35m[K^[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:148:15:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KLIDAR_GRAB_ELSE[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:236:13:[m[K [01;31m[Kerror: [m[Kcase label ‘[01m[Keverest::hwdrivers::LIDAR_GRAB_ERRO[m[K’ not within a switch statement
+  236 |             [01;31m[Kcase[m[K LIDAR_GRAB_ERRO:
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:240:13:[m[K [01;31m[Kerror: [m[Kcase label ‘[01m[Keverest::hwdrivers::LIDAR_GRAB_ELSE[m[K’ not within a switch statement
+  240 |             [01;31m[Kcase[m[K LIDAR_GRAB_ELSE:
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:[m[K At global scope:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:250:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  250 |     [01;31m[Kreturn[m[K 0;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:251:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  251 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/delta_lidar_node.dir/build.make:63: CMakeFiles/delta_lidar_node.dir/src/node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/delta_lidar_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

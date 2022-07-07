@@ -1,0 +1,73 @@
+[0.014s] Invoking command in '/home/incubus/mars_ros2/build/delta_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/opt/ros/foxy /usr/bin/cmake --build /home/incubus/mars_ros2/build/delta_lidar -- -j4 -l4
+[0.060s] [35m[1mScanning dependencies of target delta_lidar_node[0m
+[0.079s] [ 14%] Built target delta_lidar_node_client
+[0.088s] [ 21%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/src/node.cpp.o[0m
+[1.401s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.401s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:176:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[1.401s]   176 |                 printf("Receive Lidar count [01;35m[K%u[m[K!\n", [32m[Klidar_scan_size[m[K);
+[1.401s]       |                                             [01;35m[K~^[m[K      [32m[K~~~~~~~~~~~~~~~[m[K
+[1.401s]       |                                              [01;35m[K|[m[K      [32m[K|[m[K
+[1.401s]       |                                              [01;35m[K|[m[K      [32m[Ksize_t {aka long unsigned int}[m[K
+[1.401s]       |                                              [01;35m[Kunsigned int[m[K
+[1.401s]       |                                             [32m[K%lu[m[K
+[1.414s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:179:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstart_node[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.414s]   179 |                 int [01;35m[Kstart_node[m[K = 0, end_node = 359;
+[1.414s]       |                     [01;35m[K^~~~~~~~~~[m[K
+[1.414s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:179:37:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kend_node[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.414s]   179 |                 int start_node = 0, [01;35m[Kend_node[m[K = 359;
+[1.414s]       |                                     [01;35m[K^~~~~~~~[m[K
+[3.223s] [ 28%] [32m[1mLinking CXX executable delta_lidar_node[0m
+[3.423s] [100%] Built target delta_lidar_node
+[3.434s] Invoked command in '/home/incubus/mars_ros2/build/delta_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/opt/ros/foxy /usr/bin/cmake --build /home/incubus/mars_ros2/build/delta_lidar -- -j4 -l4
+[3.486s] Invoking command in '/home/incubus/mars_ros2/build/delta_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/opt/ros/foxy /usr/bin/cmake --install /home/incubus/mars_ros2/build/delta_lidar
+[3.496s] -- Install configuration: ""
+[3.496s] -- Installing: /home/incubus/mars_ros2/install/delta_lidar/lib/delta_lidar/delta_lidar_node
+[3.497s] -- Set runtime path of "/home/incubus/mars_ros2/install/delta_lidar/lib/delta_lidar/delta_lidar_node" to ""
+[3.497s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/lib/delta_lidar/delta_lidar_node_client
+[3.498s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/launch
+[3.498s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/launch/view_delta_lidar.launch
+[3.498s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/launch/delta_lidar.launch
+[3.498s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/rviz
+[3.498s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/rviz/delta_lidar.rviz
+[3.498s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk
+[3.498s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include
+[3.499s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CCountDown.h
+[3.499s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/C3iroboticsLidarProtocol.h
+[3.499s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CArcTime.h
+[3.499s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CSerialConnection.h
+[3.499s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CTime.h
+[3.499s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CLidarPacketReceiver.h
+[3.499s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/typedef.h
+[3.499s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CLidarUnpacket.h
+[3.499s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/C3iroboticsLidar.h
+[3.499s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CDeviceConnection.h
+[3.499s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CLidarPacket.h
+[3.499s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CSimulateSerial.h
+[3.500s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/include/CLogUtitls.h
+[3.500s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src
+[3.500s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CSimulateSerial.cpp
+[3.500s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CLidarPacketReceiver.cpp
+[3.500s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CDeviceConnection.cpp
+[3.500s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/C3iroboticsLidar.cpp
+[3.500s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CTime.cpp
+[3.500s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CArcTime.cpp
+[3.500s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CCountDown.cpp
+[3.500s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CLidarPacket.cpp
+[3.500s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CSerialConnection.cpp
+[3.500s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/sdk/src/CLidarUnpacket.cpp
+[3.501s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/ament_index/resource_index/package_run_dependencies/delta_lidar
+[3.501s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/ament_index/resource_index/parent_prefix_path/delta_lidar
+[3.502s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/environment/ament_prefix_path.sh
+[3.502s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/environment/ament_prefix_path.dsv
+[3.503s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/environment/path.sh
+[3.503s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/environment/path.dsv
+[3.503s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/local_setup.bash
+[3.503s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/local_setup.sh
+[3.503s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/local_setup.zsh
+[3.503s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/local_setup.dsv
+[3.504s] -- Installing: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/package.dsv
+[3.504s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/ament_index/resource_index/packages/delta_lidar
+[3.504s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/cmake/delta_lidarConfig.cmake
+[3.504s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/cmake/delta_lidarConfig-version.cmake
+[3.504s] -- Up-to-date: /home/incubus/mars_ros2/install/delta_lidar/share/delta_lidar/package.xml
+[3.505s] Invoked command in '/home/incubus/mars_ros2/build/delta_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/opt/ros/foxy /usr/bin/cmake --install /home/incubus/mars_ros2/build/delta_lidar

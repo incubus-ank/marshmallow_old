@@ -1,0 +1,30 @@
+[2.435s] Invoking command in '/home/incubus/mars_ros2/src/gamepad': PYTHONPATH=/home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/gamepad build --build-base /home/incubus/mars_ros2/src/build/gamepad/build install --prefix /home/incubus/mars_ros2/src/install/gamepad --record /home/incubus/mars_ros2/src/build/gamepad/install.log --single-version-externally-managed
+[2.827s] /home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.827s]   warnings.warn(
+[2.828s] /home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[2.828s]   warnings.warn(
+[3.685s] running egg_info
+[3.768s] writing ../build/gamepad/gamepad.egg-info/PKG-INFO
+[3.836s] writing dependency_links to ../build/gamepad/gamepad.egg-info/dependency_links.txt
+[4.053s] writing entry points to ../build/gamepad/gamepad.egg-info/entry_points.txt
+[4.184s] writing requirements to ../build/gamepad/gamepad.egg-info/requires.txt
+[4.246s] writing top-level names to ../build/gamepad/gamepad.egg-info/top_level.txt
+[4.358s] reading manifest file '../build/gamepad/gamepad.egg-info/SOURCES.txt'
+[4.359s] writing manifest file '../build/gamepad/gamepad.egg-info/SOURCES.txt'
+[4.359s] running build
+[4.359s] running build_py
+[4.359s] copying gamepad/xbox.py -> /home/incubus/mars_ros2/src/build/gamepad/build/lib/gamepad
+[4.359s] running install
+[4.360s] /home/incubus/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.360s]   warnings.warn(
+[4.367s] running install_lib
+[4.452s] copying /home/incubus/mars_ros2/src/build/gamepad/build/lib/gamepad/xbox.py -> /home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages/gamepad
+[4.453s] byte-compiling /home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages/gamepad/xbox.py to xbox.cpython-38.pyc
+[4.454s] running install_data
+[4.470s] running install_egg_info
+[4.566s] removing '/home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages/gamepad-0.0.0-py3.8.egg-info' (and everything under it)
+[4.566s] Copying ../build/gamepad/gamepad.egg-info to /home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages/gamepad-0.0.0-py3.8.egg-info
+[4.567s] running install_scripts
+[4.744s] Installing xbox script to /home/incubus/mars_ros2/src/install/gamepad/lib/gamepad
+[4.745s] writing list of installed files to '/home/incubus/mars_ros2/src/build/gamepad/install.log'
+[4.807s] Invoked command in '/home/incubus/mars_ros2/src/gamepad' returned '0': PYTHONPATH=/home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/gamepad build --build-base /home/incubus/mars_ros2/src/build/gamepad/build install --prefix /home/incubus/mars_ros2/src/install/gamepad --record /home/incubus/mars_ros2/src/build/gamepad/install.log --single-version-externally-managed

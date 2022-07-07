@@ -1,0 +1,37 @@
+[1.109s] Invoking command in '/home/incubus/mars_ros2/src/stm': PYTHONPATH=/home/incubus/mars_ros2/install/stm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/stm build --build-base /home/incubus/mars_ros2/build/stm/build install --prefix /home/incubus/mars_ros2/install/stm --record /home/incubus/mars_ros2/build/stm/install.log --single-version-externally-managed
+[1.319s] running egg_info
+[1.320s] creating ../../build/stm/stm.egg-info
+[1.320s] writing ../../build/stm/stm.egg-info/PKG-INFO
+[1.320s] writing dependency_links to ../../build/stm/stm.egg-info/dependency_links.txt
+[1.320s] writing entry points to ../../build/stm/stm.egg-info/entry_points.txt
+[1.320s] writing requirements to ../../build/stm/stm.egg-info/requires.txt
+[1.320s] writing top-level names to ../../build/stm/stm.egg-info/top_level.txt
+[1.321s] writing manifest file '../../build/stm/stm.egg-info/SOURCES.txt'
+[1.353s] reading manifest file '../../build/stm/stm.egg-info/SOURCES.txt'
+[1.353s] writing manifest file '../../build/stm/stm.egg-info/SOURCES.txt'
+[1.354s] running build
+[1.354s] running build_py
+[1.354s] creating /home/incubus/mars_ros2/build/stm/build
+[1.354s] creating /home/incubus/mars_ros2/build/stm/build/lib
+[1.354s] creating /home/incubus/mars_ros2/build/stm/build/lib/stm
+[1.354s] copying stm/__init__.py -> /home/incubus/mars_ros2/build/stm/build/lib/stm
+[1.354s] copying stm/ToStm.py -> /home/incubus/mars_ros2/build/stm/build/lib/stm
+[1.354s] running install
+[1.355s] running install_lib
+[1.356s] creating /home/incubus/mars_ros2/install/stm/lib/python3.8/site-packages/stm
+[1.356s] copying /home/incubus/mars_ros2/build/stm/build/lib/stm/__init__.py -> /home/incubus/mars_ros2/install/stm/lib/python3.8/site-packages/stm
+[1.356s] copying /home/incubus/mars_ros2/build/stm/build/lib/stm/ToStm.py -> /home/incubus/mars_ros2/install/stm/lib/python3.8/site-packages/stm
+[1.356s] byte-compiling /home/incubus/mars_ros2/install/stm/lib/python3.8/site-packages/stm/__init__.py to __init__.cpython-38.pyc
+[1.357s] byte-compiling /home/incubus/mars_ros2/install/stm/lib/python3.8/site-packages/stm/ToStm.py to ToStm.cpython-38.pyc
+[1.358s] running install_data
+[1.358s] creating /home/incubus/mars_ros2/install/stm/share/ament_index
+[1.358s] creating /home/incubus/mars_ros2/install/stm/share/ament_index/resource_index
+[1.358s] creating /home/incubus/mars_ros2/install/stm/share/ament_index/resource_index/packages
+[1.358s] copying resource/stm -> /home/incubus/mars_ros2/install/stm/share/ament_index/resource_index/packages
+[1.359s] copying package.xml -> /home/incubus/mars_ros2/install/stm/share/stm
+[1.359s] running install_egg_info
+[1.360s] Copying ../../build/stm/stm.egg-info to /home/incubus/mars_ros2/install/stm/lib/python3.8/site-packages/stm-0.0.0-py3.8.egg-info
+[1.361s] running install_scripts
+[1.378s] Installing ToStm script to /home/incubus/mars_ros2/install/stm/lib/stm
+[1.378s] writing list of installed files to '/home/incubus/mars_ros2/build/stm/install.log'
+[1.401s] Invoked command in '/home/incubus/mars_ros2/src/stm' returned '0': PYTHONPATH=/home/incubus/mars_ros2/install/stm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/stm build --build-base /home/incubus/mars_ros2/build/stm/build install --prefix /home/incubus/mars_ros2/install/stm --record /home/incubus/mars_ros2/build/stm/install.log --single-version-externally-managed

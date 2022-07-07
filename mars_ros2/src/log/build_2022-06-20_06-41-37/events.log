@@ -1,0 +1,448 @@
+[0.000000] (-) TimerEvent: {}
+[0.002333] (Webserver) JobQueued: {'identifier': 'Webserver', 'dependencies': OrderedDict()}
+[0.002642] (delta_lidar) JobQueued: {'identifier': 'delta_lidar', 'dependencies': OrderedDict()}
+[0.002730] (keyboard) JobQueued: {'identifier': 'keyboard', 'dependencies': OrderedDict()}
+[0.002766] (stm) JobQueued: {'identifier': 'stm', 'dependencies': OrderedDict()}
+[0.002795] (Webserver) JobStarted: {'identifier': 'Webserver'}
+[0.012601] (delta_lidar) JobStarted: {'identifier': 'delta_lidar'}
+[0.019569] (keyboard) JobStarted: {'identifier': 'keyboard'}
+[0.028096] (stm) JobStarted: {'identifier': 'stm'}
+[0.100063] (-) TimerEvent: {}
+[0.200446] (-) TimerEvent: {}
+[0.279132] (delta_lidar) JobProgress: {'identifier': 'delta_lidar', 'progress': 'cmake'}
+[0.279229] (delta_lidar) Command: {'cmd': ['/usr/bin/cmake', '/home/incubus/mars_ros2/src/Delta_2A_ros', '-DCMAKE_INSTALL_PREFIX=/home/incubus/mars_ros2/src/install/delta_lidar'], 'cwd': '/home/incubus/mars_ros2/src/build/delta_lidar', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'incubus'), ('LC_TIME', 'ru_RU.UTF-8'), ('SSH_AGENT_PID', '1759'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/incubus/mars_ros2/install/rplidar_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/incubus'), ('OLDPWD', '/home/incubus/mars_ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('MANAGERPID', '1580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/incubus/mars_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'incubus'), ('JOURNAL_STREAM', '8:47517'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'incubus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/incubus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ank:@/tmp/.ICE-unix/1797,unix/ank:/tmp/.ICE-unix/1797'), ('INVOCATION_ID', 'ac7c00aa125e4a53baf720b63812a78f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6a587c8d_6e5a_4e23_b5a0_5e8a7ade9b77'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1418'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/install/Webserver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/incubus/mars_ros2/src/build/delta_lidar'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/my_package/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/Webserver:/opt/ros/foxy')]), 'shell': False}
+[0.300611] (-) TimerEvent: {}
+[0.401026] (-) TimerEvent: {}
+[0.501372] (-) TimerEvent: {}
+[0.601777] (-) TimerEvent: {}
+[0.702272] (-) TimerEvent: {}
+[0.802602] (-) TimerEvent: {}
+[0.829639] (delta_lidar) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.830493] (delta_lidar) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.830791] (delta_lidar) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.831137] (delta_lidar) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.831675] (delta_lidar) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.833028] (delta_lidar) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.833274] (delta_lidar) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.833892] (delta_lidar) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.834133] (delta_lidar) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.835716] (delta_lidar) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.836043] (delta_lidar) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.836160] (delta_lidar) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.836267] (delta_lidar) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.836374] (delta_lidar) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.836472] (delta_lidar) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.836566] (delta_lidar) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.836669] (delta_lidar) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.902769] (-) TimerEvent: {}
+[1.003323] (-) TimerEvent: {}
+[1.103767] (-) TimerEvent: {}
+[1.149906] (delta_lidar) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.204554] (-) TimerEvent: {}
+[1.224606] (delta_lidar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.240506] (delta_lidar) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.304648] (-) TimerEvent: {}
+[1.405052] (-) TimerEvent: {}
+[1.406569] (delta_lidar) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.458327] (delta_lidar) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.505187] (-) TimerEvent: {}
+[1.559197] (Webserver) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/Webserver', 'build', '--build-base', '/home/incubus/mars_ros2/src/build/Webserver/build', 'install', '--prefix', '/home/incubus/mars_ros2/src/install/Webserver', '--record', '/home/incubus/mars_ros2/src/build/Webserver/install.log', '--single-version-externally-managed'], 'cwd': '/home/incubus/mars_ros2/src/Webserver', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'incubus', 'LC_TIME': 'ru_RU.UTF-8', 'SSH_AGENT_PID': '1759', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/incubus/mars_ros2/install/rplidar_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/incubus', 'OLDPWD': '/home/incubus/mars_ros2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'MANAGERPID': '1580', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/incubus/mars_ros2/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'incubus', 'JOURNAL_STREAM': '8:47517', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'incubus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/incubus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ank:@/tmp/.ICE-unix/1797,unix/ank:/tmp/.ICE-unix/1797', 'INVOCATION_ID': 'ac7c00aa125e4a53baf720b63812a78f', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6a587c8d_6e5a_4e23_b5a0_5e8a7ade9b77', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1418', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/install/Webserver:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/incubus/mars_ros2/src/build/Webserver', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/my_package/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/delta_lidar'}, 'shell': False}
+[1.573493] (keyboard) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/keyboard', 'build', '--build-base', '/home/incubus/mars_ros2/src/build/keyboard/build', 'install', '--prefix', '/home/incubus/mars_ros2/src/install/keyboard', '--record', '/home/incubus/mars_ros2/src/build/keyboard/install.log', '--single-version-externally-managed'], 'cwd': '/home/incubus/mars_ros2/src/keyboard', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'incubus', 'LC_TIME': 'ru_RU.UTF-8', 'SSH_AGENT_PID': '1759', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/incubus/mars_ros2/install/rplidar_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/incubus', 'OLDPWD': '/home/incubus/mars_ros2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'MANAGERPID': '1580', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/incubus/mars_ros2/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'incubus', 'JOURNAL_STREAM': '8:47517', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'incubus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/incubus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ank:@/tmp/.ICE-unix/1797,unix/ank:/tmp/.ICE-unix/1797', 'INVOCATION_ID': 'ac7c00aa125e4a53baf720b63812a78f', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6a587c8d_6e5a_4e23_b5a0_5e8a7ade9b77', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1418', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/install/Webserver:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/incubus/mars_ros2/src/build/keyboard', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/my_package/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/delta_lidar'}, 'shell': False}
+[1.612375] (-) TimerEvent: {}
+[1.638801] (stm) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/stm', 'build', '--build-base', '/home/incubus/mars_ros2/src/build/stm/build', 'install', '--prefix', '/home/incubus/mars_ros2/src/install/stm', '--record', '/home/incubus/mars_ros2/src/build/stm/install.log', '--single-version-externally-managed'], 'cwd': '/home/incubus/mars_ros2/src/stm', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'incubus', 'LC_TIME': 'ru_RU.UTF-8', 'SSH_AGENT_PID': '1759', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/incubus/mars_ros2/install/rplidar_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/incubus', 'OLDPWD': '/home/incubus/mars_ros2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'MANAGERPID': '1580', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/incubus/mars_ros2/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'incubus', 'JOURNAL_STREAM': '8:47517', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'incubus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/incubus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ank:@/tmp/.ICE-unix/1797,unix/ank:/tmp/.ICE-unix/1797', 'INVOCATION_ID': 'ac7c00aa125e4a53baf720b63812a78f', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6a587c8d_6e5a_4e23_b5a0_5e8a7ade9b77', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1418', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/install/Webserver:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/incubus/mars_ros2/src/build/stm', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/my_package/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/delta_lidar'}, 'shell': False}
+[1.662475] (delta_lidar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.712459] (-) TimerEvent: {}
+[1.788144] (delta_lidar) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.791977] (delta_lidar) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.793433] (delta_lidar) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.812563] (-) TimerEvent: {}
+[1.904258] (delta_lidar) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.904628] (delta_lidar) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.912654] (-) TimerEvent: {}
+[1.976803] (Webserver) StdoutLine: {'line': b'running egg_info\n'}
+[1.977863] (Webserver) StdoutLine: {'line': b'creating ../build/Webserver/Webserver.egg-info\n'}
+[1.978107] (Webserver) StdoutLine: {'line': b'writing ../build/Webserver/Webserver.egg-info/PKG-INFO\n'}
+[1.978463] (Webserver) StdoutLine: {'line': b'writing dependency_links to ../build/Webserver/Webserver.egg-info/dependency_links.txt\n'}
+[1.978655] (Webserver) StdoutLine: {'line': b'writing entry points to ../build/Webserver/Webserver.egg-info/entry_points.txt\n'}
+[1.978863] (Webserver) StdoutLine: {'line': b'writing requirements to ../build/Webserver/Webserver.egg-info/requires.txt\n'}
+[1.978987] (Webserver) StdoutLine: {'line': b'writing top-level names to ../build/Webserver/Webserver.egg-info/top_level.txt\n'}
+[1.980038] (keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[1.980832] (Webserver) StdoutLine: {'line': b"writing manifest file '../build/Webserver/Webserver.egg-info/SOURCES.txt'\n"}
+[1.981070] (keyboard) StdoutLine: {'line': b'creating ../build/keyboard/keyboard.egg-info\n'}
+[1.981381] (keyboard) StdoutLine: {'line': b'writing ../build/keyboard/keyboard.egg-info/PKG-INFO\n'}
+[1.981787] (keyboard) StdoutLine: {'line': b'writing dependency_links to ../build/keyboard/keyboard.egg-info/dependency_links.txt\n'}
+[1.982019] (keyboard) StdoutLine: {'line': b'writing entry points to ../build/keyboard/keyboard.egg-info/entry_points.txt\n'}
+[1.982207] (keyboard) StdoutLine: {'line': b'writing requirements to ../build/keyboard/keyboard.egg-info/requires.txt\n'}
+[1.982406] (keyboard) StdoutLine: {'line': b'writing top-level names to ../build/keyboard/keyboard.egg-info/top_level.txt\n'}
+[1.984253] (keyboard) StdoutLine: {'line': b"writing manifest file '../build/keyboard/keyboard.egg-info/SOURCES.txt'\n"}
+[2.012745] (-) TimerEvent: {}
+[2.015553] (delta_lidar) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.016184] (delta_lidar) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.036848] (Webserver) StdoutLine: {'line': b"reading manifest file '../build/Webserver/Webserver.egg-info/SOURCES.txt'\n"}
+[2.037142] (stm) StdoutLine: {'line': b'running egg_info\n'}
+[2.037309] (keyboard) StdoutLine: {'line': b"reading manifest file '../build/keyboard/keyboard.egg-info/SOURCES.txt'\n"}
+[2.037900] (Webserver) StdoutLine: {'line': b"writing manifest file '../build/Webserver/Webserver.egg-info/SOURCES.txt'\n"}
+[2.038140] (stm) StdoutLine: {'line': b'creating ../build/stm/stm.egg-info\n'}
+[2.038327] (Webserver) StdoutLine: {'line': b'running build\n'}
+[2.038559] (Webserver) StdoutLine: {'line': b'running build_py\n'}
+[2.038697] (Webserver) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/build/Webserver/build\n'}
+[2.038806] (Webserver) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/build/Webserver/build/lib\n'}
+[2.038989] (stm) StdoutLine: {'line': b'writing ../build/stm/stm.egg-info/PKG-INFO\n'}
+[2.039129] (Webserver) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/build/Webserver/build/lib/Webserver\n'}
+[2.039300] (Webserver) StdoutLine: {'line': b'copying Webserver/__init__.py -> /home/incubus/mars_ros2/src/build/Webserver/build/lib/Webserver\n'}
+[2.039533] (Webserver) StdoutLine: {'line': b'copying Webserver/Flask.py -> /home/incubus/mars_ros2/src/build/Webserver/build/lib/Webserver\n'}
+[2.039669] (Webserver) StdoutLine: {'line': b'running install\n'}
+[2.039793] (stm) StdoutLine: {'line': b'writing dependency_links to ../build/stm/stm.egg-info/dependency_links.txt\n'}
+[2.039911] (stm) StdoutLine: {'line': b'writing entry points to ../build/stm/stm.egg-info/entry_points.txt\n'}
+[2.040021] (stm) StdoutLine: {'line': b'writing requirements to ../build/stm/stm.egg-info/requires.txt\n'}
+[2.040130] (stm) StdoutLine: {'line': b'writing top-level names to ../build/stm/stm.egg-info/top_level.txt\n'}
+[2.041171] (keyboard) StdoutLine: {'line': b"writing manifest file '../build/keyboard/keyboard.egg-info/SOURCES.txt'\n"}
+[2.041588] (keyboard) StdoutLine: {'line': b'running build\n'}
+[2.041903] (keyboard) StdoutLine: {'line': b'running build_py\n'}
+[2.042057] (stm) StdoutLine: {'line': b"writing manifest file '../build/stm/stm.egg-info/SOURCES.txt'\n"}
+[2.042214] (Webserver) StdoutLine: {'line': b'running install_lib\n'}
+[2.042673] (keyboard) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/build/keyboard/build\n'}
+[2.042942] (keyboard) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/build/keyboard/build/lib\n'}
+[2.043234] (keyboard) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/build/keyboard/build/lib/keyboard\n'}
+[2.043460] (Webserver) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages/Webserver\n'}
+[2.043633] (Webserver) StdoutLine: {'line': b'copying /home/incubus/mars_ros2/src/build/Webserver/build/lib/Webserver/__init__.py -> /home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages/Webserver\n'}
+[2.043756] (Webserver) StdoutLine: {'line': b'copying /home/incubus/mars_ros2/src/build/Webserver/build/lib/Webserver/Flask.py -> /home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages/Webserver\n'}
+[2.044004] (keyboard) StdoutLine: {'line': b'copying keyboard/__init__.py -> /home/incubus/mars_ros2/src/build/keyboard/build/lib/keyboard\n'}
+[2.044344] (Webserver) StdoutLine: {'line': b'byte-compiling /home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages/Webserver/__init__.py to __init__.cpython-38.pyc\n'}
+[2.044549] (keyboard) StdoutLine: {'line': b'copying keyboard/move.py -> /home/incubus/mars_ros2/src/build/keyboard/build/lib/keyboard\n'}
+[2.045036] (keyboard) StdoutLine: {'line': b'running install\n'}
+[2.046202] (Webserver) StdoutLine: {'line': b'byte-compiling /home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages/Webserver/Flask.py to Flask.cpython-38.pyc\n'}
+[2.046707] (keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[2.046956] (Webserver) StdoutLine: {'line': b'running install_data\n'}
+[2.047777] (Webserver) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/install/Webserver/share/ament_index\n'}
+[2.048079] (Webserver) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/install/Webserver/share/ament_index/resource_index\n'}
+[2.048210] (Webserver) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/install/Webserver/share/ament_index/resource_index/packages\n'}
+[2.048400] (Webserver) StdoutLine: {'line': b'copying resource/Webserver -> /home/incubus/mars_ros2/src/install/Webserver/share/ament_index/resource_index/packages\n'}
+[2.048519] (Webserver) StdoutLine: {'line': b'copying package.xml -> /home/incubus/mars_ros2/src/install/Webserver/share/Webserver\n'}
+[2.048626] (Webserver) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.049625] (keyboard) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages/keyboard\n'}
+[2.050045] (keyboard) StdoutLine: {'line': b'copying /home/incubus/mars_ros2/src/build/keyboard/build/lib/keyboard/__init__.py -> /home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages/keyboard\n'}
+[2.050437] (keyboard) StdoutLine: {'line': b'copying /home/incubus/mars_ros2/src/build/keyboard/build/lib/keyboard/move.py -> /home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages/keyboard\n'}
+[2.051243] (Webserver) StdoutLine: {'line': b'Copying ../build/Webserver/Webserver.egg-info to /home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages/Webserver-0.0.0-py3.8.egg-info\n'}
+[2.051720] (keyboard) StdoutLine: {'line': b'byte-compiling /home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages/keyboard/__init__.py to __init__.cpython-38.pyc\n'}
+[2.052456] (Webserver) StdoutLine: {'line': b'running install_scripts\n'}
+[2.054318] (keyboard) StdoutLine: {'line': b'byte-compiling /home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages/keyboard/move.py to move.cpython-38.pyc\n'}
+[2.055356] (keyboard) StdoutLine: {'line': b'running install_data\n'}
+[2.056390] (keyboard) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/install/keyboard/share/ament_index\n'}
+[2.056724] (keyboard) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/install/keyboard/share/ament_index/resource_index\n'}
+[2.056984] (keyboard) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/install/keyboard/share/ament_index/resource_index/packages\n'}
+[2.057291] (keyboard) StdoutLine: {'line': b'copying resource/keyboard -> /home/incubus/mars_ros2/src/install/keyboard/share/ament_index/resource_index/packages\n'}
+[2.057671] (keyboard) StdoutLine: {'line': b'copying package.xml -> /home/incubus/mars_ros2/src/install/keyboard/share/keyboard\n'}
+[2.057985] (keyboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.060436] (keyboard) StdoutLine: {'line': b'Copying ../build/keyboard/keyboard.egg-info to /home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages/keyboard-0.0.0-py3.8.egg-info\n'}
+[2.061806] (keyboard) StdoutLine: {'line': b'running install_scripts\n'}
+[2.079035] (Webserver) StdoutLine: {'line': b'Installing Flask script to /home/incubus/mars_ros2/src/install/Webserver/lib/Webserver\n'}
+[2.079444] (Webserver) StdoutLine: {'line': b"writing list of installed files to '/home/incubus/mars_ros2/src/build/Webserver/install.log'\n"}
+[2.089085] (keyboard) StdoutLine: {'line': b'Installing move script to /home/incubus/mars_ros2/src/install/keyboard/lib/keyboard\n'}
+[2.089928] (keyboard) StdoutLine: {'line': b"writing list of installed files to '/home/incubus/mars_ros2/src/build/keyboard/install.log'\n"}
+[2.098680] (stm) StdoutLine: {'line': b"reading manifest file '../build/stm/stm.egg-info/SOURCES.txt'\n"}
+[2.099980] (stm) StdoutLine: {'line': b"writing manifest file '../build/stm/stm.egg-info/SOURCES.txt'\n"}
+[2.100216] (stm) StdoutLine: {'line': b'running build\n'}
+[2.100394] (stm) StdoutLine: {'line': b'running build_py\n'}
+[2.102341] (stm) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/build/stm/build\n'}
+[2.102664] (stm) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/build/stm/build/lib\n'}
+[2.102831] (stm) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/build/stm/build/lib/stm\n'}
+[2.102943] (stm) StdoutLine: {'line': b'copying stm/__init__.py -> /home/incubus/mars_ros2/src/build/stm/build/lib/stm\n'}
+[2.103120] (stm) StdoutLine: {'line': b'copying stm/ToStm.py -> /home/incubus/mars_ros2/src/build/stm/build/lib/stm\n'}
+[2.103233] (stm) StdoutLine: {'line': b'running install\n'}
+[2.104314] (stm) StdoutLine: {'line': b'running install_lib\n'}
+[2.105768] (stm) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages/stm\n'}
+[2.106063] (stm) StdoutLine: {'line': b'copying /home/incubus/mars_ros2/src/build/stm/build/lib/stm/__init__.py -> /home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages/stm\n'}
+[2.106213] (stm) StdoutLine: {'line': b'copying /home/incubus/mars_ros2/src/build/stm/build/lib/stm/ToStm.py -> /home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages/stm\n'}
+[2.106762] (stm) StdoutLine: {'line': b'byte-compiling /home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages/stm/__init__.py to __init__.cpython-38.pyc\n'}
+[2.108891] (stm) StdoutLine: {'line': b'byte-compiling /home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages/stm/ToStm.py to ToStm.cpython-38.pyc\n'}
+[2.109809] (stm) StdoutLine: {'line': b'running install_data\n'}
+[2.111026] (stm) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/install/stm/share/ament_index\n'}
+[2.111587] (stm) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/install/stm/share/ament_index/resource_index\n'}
+[2.111880] (stm) StdoutLine: {'line': b'creating /home/incubus/mars_ros2/src/install/stm/share/ament_index/resource_index/packages\n'}
+[2.112012] (stm) StdoutLine: {'line': b'copying resource/stm -> /home/incubus/mars_ros2/src/install/stm/share/ament_index/resource_index/packages\n'}
+[2.112120] (stm) StdoutLine: {'line': b'copying package.xml -> /home/incubus/mars_ros2/src/install/stm/share/stm\n'}
+[2.112228] (stm) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.112819] (-) TimerEvent: {}
+[2.119842] (Webserver) CommandEnded: {'returncode': 0}
+[2.120374] (delta_lidar) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.120644] (delta_lidar) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.120902] (stm) StdoutLine: {'line': b'Copying ../build/stm/stm.egg-info to /home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages/stm-0.0.0-py3.8.egg-info\n'}
+[2.121041] (stm) StdoutLine: {'line': b'running install_scripts\n'}
+[2.133316] (Webserver) JobEnded: {'identifier': 'Webserver', 'rc': 0}
+[2.136200] (keyboard) CommandEnded: {'returncode': 0}
+[2.143186] (stm) StdoutLine: {'line': b'Installing ToStm script to /home/incubus/mars_ros2/src/install/stm/lib/stm\n'}
+[2.143530] (stm) StdoutLine: {'line': b"writing list of installed files to '/home/incubus/mars_ros2/src/build/stm/install.log'\n"}
+[2.146623] (keyboard) JobEnded: {'identifier': 'keyboard', 'rc': 0}
+[2.169576] (stm) CommandEnded: {'returncode': 0}
+[2.180209] (stm) JobEnded: {'identifier': 'stm', 'rc': 0}
+[2.201821] (delta_lidar) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.203429] (delta_lidar) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.212921] (-) TimerEvent: {}
+[2.313179] (-) TimerEvent: {}
+[2.383479] (delta_lidar) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.413288] (-) TimerEvent: {}
+[2.513603] (-) TimerEvent: {}
+[2.524323] (delta_lidar) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.606926] (delta_lidar) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.609052] (delta_lidar) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.609692] (delta_lidar) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/incubus/mars_ros2/src/Delta_2A_ros/src;/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include;/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src\n'}
+[2.609818] (delta_lidar) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.611630] (delta_lidar) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.611743] (delta_lidar) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.612834] (delta_lidar) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.613669] (-) TimerEvent: {}
+[2.614798] (delta_lidar) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.614900] (delta_lidar) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.615487] (delta_lidar) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.618761] (delta_lidar) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.631869] (delta_lidar) StdoutLine: {'line': b'-- Generating done\n'}
+[2.633303] (delta_lidar) StdoutLine: {'line': b'-- Build files have been written to: /home/incubus/mars_ros2/src/build/delta_lidar\n'}
+[2.641351] (delta_lidar) CommandEnded: {'returncode': 0}
+[2.643800] (delta_lidar) JobProgress: {'identifier': 'delta_lidar', 'progress': 'build'}
+[2.644007] (delta_lidar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/incubus/mars_ros2/src/build/delta_lidar', '--', '-j4', '-l4'], 'cwd': '/home/incubus/mars_ros2/src/build/delta_lidar', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'incubus'), ('LC_TIME', 'ru_RU.UTF-8'), ('SSH_AGENT_PID', '1759'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/incubus/mars_ros2/install/rplidar_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/incubus'), ('OLDPWD', '/home/incubus/mars_ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('MANAGERPID', '1580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/incubus/mars_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'incubus'), ('JOURNAL_STREAM', '8:47517'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'incubus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/incubus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ank:@/tmp/.ICE-unix/1797,unix/ank:/tmp/.ICE-unix/1797'), ('INVOCATION_ID', 'ac7c00aa125e4a53baf720b63812a78f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6a587c8d_6e5a_4e23_b5a0_5e8a7ade9b77'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1418'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/install/Webserver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/incubus/mars_ros2/src/build/delta_lidar'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/my_package/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/Webserver:/opt/ros/foxy')]), 'shell': False}
+[2.685139] (delta_lidar) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target delta_lidar_node_client\x1b[0m\n'}
+[2.685427] (delta_lidar) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target delta_lidar_node\x1b[0m\n'}
+[2.713790] (-) TimerEvent: {}
+[2.726873] (delta_lidar) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/delta_lidar_node_client.dir/src/client.cpp.o\x1b[0m\n'}
+[2.730080] (delta_lidar) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/src/node.cpp.o\x1b[0m\n'}
+[2.730374] (delta_lidar) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/C3iroboticsLidar.cpp.o\x1b[0m\n'}
+[2.731375] (delta_lidar) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CArcTime.cpp.o\x1b[0m\n'}
+[2.753507] (delta_lidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CArcTime.cpp:16\x1b[m\x1b[K:\n'}
+[2.753851] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CArcTime.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid everest::hwdrivers::CArcTime::log(const char*) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.754061] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CArcTime.h:251:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprefix\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.754238] (delta_lidar) StderrLine: {'line': b'  251 |           void log(const char *\x1b[01;35m\x1b[Kp\x1b[m\x1b[Krefix = NULL) const\n'}
+[2.754415] (delta_lidar) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.785518] (delta_lidar) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CCountDown.cpp.o\x1b[0m\n'}
+[2.813902] (-) TimerEvent: {}
+[2.914271] (-) TimerEvent: {}
+[3.014637] (-) TimerEvent: {}
+[3.114972] (-) TimerEvent: {}
+[3.169233] (delta_lidar) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CDeviceConnection.cpp.o\x1b[0m\n'}
+[3.215084] (-) TimerEvent: {}
+[3.224913] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/C3iroboticsLidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Keverest::hwdrivers::TLidarGrabResult everest::hwdrivers::C3iroboticsLidar::combineScan(everest::hwdrivers::TToothScan&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.225162] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/C3iroboticsLidar.cpp:212:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[3.225305] (delta_lidar) StderrLine: {'line': b'  212 |                 printf("[C3iroboticsLidar] grab scan is time out \x1b[01;35m\x1b[K%d\x1b[m\x1b[K ms! Reset grab scan state, current is %5.2f, last is %5.2f! \\n",\n'}
+[3.225425] (delta_lidar) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~^\x1b[m\x1b[K\n'}
+[3.225528] (delta_lidar) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K|\x1b[m\x1b[K\n'}
+[3.225631] (delta_lidar) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[Kint\x1b[m\x1b[K\n'}
+[3.225726] (delta_lidar) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[3.225834] (delta_lidar) StderrLine: {'line': b'  213 |                           \x1b[32m\x1b[Km_params.scan_time_out_ms\x1b[m\x1b[K, tooth_scan.angle, m_last_scan_angle);\n'}
+[3.225948] (delta_lidar) StderrLine: {'line': b'      |                           \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                \n'}
+[3.226061] (delta_lidar) StderrLine: {'line': b'      |                                    \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.226173] (delta_lidar) StderrLine: {'line': b'      |                                    \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[3.226417] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/C3iroboticsLidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Keverest::hwdrivers::TLidarGrabResult everest::hwdrivers::C3iroboticsLidar::analysisHealthInfo(everest::hwdrivers::CLidarPacket&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.226560] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/C3iroboticsLidar.cpp:353:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[3.226684] (delta_lidar) StderrLine: {'line': b'  353 |     printf("[C3iroboticsLidar] Lidar error is \x1b[01;35m\x1b[K%5.5f\x1b[m\x1b[K!\\n", \x1b[32m\x1b[Klidar_error\x1b[m\x1b[K );\n'}
+[3.226802] (delta_lidar) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~~~~^\x1b[m\x1b[K      \x1b[32m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.226928] (delta_lidar) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K|\x1b[m\x1b[K      \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.227052] (delta_lidar) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[Kdouble\x1b[m\x1b[K \x1b[32m\x1b[Kint\x1b[m\x1b[K\n'}
+[3.227168] (delta_lidar) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[K%5.5d\x1b[m\x1b[K\n'}
+[3.315195] (-) TimerEvent: {}
+[3.415540] (-) TimerEvent: {}
+[3.515864] (-) TimerEvent: {}
+[3.616209] (-) TimerEvent: {}
+[3.653669] (delta_lidar) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CLidarPacket.cpp.o\x1b[0m\n'}
+[3.697002] (delta_lidar) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CLidarPacketReceiver.cpp.o\x1b[0m\n'}
+[3.716310] (-) TimerEvent: {}
+[3.816639] (-) TimerEvent: {}
+[3.916974] (-) TimerEvent: {}
+[4.012986] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CLidarPacket.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic void everest::hwdrivers::CLidarPacket::bufferToData(void*, void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.013279] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CLidarPacket.cpp:255:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdest_ptr\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.013466] (delta_lidar) StderrLine: {'line': b'  255 | void CLidarPacket::bufferToData(\x1b[01;35m\x1b[Kvoid *dest_ptr\x1b[m\x1b[K, void *src_ptr, size_t length)\n'}
+[4.013634] (delta_lidar) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.013839] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CLidarPacket.cpp:255:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksrc_ptr\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.014009] (delta_lidar) StderrLine: {'line': b'  255 | void CLidarPacket::bufferToData(void *dest_ptr, \x1b[01;35m\x1b[Kvoid *src_ptr\x1b[m\x1b[K, size_t length)\n'}
+[4.014168] (delta_lidar) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.014360] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CLidarPacket.cpp:255:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klength\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.014538] (delta_lidar) StderrLine: {'line': b'  255 | void CLidarPacket::bufferToData(void *dest_ptr, void *src_ptr, \x1b[01;35m\x1b[Ksize_t length\x1b[m\x1b[K)\n'}
+[4.014695] (delta_lidar) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[4.017072] (-) TimerEvent: {}
+[4.117412] (-) TimerEvent: {}
+[4.157484] (delta_lidar) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CLidarUnpacket.cpp.o\x1b[0m\n'}
+[4.217524] (-) TimerEvent: {}
+[4.263451] (delta_lidar) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CSerialConnection.cpp.o\x1b[0m\n'}
+[4.317627] (-) TimerEvent: {}
+[4.417984] (-) TimerEvent: {}
+[4.491040] (delta_lidar) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CSimulateSerial.cpp.o\x1b[0m\n'}
+[4.518088] (-) TimerEvent: {}
+[4.592611] (delta_lidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:19\x1b[m\x1b[K:\n'}
+[4.592853] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CArcTime.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid everest::hwdrivers::CArcTime::log(const char*) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.593000] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CArcTime.h:251:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprefix\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.593120] (delta_lidar) StderrLine: {'line': b'  251 |           void log(const char *\x1b[01;35m\x1b[Kp\x1b[m\x1b[Krefix = NULL) const\n'}
+[4.593235] (delta_lidar) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.618827] (-) TimerEvent: {}
+[4.723043] (-) TimerEvent: {}
+[4.807376] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint everest::hwdrivers::CSerialConnection::internalOpen()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.807630] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:210:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktio\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[4.807775] (delta_lidar) StderrLine: {'line': b'  210 |  struct termios \x1b[01;35m\x1b[Ktio\x1b[m\x1b[K;\n'}
+[4.807897] (delta_lidar) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.808135] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool everest::hwdrivers::CSerialConnection::setBaud(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.808264] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:426:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktio\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[4.808381] (delta_lidar) StderrLine: {'line': b'  426 |  struct termios \x1b[01;35m\x1b[Ktio\x1b[m\x1b[K;\n'}
+[4.808499] (delta_lidar) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.808610] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:427:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kbaud\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[4.808737] (delta_lidar) StderrLine: {'line': b'  427 |  int \x1b[01;35m\x1b[Kbaud\x1b[m\x1b[K;\n'}
+[4.808852] (delta_lidar) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.809991] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int everest::hwdrivers::CSerialConnection::read(const char*, unsigned int, unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.810201] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:672:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of unsigned expression >= 0 is always true [\x1b[01;35m\x1b[K-Wtype-limits\x1b[m\x1b[K]\n'}
+[4.810332] (delta_lidar) StderrLine: {'line': b'  672 |   if (\x1b[01;35m\x1b[KmsWait >= 0\x1b[m\x1b[K)\n'}
+[4.810450] (delta_lidar) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.823149] (-) TimerEvent: {}
+[4.923605] (-) TimerEvent: {}
+[4.929428] (delta_lidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:19\x1b[m\x1b[K:\n'}
+[4.929654] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CArcTime.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid everest::hwdrivers::CArcTime::log(const char*) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.929794] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CArcTime.h:251:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprefix\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.929907] (delta_lidar) StderrLine: {'line': b'  251 |           void log(const char *\x1b[01;35m\x1b[Kp\x1b[m\x1b[Krefix = NULL) const\n'}
+[4.930016] (delta_lidar) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.937130] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool everest::hwdrivers::CSimulateSerial::setBaud(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.937392] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:198:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krate\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.937526] (delta_lidar) StderrLine: {'line': b'  198 | bool CSimulateSerial::setBaud(\x1b[01;35m\x1b[Kint rate\x1b[m\x1b[K)\n'}
+[4.937636] (delta_lidar) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[4.937960] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int everest::hwdrivers::CSimulateSerial::write(const char*, unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.938101] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:225:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.938274] (delta_lidar) StderrLine: {'line': b'  225 | int CSimulateSerial::write(\x1b[01;35m\x1b[Kconst char *data\x1b[m\x1b[K, unsigned int size)\n'}
+[4.938398] (delta_lidar) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.938511] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:225:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.938621] (delta_lidar) StderrLine: {'line': b'  225 | int CSimulateSerial::write(const char *data, \x1b[01;35m\x1b[Kunsigned int size\x1b[m\x1b[K)\n'}
+[4.938732] (delta_lidar) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.938932] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int everest::hwdrivers::CSimulateSerial::read(const char*, unsigned int, unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.939057] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:241:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KmsWait\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.939169] (delta_lidar) StderrLine: {'line': b'  241 | int CSimulateSerial::read(const char *data, unsigned int size, \x1b[01;35m\x1b[Kunsigned int msWait\x1b[m\x1b[K)\n'}
+[4.939274] (delta_lidar) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[4.993554] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.993868] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:25:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdegree\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[4.994085] (delta_lidar) StderrLine: {'line': b'   25 |         float \x1b[01;35m\x1b[Kdegree\x1b[m\x1b[K = RAD2DEG(scan->angle_min + scan->angle_increment * i);\n'}
+[4.994291] (delta_lidar) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.023676] (-) TimerEvent: {}
+[5.050071] (delta_lidar) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CTime.cpp.o\x1b[0m\n'}
+[5.123783] (-) TimerEvent: {}
+[5.145326] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.145556] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:176:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%u\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[5.145691] (delta_lidar) StderrLine: {'line': b'  176 |                 printf("Receive Lidar count \x1b[01;35m\x1b[K%u\x1b[m\x1b[K!\\n", \x1b[32m\x1b[Klidar_scan_size\x1b[m\x1b[K);\n'}
+[5.145813] (delta_lidar) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~^\x1b[m\x1b[K      \x1b[32m\x1b[K~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.145931] (delta_lidar) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K|\x1b[m\x1b[K      \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[5.146047] (delta_lidar) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K|\x1b[m\x1b[K      \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[5.146163] (delta_lidar) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[Kunsigned int\x1b[m\x1b[K\n'}
+[5.146278] (delta_lidar) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[5.162440] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:179:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kstart_node\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[5.162686] (delta_lidar) StderrLine: {'line': b'  179 |                 int \x1b[01;35m\x1b[Kstart_node\x1b[m\x1b[K = 0, end_node = 359;\n'}
+[5.162923] (delta_lidar) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.163074] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:179:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kend_node\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[5.163214] (delta_lidar) StderrLine: {'line': b'  179 |                 int start_node = 0, \x1b[01;35m\x1b[Kend_node\x1b[m\x1b[K = 359;\n'}
+[5.163343] (delta_lidar) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.223899] (-) TimerEvent: {}
+[5.324383] (-) TimerEvent: {}
+[5.424710] (-) TimerEvent: {}
+[5.496258] (delta_lidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CTime.cpp:17\x1b[m\x1b[K:\n'}
+[5.496523] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CLogUtitls.h:95:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::string dateTimeLocalToString(const TTimeStamp&)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[5.496654] (delta_lidar) StderrLine: {'line': b'   95 | static std::string  \x1b[01;35m\x1b[KdateTimeLocalToString\x1b[m\x1b[K(const everest::hwdrivers::TTimeStamp &t)\n'}
+[5.496771] (delta_lidar) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.496880] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CLogUtitls.h:71:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::string renameFileExtension(std::string&, std::string)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[5.497008] (delta_lidar) StderrLine: {'line': b'   71 | static std::string \x1b[01;35m\x1b[KrenameFileExtension\x1b[m\x1b[K(std::string &file_path, std::string new_extension)\n'}
+[5.497119] (delta_lidar) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.497229] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CLogUtitls.h:59:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint64_t getFileSize(const string&)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[5.497346] (delta_lidar) StderrLine: {'line': b'   59 | static uint64_t \x1b[01;35m\x1b[KgetFileSize\x1b[m\x1b[K(const std::string &fileName)\n'}
+[5.497455] (delta_lidar) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.497590] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CLogUtitls.h:49:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool renameFile(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[5.497721] (delta_lidar) StderrLine: {'line': b'   49 | static bool \x1b[01;35m\x1b[KrenameFile\x1b[m\x1b[K( const std::string &oldFileName, const std::string &newFileName)\n'}
+[5.497845] (delta_lidar) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.524822] (-) TimerEvent: {}
+[5.625283] (-) TimerEvent: {}
+[5.725717] (-) TimerEvent: {}
+[5.826040] (-) TimerEvent: {}
+[5.926451] (-) TimerEvent: {}
+[6.026881] (-) TimerEvent: {}
+[6.127406] (-) TimerEvent: {}
+[6.227850] (-) TimerEvent: {}
+[6.331674] (-) TimerEvent: {}
+[6.431981] (-) TimerEvent: {}
+[6.532307] (-) TimerEvent: {}
+[6.632649] (-) TimerEvent: {}
+[6.732944] (-) TimerEvent: {}
+[6.833246] (-) TimerEvent: {}
+[6.933566] (-) TimerEvent: {}
+[7.033908] (-) TimerEvent: {}
+[7.134256] (-) TimerEvent: {}
+[7.232395] (delta_lidar) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable delta_lidar_node\x1b[0m\n'}
+[7.234356] (-) TimerEvent: {}
+[7.334700] (-) TimerEvent: {}
+[7.435093] (-) TimerEvent: {}
+[7.445355] (delta_lidar) StdoutLine: {'line': b'[ 92%] Built target delta_lidar_node\n'}
+[7.535207] (-) TimerEvent: {}
+[7.635525] (-) TimerEvent: {}
+[7.735861] (-) TimerEvent: {}
+[7.836180] (-) TimerEvent: {}
+[7.936515] (-) TimerEvent: {}
+[8.036862] (-) TimerEvent: {}
+[8.137185] (-) TimerEvent: {}
+[8.237510] (-) TimerEvent: {}
+[8.337826] (-) TimerEvent: {}
+[8.438136] (-) TimerEvent: {}
+[8.538458] (-) TimerEvent: {}
+[8.638738] (-) TimerEvent: {}
+[8.739082] (-) TimerEvent: {}
+[8.839425] (-) TimerEvent: {}
+[8.858980] (delta_lidar) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable delta_lidar_node_client\x1b[0m\n'}
+[8.939588] (-) TimerEvent: {}
+[9.039887] (-) TimerEvent: {}
+[9.109683] (delta_lidar) StdoutLine: {'line': b'[100%] Built target delta_lidar_node_client\n'}
+[9.120794] (delta_lidar) CommandEnded: {'returncode': 0}
+[9.140028] (-) TimerEvent: {}
+[9.162726] (delta_lidar) JobProgress: {'identifier': 'delta_lidar', 'progress': 'install'}
+[9.174876] (delta_lidar) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/incubus/mars_ros2/src/build/delta_lidar'], 'cwd': '/home/incubus/mars_ros2/src/build/delta_lidar', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'incubus'), ('LC_TIME', 'ru_RU.UTF-8'), ('SSH_AGENT_PID', '1759'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/incubus/mars_ros2/install/rplidar_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/incubus'), ('OLDPWD', '/home/incubus/mars_ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('MANAGERPID', '1580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/incubus/mars_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'incubus'), ('JOURNAL_STREAM', '8:47517'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'incubus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/incubus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ank:@/tmp/.ICE-unix/1797,unix/ank:/tmp/.ICE-unix/1797'), ('INVOCATION_ID', 'ac7c00aa125e4a53baf720b63812a78f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6a587c8d_6e5a_4e23_b5a0_5e8a7ade9b77'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1418'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/install/Webserver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/incubus/mars_ros2/src/build/delta_lidar'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/my_package/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/Webserver:/opt/ros/foxy')]), 'shell': False}
+[9.183831] (delta_lidar) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.184104] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/lib/delta_lidar/delta_lidar_node\n'}
+[9.185190] (delta_lidar) StdoutLine: {'line': b'-- Set runtime path of "/home/incubus/mars_ros2/src/install/delta_lidar/lib/delta_lidar/delta_lidar_node" to ""\n'}
+[9.185394] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/lib/delta_lidar/delta_lidar_node_client\n'}
+[9.186976] (delta_lidar) StdoutLine: {'line': b'-- Set runtime path of "/home/incubus/mars_ros2/src/install/delta_lidar/lib/delta_lidar/delta_lidar_node_client" to ""\n'}
+[9.187306] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/launch\n'}
+[9.187404] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/launch/view_delta_lidar.launch\n'}
+[9.187540] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/launch/delta_lidar.launch\n'}
+[9.187639] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/rviz\n'}
+[9.187764] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/rviz/delta_lidar.rviz\n'}
+[9.187874] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk\n'}
+[9.187995] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include\n'}
+[9.188092] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CCountDown.h\n'}
+[9.188184] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/C3iroboticsLidarProtocol.h\n'}
+[9.188276] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CArcTime.h\n'}
+[9.188387] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CSerialConnection.h\n'}
+[9.188480] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CTime.h\n'}
+[9.188585] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CLidarPacketReceiver.h\n'}
+[9.188699] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/typedef.h\n'}
+[9.188795] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CLidarUnpacket.h\n'}
+[9.189018] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/C3iroboticsLidar.h\n'}
+[9.189115] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CDeviceConnection.h\n'}
+[9.189211] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CLidarPacket.h\n'}
+[9.189308] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CSimulateSerial.h\n'}
+[9.189400] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CLogUtitls.h\n'}
+[9.189491] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src\n'}
+[9.189580] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/CSimulateSerial.cpp\n'}
+[9.189641] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/CLidarPacketReceiver.cpp\n'}
+[9.189710] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/CDeviceConnection.cpp\n'}
+[9.189799] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/C3iroboticsLidar.cpp\n'}
+[9.189860] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/CTime.cpp\n'}
+[9.189957] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/CArcTime.cpp\n'}
+[9.190020] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/CCountDown.cpp\n'}
+[9.190112] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/CLidarPacket.cpp\n'}
+[9.190194] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/CSerialConnection.cpp\n'}
+[9.190258] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/CLidarUnpacket.cpp\n'}
+[9.190349] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/ament_index/resource_index/package_run_dependencies/delta_lidar\n'}
+[9.190417] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/ament_index/resource_index/parent_prefix_path/delta_lidar\n'}
+[9.190511] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/environment/ament_prefix_path.sh\n'}
+[9.190604] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/environment/ament_prefix_path.dsv\n'}
+[9.190701] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/environment/path.sh\n'}
+[9.190766] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/environment/path.dsv\n'}
+[9.190858] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/local_setup.bash\n'}
+[9.190953] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/local_setup.sh\n'}
+[9.191042] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/local_setup.zsh\n'}
+[9.191105] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/local_setup.dsv\n'}
+[9.191192] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/package.dsv\n'}
+[9.191256] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/ament_index/resource_index/packages/delta_lidar\n'}
+[9.191344] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/cmake/delta_lidarConfig.cmake\n'}
+[9.191439] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/cmake/delta_lidarConfig-version.cmake\n'}
+[9.191540] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/package.xml\n'}
+[9.194971] (delta_lidar) CommandEnded: {'returncode': 0}
+[9.240927] (-) TimerEvent: {}
+[9.245509] (delta_lidar) JobEnded: {'identifier': 'delta_lidar', 'rc': 0}
+[9.246585] (-) EventReactorShutdown: {}

@@ -1,0 +1,378 @@
+[0.364s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.365s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f158f5a5370>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f158f5a5370>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f158f2e4e50>)
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.436s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/incubus/mars_ros2/src'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(Delta_2A_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(Delta_2A_ros) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(Delta_2A_ros) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(Delta_2A_ros) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(Delta_2A_ros) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(Delta_2A_ros) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(Delta_2A_ros) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(Delta_2A_ros) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(Delta_2A_ros) by extension 'ros'
+[0.463s] DEBUG:colcon.colcon_core.package_identification:Package 'Delta_2A_ros' with type 'ros.ament_cmake' and name 'delta_lidar'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(Manipul) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(Manipul) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(Manipul) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(Manipul) by extensions ['colcon_pkg']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(Manipul) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(Manipul) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(Manipul) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(Manipul) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(Manipul) by extension 'ros'
+[0.465s] DEBUG:colcon.colcon_core.package_identification:Package 'Manipul' with type 'ros.ament_python' and name 'Manipul'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(Webserver) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(Webserver) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(Webserver) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(Webserver) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(Webserver) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(Webserver) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(Webserver) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(Webserver) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(Webserver) by extension 'ros'
+[0.466s] DEBUG:colcon.colcon_core.package_identification:Package 'Webserver' with type 'ros.ament_python' and name 'Webserver'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(gamepad) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(gamepad) by extension 'ignore'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(gamepad) by extension 'ignore_ament_install'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(gamepad) by extensions ['colcon_pkg']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(gamepad) by extension 'colcon_pkg'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(gamepad) by extensions ['colcon_meta']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(gamepad) by extension 'colcon_meta'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(gamepad) by extensions ['ros']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(gamepad) by extension 'ros'
+[0.467s] DEBUG:colcon.colcon_core.package_identification:Package 'gamepad' with type 'ros.ament_python' and name 'gamepad'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard) by extension 'ignore_ament_install'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard) by extensions ['colcon_pkg']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard) by extension 'colcon_pkg'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard) by extensions ['colcon_meta']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard) by extension 'colcon_meta'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard) by extensions ['ros']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard) by extension 'ros'
+[0.468s] DEBUG:colcon.colcon_core.package_identification:Package 'keyboard' with type 'ros.ament_python' and name 'keyboard'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(stm) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(stm) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(stm) by extension 'ignore_ament_install'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(stm) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(stm) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(stm) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(stm) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(stm) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(stm) by extension 'ros'
+[0.470s] DEBUG:colcon.colcon_core.package_identification:Package 'stm' with type 'ros.ament_python' and name 'stm'
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.498s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/incubus/mars_ros2/src/install
+[0.499s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/incubus/mars_ros2/install
+[0.502s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'Manipul' build argument 'cmake_args' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'Manipul' build argument 'cmake_target' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'Manipul' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'Manipul' build argument 'cmake_clean_cache' from command line to 'False'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'Manipul' build argument 'cmake_clean_first' from command line to 'False'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'Manipul' build argument 'cmake_force_configure' from command line to 'False'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'Manipul' build argument 'ament_cmake_args' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'Manipul' build argument 'catkin_cmake_args' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'Manipul' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.597s] DEBUG:colcon.colcon_core.verb:Building package 'Manipul' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/incubus/mars_ros2/src/build/Manipul', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/incubus/mars_ros2/src/install/Manipul', 'merge_install': False, 'path': '/home/incubus/mars_ros2/src/Manipul', 'symlink_install': False, 'test_result_base': None}
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'Webserver' build argument 'cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'Webserver' build argument 'cmake_target' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'Webserver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'Webserver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'Webserver' build argument 'cmake_clean_first' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'Webserver' build argument 'cmake_force_configure' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'Webserver' build argument 'ament_cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'Webserver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'Webserver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.598s] DEBUG:colcon.colcon_core.verb:Building package 'Webserver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/incubus/mars_ros2/src/build/Webserver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/incubus/mars_ros2/src/install/Webserver', 'merge_install': False, 'path': '/home/incubus/mars_ros2/src/Webserver', 'symlink_install': False, 'test_result_base': None}
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'delta_lidar' build argument 'cmake_args' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'delta_lidar' build argument 'cmake_target' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'delta_lidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'delta_lidar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'delta_lidar' build argument 'cmake_clean_first' from command line to 'False'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'delta_lidar' build argument 'cmake_force_configure' from command line to 'False'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'delta_lidar' build argument 'ament_cmake_args' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'delta_lidar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'delta_lidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.600s] DEBUG:colcon.colcon_core.verb:Building package 'delta_lidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/incubus/mars_ros2/src/build/delta_lidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/incubus/mars_ros2/src/install/delta_lidar', 'merge_install': False, 'path': '/home/incubus/mars_ros2/src/Delta_2A_ros', 'symlink_install': False, 'test_result_base': None}
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'cmake_target' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'cmake_clean_cache' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'cmake_clean_first' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'cmake_force_configure' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'ament_cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'catkin_cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.601s] DEBUG:colcon.colcon_core.verb:Building package 'gamepad' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/incubus/mars_ros2/src/build/gamepad', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/incubus/mars_ros2/src/install/gamepad', 'merge_install': False, 'path': '/home/incubus/mars_ros2/src/gamepad', 'symlink_install': False, 'test_result_base': None}
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_args' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_target' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.602s] DEBUG:colcon.colcon_core.verb:Building package 'keyboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/incubus/mars_ros2/src/build/keyboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/incubus/mars_ros2/src/install/keyboard', 'merge_install': False, 'path': '/home/incubus/mars_ros2/src/keyboard', 'symlink_install': False, 'test_result_base': None}
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'stm' build argument 'cmake_args' from command line to 'None'
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'stm' build argument 'cmake_target' from command line to 'None'
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'stm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'stm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'stm' build argument 'cmake_clean_first' from command line to 'False'
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'stm' build argument 'cmake_force_configure' from command line to 'False'
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'stm' build argument 'ament_cmake_args' from command line to 'None'
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'stm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'stm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.603s] DEBUG:colcon.colcon_core.verb:Building package 'stm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/incubus/mars_ros2/src/build/stm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/incubus/mars_ros2/src/install/stm', 'merge_install': False, 'path': '/home/incubus/mars_ros2/src/stm', 'symlink_install': False, 'test_result_base': None}
+[0.604s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.606s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.606s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/incubus/mars_ros2/src/Manipul' with build type 'ament_python'
+[0.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('Manipul', 'ament_prefix_path')
+[0.611s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/Manipul/share/Manipul/hook/ament_prefix_path.ps1'
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/incubus/mars_ros2/src/install/Manipul/share/Manipul/hook/ament_prefix_path.dsv'
+[0.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/Manipul/share/Manipul/hook/ament_prefix_path.sh'
+[0.613s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.613s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.622s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/incubus/mars_ros2/src/Webserver' with build type 'ament_python'
+[0.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('Webserver', 'ament_prefix_path')
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/Webserver/share/Webserver/hook/ament_prefix_path.ps1'
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/incubus/mars_ros2/src/install/Webserver/share/Webserver/hook/ament_prefix_path.dsv'
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/Webserver/share/Webserver/hook/ament_prefix_path.sh'
+[0.626s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.626s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.633s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/incubus/mars_ros2/src/Delta_2A_ros' with build type 'ament_cmake'
+[0.634s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/incubus/mars_ros2/src/Delta_2A_ros'
+[0.635s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.636s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.647s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/incubus/mars_ros2/src/gamepad' with build type 'ament_python'
+[0.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('gamepad', 'ament_prefix_path')
+[0.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/hook/ament_prefix_path.ps1'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/hook/ament_prefix_path.dsv'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/hook/ament_prefix_path.sh'
+[0.652s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.652s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.720s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/incubus/mars_ros2/src/Manipul'
+[1.721s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.725s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/incubus/mars_ros2/src/Webserver'
+[2.726s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.727s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/incubus/mars_ros2/src/build/delta_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/incubus/mars_ros2/src/install/stm:/home/incubus/mars_ros2/src/install/keyboard:/home/incubus/mars_ros2/src/install/gamepad:/home/incubus/mars_ros2/src/install/Webserver:/home/incubus/mars_ros2/src/install/Manipul:/home/incubus/mars_ros2/install/stm:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/Webserver:/home/incubus/mars_ros2/install/Manipul:/opt/ros/foxy /usr/bin/cmake --build /home/incubus/mars_ros2/src/build/delta_lidar -- -j4 -l4
+[3.782s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/incubus/mars_ros2/src/gamepad'
+[3.783s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.783s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/incubus/mars_ros2/src/build/delta_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/incubus/mars_ros2/src/install/stm:/home/incubus/mars_ros2/src/install/keyboard:/home/incubus/mars_ros2/src/install/gamepad:/home/incubus/mars_ros2/src/install/Webserver:/home/incubus/mars_ros2/src/install/Manipul:/home/incubus/mars_ros2/install/stm:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/Webserver:/home/incubus/mars_ros2/install/Manipul:/opt/ros/foxy /usr/bin/cmake --build /home/incubus/mars_ros2/src/build/delta_lidar -- -j4 -l4
+[3.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/incubus/mars_ros2/src/build/delta_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/incubus/mars_ros2/src/install/stm:/home/incubus/mars_ros2/src/install/keyboard:/home/incubus/mars_ros2/src/install/gamepad:/home/incubus/mars_ros2/src/install/Webserver:/home/incubus/mars_ros2/src/install/Manipul:/home/incubus/mars_ros2/install/stm:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/Webserver:/home/incubus/mars_ros2/install/Manipul:/opt/ros/foxy /usr/bin/cmake --install /home/incubus/mars_ros2/src/build/delta_lidar
+[4.026s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(delta_lidar)
+[4.034s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/delta_lidar' for CMake module files
+[4.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/incubus/mars_ros2/src/build/delta_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/incubus/mars_ros2/src/install/stm:/home/incubus/mars_ros2/src/install/keyboard:/home/incubus/mars_ros2/src/install/gamepad:/home/incubus/mars_ros2/src/install/Webserver:/home/incubus/mars_ros2/src/install/Manipul:/home/incubus/mars_ros2/install/stm:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/Webserver:/home/incubus/mars_ros2/install/Manipul:/opt/ros/foxy /usr/bin/cmake --install /home/incubus/mars_ros2/src/build/delta_lidar
+[4.035s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/delta_lidar' for CMake config files
+[4.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('delta_lidar', 'cmake_prefix_path')
+[4.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/hook/cmake_prefix_path.ps1'
+[4.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/hook/cmake_prefix_path.dsv'
+[4.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/hook/cmake_prefix_path.sh'
+[4.039s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/delta_lidar/lib'
+[4.039s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/delta_lidar/bin'
+[4.039s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/delta_lidar/lib/pkgconfig/delta_lidar.pc'
+[4.040s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/delta_lidar/lib/python3.8/site-packages'
+[4.040s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/delta_lidar/bin'
+[4.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/package.ps1'
+[4.043s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/package.dsv'
+[4.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/package.sh'
+[4.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/package.bash'
+[4.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/package.zsh'
+[4.048s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/incubus/mars_ros2/src/install/delta_lidar/share/colcon-core/packages/delta_lidar)
+[4.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(delta_lidar)
+[4.206s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/delta_lidar' for CMake module files
+[4.214s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/delta_lidar' for CMake config files
+[4.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('delta_lidar', 'cmake_prefix_path')
+[4.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/hook/cmake_prefix_path.ps1'
+[4.224s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/hook/cmake_prefix_path.dsv'
+[4.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/hook/cmake_prefix_path.sh'
+[4.225s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/delta_lidar/lib'
+[4.226s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/delta_lidar/bin'
+[4.226s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/delta_lidar/lib/pkgconfig/delta_lidar.pc'
+[4.226s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/delta_lidar/lib/python3.8/site-packages'
+[4.226s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/delta_lidar/bin'
+[4.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/package.ps1'
+[4.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/package.dsv'
+[4.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/package.sh'
+[4.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/package.bash'
+[4.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/package.zsh'
+[4.232s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/incubus/mars_ros2/src/install/delta_lidar/share/colcon-core/packages/delta_lidar)
+[4.233s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/incubus/mars_ros2/src/keyboard' with build type 'ament_python'
+[4.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard', 'ament_prefix_path')
+[4.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/keyboard/share/keyboard/hook/ament_prefix_path.ps1'
+[4.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/incubus/mars_ros2/src/install/keyboard/share/keyboard/hook/ament_prefix_path.dsv'
+[4.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/keyboard/share/keyboard/hook/ament_prefix_path.sh'
+[4.247s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.247s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.389s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/incubus/mars_ros2/src/keyboard'
+[6.392s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.393s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/incubus/mars_ros2/src/Manipul': PYTHONPATH=/home/incubus/mars_ros2/src/install/Manipul/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/Manipul build --build-base /home/incubus/mars_ros2/src/build/Manipul/build install --prefix /home/incubus/mars_ros2/src/install/Manipul --record /home/incubus/mars_ros2/src/build/Manipul/install.log --single-version-externally-managed
+[6.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/incubus/mars_ros2/src/gamepad': PYTHONPATH=/home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/gamepad build --build-base /home/incubus/mars_ros2/src/build/gamepad/build install --prefix /home/incubus/mars_ros2/src/install/gamepad --record /home/incubus/mars_ros2/src/build/gamepad/install.log --single-version-externally-managed
+[6.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/incubus/mars_ros2/src/Webserver': PYTHONPATH=/home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/Webserver build --build-base /home/incubus/mars_ros2/src/build/Webserver/build install --prefix /home/incubus/mars_ros2/src/install/Webserver --record /home/incubus/mars_ros2/src/build/Webserver/install.log --single-version-externally-managed
+[9.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/incubus/mars_ros2/src/keyboard': PYTHONPATH=/home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/keyboard build --build-base /home/incubus/mars_ros2/src/build/keyboard/build install --prefix /home/incubus/mars_ros2/src/install/keyboard --record /home/incubus/mars_ros2/src/build/keyboard/install.log --single-version-externally-managed
+[11.977s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/gamepad' for CMake module files
+[11.978s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/gamepad' for CMake config files
+[11.979s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/gamepad/lib'
+[11.980s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/gamepad/bin'
+[11.980s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/gamepad/lib/pkgconfig/gamepad.pc'
+[11.986s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages'
+[11.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/incubus/mars_ros2/src/gamepad' returned '0': PYTHONPATH=/home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/gamepad build --build-base /home/incubus/mars_ros2/src/build/gamepad/build install --prefix /home/incubus/mars_ros2/src/install/gamepad --record /home/incubus/mars_ros2/src/build/gamepad/install.log --single-version-externally-managed
+[11.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('gamepad', 'pythonpath')
+[11.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/hook/pythonpath.ps1'
+[11.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/hook/pythonpath.dsv'
+[11.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/hook/pythonpath.sh'
+[11.997s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/gamepad/bin'
+[11.997s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gamepad)
+[12.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/package.ps1'
+[12.003s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/package.dsv'
+[12.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/package.sh'
+[12.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/package.bash'
+[12.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/package.zsh'
+[12.007s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/incubus/mars_ros2/src/install/gamepad/share/colcon-core/packages/gamepad)
+[12.009s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/incubus/mars_ros2/src/stm' with build type 'ament_python'
+[12.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('stm', 'ament_prefix_path')
+[12.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/stm/share/stm/hook/ament_prefix_path.ps1'
+[12.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/incubus/mars_ros2/src/install/stm/share/stm/hook/ament_prefix_path.dsv'
+[12.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/stm/share/stm/hook/ament_prefix_path.sh'
+[12.014s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.015s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.051s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/Webserver' for CMake module files
+[12.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/incubus/mars_ros2/src/Webserver' returned '0': PYTHONPATH=/home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/Webserver build --build-base /home/incubus/mars_ros2/src/build/Webserver/build install --prefix /home/incubus/mars_ros2/src/install/Webserver --record /home/incubus/mars_ros2/src/build/Webserver/install.log --single-version-externally-managed
+[12.052s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/Webserver' for CMake config files
+[12.053s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/Webserver/lib'
+[12.053s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/Webserver/bin'
+[12.053s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/Webserver/lib/pkgconfig/Webserver.pc'
+[12.054s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages'
+[12.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('Webserver', 'pythonpath')
+[12.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/Webserver/share/Webserver/hook/pythonpath.ps1'
+[12.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/incubus/mars_ros2/src/install/Webserver/share/Webserver/hook/pythonpath.dsv'
+[12.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/Webserver/share/Webserver/hook/pythonpath.sh'
+[12.057s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/Webserver/bin'
+[12.058s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Webserver)
+[12.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/Webserver/share/Webserver/package.ps1'
+[12.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/incubus/mars_ros2/src/install/Webserver/share/Webserver/package.dsv'
+[12.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/Webserver/share/Webserver/package.sh'
+[12.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/Webserver/share/Webserver/package.bash'
+[12.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/Webserver/share/Webserver/package.zsh'
+[12.061s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/incubus/mars_ros2/src/install/Webserver/share/colcon-core/packages/Webserver)
+[12.064s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/Manipul' for CMake module files
+[12.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/incubus/mars_ros2/src/Manipul' returned '0': PYTHONPATH=/home/incubus/mars_ros2/src/install/Manipul/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/Manipul build --build-base /home/incubus/mars_ros2/src/build/Manipul/build install --prefix /home/incubus/mars_ros2/src/install/Manipul --record /home/incubus/mars_ros2/src/build/Manipul/install.log --single-version-externally-managed
+[12.065s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/Manipul' for CMake config files
+[12.066s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/Manipul/lib'
+[12.066s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/Manipul/bin'
+[12.066s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/Manipul/lib/pkgconfig/Manipul.pc'
+[12.066s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/Manipul/lib/python3.8/site-packages'
+[12.066s] Level 1:colcon.colcon_core.shell:create_environment_hook('Manipul', 'pythonpath')
+[12.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/Manipul/share/Manipul/hook/pythonpath.ps1'
+[12.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/incubus/mars_ros2/src/install/Manipul/share/Manipul/hook/pythonpath.dsv'
+[12.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/Manipul/share/Manipul/hook/pythonpath.sh'
+[12.069s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/Manipul/bin'
+[12.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Manipul)
+[12.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/Manipul/share/Manipul/package.ps1'
+[12.070s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/incubus/mars_ros2/src/install/Manipul/share/Manipul/package.dsv'
+[12.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/Manipul/share/Manipul/package.sh'
+[12.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/Manipul/share/Manipul/package.bash'
+[12.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/Manipul/share/Manipul/package.zsh'
+[12.072s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/incubus/mars_ros2/src/install/Manipul/share/colcon-core/packages/Manipul)
+[13.744s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/incubus/mars_ros2/src/stm'
+[13.745s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.745s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.071s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/keyboard' for CMake module files
+[14.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/incubus/mars_ros2/src/keyboard' returned '0': PYTHONPATH=/home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/keyboard build --build-base /home/incubus/mars_ros2/src/build/keyboard/build install --prefix /home/incubus/mars_ros2/src/install/keyboard --record /home/incubus/mars_ros2/src/build/keyboard/install.log --single-version-externally-managed
+[14.072s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/keyboard' for CMake config files
+[14.073s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/keyboard/lib'
+[14.073s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/keyboard/bin'
+[14.073s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/keyboard/lib/pkgconfig/keyboard.pc'
+[14.074s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages'
+[14.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard', 'pythonpath')
+[14.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/keyboard/share/keyboard/hook/pythonpath.ps1'
+[14.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/incubus/mars_ros2/src/install/keyboard/share/keyboard/hook/pythonpath.dsv'
+[14.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/keyboard/share/keyboard/hook/pythonpath.sh'
+[14.079s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/keyboard/bin'
+[14.079s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard)
+[14.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/keyboard/share/keyboard/package.ps1'
+[14.081s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/incubus/mars_ros2/src/install/keyboard/share/keyboard/package.dsv'
+[14.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/keyboard/share/keyboard/package.sh'
+[14.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/keyboard/share/keyboard/package.bash'
+[14.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/keyboard/share/keyboard/package.zsh'
+[14.084s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/incubus/mars_ros2/src/install/keyboard/share/colcon-core/packages/keyboard)
+[15.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/incubus/mars_ros2/src/stm': PYTHONPATH=/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/stm build --build-base /home/incubus/mars_ros2/src/build/stm/build install --prefix /home/incubus/mars_ros2/src/install/stm --record /home/incubus/mars_ros2/src/build/stm/install.log --single-version-externally-managed
+[17.731s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/stm' for CMake module files
+[17.732s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/stm' for CMake config files
+[17.733s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/stm/lib'
+[17.733s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/stm/bin'
+[17.733s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/stm/lib/pkgconfig/stm.pc'
+[17.734s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages'
+[17.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('stm', 'pythonpath')
+[17.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/stm/share/stm/hook/pythonpath.ps1'
+[17.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/incubus/mars_ros2/src/install/stm/share/stm/hook/pythonpath.dsv'
+[17.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/stm/share/stm/hook/pythonpath.sh'
+[17.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/incubus/mars_ros2/src/stm' returned '0': PYTHONPATH=/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/stm build --build-base /home/incubus/mars_ros2/src/build/stm/build install --prefix /home/incubus/mars_ros2/src/install/stm --record /home/incubus/mars_ros2/src/build/stm/install.log --single-version-externally-managed
+[17.737s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/stm/bin'
+[17.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stm)
+[17.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/stm/share/stm/package.ps1'
+[17.739s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/incubus/mars_ros2/src/install/stm/share/stm/package.dsv'
+[17.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/stm/share/stm/package.sh'
+[17.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/stm/share/stm/package.bash'
+[17.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/stm/share/stm/package.zsh'
+[17.741s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/incubus/mars_ros2/src/install/stm/share/colcon-core/packages/stm)
+[17.742s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.744s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.745s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.745s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.754s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.754s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.754s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.773s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.774s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/incubus/mars_ros2/src/install/local_setup.ps1'
+[17.775s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/incubus/mars_ros2/src/install/_local_setup_util_ps1.py'
+[17.777s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/incubus/mars_ros2/src/install/setup.ps1'
+[17.780s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/incubus/mars_ros2/src/install/local_setup.sh'
+[17.781s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/incubus/mars_ros2/src/install/_local_setup_util_sh.py'
+[17.782s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/incubus/mars_ros2/src/install/setup.sh'
+[17.785s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/incubus/mars_ros2/src/install/local_setup.bash'
+[17.786s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/incubus/mars_ros2/src/install/setup.bash'
+[17.789s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/incubus/mars_ros2/src/install/local_setup.zsh'
+[17.790s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/incubus/mars_ros2/src/install/setup.zsh'

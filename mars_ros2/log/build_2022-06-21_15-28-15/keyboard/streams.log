@@ -1,0 +1,27 @@
+[3.656s] Invoking command in '/home/incubus/mars_ros2/src/keyboard': PYTHONPATH=/home/incubus/mars_ros2/install/keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/keyboard build --build-base /home/incubus/mars_ros2/build/keyboard/build install --prefix /home/incubus/mars_ros2/install/keyboard --record /home/incubus/mars_ros2/build/keyboard/install.log --single-version-externally-managed
+[4.215s] /home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.215s]   warnings.warn(
+[4.216s] /home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[4.216s]   warnings.warn(
+[5.466s] running egg_info
+[5.537s] writing ../../build/keyboard/keyboard.egg-info/PKG-INFO
+[5.596s] writing dependency_links to ../../build/keyboard/keyboard.egg-info/dependency_links.txt
+[5.769s] writing entry points to ../../build/keyboard/keyboard.egg-info/entry_points.txt
+[5.883s] writing requirements to ../../build/keyboard/keyboard.egg-info/requires.txt
+[5.939s] writing top-level names to ../../build/keyboard/keyboard.egg-info/top_level.txt
+[6.036s] reading manifest file '../../build/keyboard/keyboard.egg-info/SOURCES.txt'
+[6.037s] writing manifest file '../../build/keyboard/keyboard.egg-info/SOURCES.txt'
+[6.037s] running build
+[6.037s] running build_py
+[6.038s] running install
+[6.038s] /home/incubus/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.038s]   warnings.warn(
+[6.044s] running install_lib
+[6.117s] running install_data
+[6.131s] running install_egg_info
+[6.205s] removing '/home/incubus/mars_ros2/install/keyboard/lib/python3.8/site-packages/keyboard-0.0.0-py3.8.egg-info' (and everything under it)
+[6.205s] Copying ../../build/keyboard/keyboard.egg-info to /home/incubus/mars_ros2/install/keyboard/lib/python3.8/site-packages/keyboard-0.0.0-py3.8.egg-info
+[6.206s] running install_scripts
+[6.337s] Installing move script to /home/incubus/mars_ros2/install/keyboard/lib/keyboard
+[6.338s] writing list of installed files to '/home/incubus/mars_ros2/build/keyboard/install.log'
+[6.386s] Invoked command in '/home/incubus/mars_ros2/src/keyboard' returned '0': PYTHONPATH=/home/incubus/mars_ros2/install/keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/keyboard build --build-base /home/incubus/mars_ros2/build/keyboard/build install --prefix /home/incubus/mars_ros2/install/keyboard --record /home/incubus/mars_ros2/build/keyboard/install.log --single-version-externally-managed

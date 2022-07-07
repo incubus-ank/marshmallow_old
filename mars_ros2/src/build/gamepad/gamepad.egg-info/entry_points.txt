@@ -1,0 +1,2 @@
+[console_scripts]
+xbox = gamepad.xbox:main

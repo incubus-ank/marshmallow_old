@@ -1,0 +1,21 @@
+[1.431s] Invoking command in '/home/incubus/mars_ros2/src/stm': PYTHONPATH=/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/stm build --build-base /home/incubus/mars_ros2/src/build/stm/build install --prefix /home/incubus/mars_ros2/src/install/stm --record /home/incubus/mars_ros2/src/build/stm/install.log --single-version-externally-managed
+[1.811s] running egg_info
+[1.811s] writing ../build/stm/stm.egg-info/PKG-INFO
+[1.812s] writing dependency_links to ../build/stm/stm.egg-info/dependency_links.txt
+[1.812s] writing entry points to ../build/stm/stm.egg-info/entry_points.txt
+[1.812s] writing requirements to ../build/stm/stm.egg-info/requires.txt
+[1.812s] writing top-level names to ../build/stm/stm.egg-info/top_level.txt
+[1.869s] reading manifest file '../build/stm/stm.egg-info/SOURCES.txt'
+[1.870s] writing manifest file '../build/stm/stm.egg-info/SOURCES.txt'
+[1.870s] running build
+[1.870s] running build_py
+[1.871s] running install
+[1.872s] running install_lib
+[1.874s] running install_data
+[1.875s] running install_egg_info
+[1.877s] removing '/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages/stm-0.0.0-py3.8.egg-info' (and everything under it)
+[1.878s] Copying ../build/stm/stm.egg-info to /home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages/stm-0.0.0-py3.8.egg-info
+[1.879s] running install_scripts
+[1.902s] Installing ToStm script to /home/incubus/mars_ros2/src/install/stm/lib/stm
+[1.903s] writing list of installed files to '/home/incubus/mars_ros2/src/build/stm/install.log'
+[1.932s] Invoked command in '/home/incubus/mars_ros2/src/stm' returned '0': PYTHONPATH=/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/stm build --build-base /home/incubus/mars_ros2/src/build/stm/build install --prefix /home/incubus/mars_ros2/src/install/stm --record /home/incubus/mars_ros2/src/build/stm/install.log --single-version-externally-managed

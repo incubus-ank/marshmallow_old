@@ -1,0 +1,296 @@
+[0.013s] Invoking command in '/home/incubus/mars_ros2/build/delta_lidar': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/incubus/mars_ros2/src/Delta_2A_ros -DCMAKE_INSTALL_PREFIX=/home/incubus/mars_ros2/install/delta_lidar
+[0.029s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.051s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.242s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.279s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.400s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.452s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.453s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.601s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.723s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.788s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.790s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.791s] -- Configured cppcheck include dirs: /home/incubus/mars_ros2/src/Delta_2A_ros/src;/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include;/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src
+[0.791s] -- Configured cppcheck exclude dirs and/or files: 
+[0.792s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.792s] -- Configured cpplint exclude dirs and/or files: 
+[0.793s] -- Added test 'lint_cmake' to check CMake code style
+[0.794s] -- Added test 'uncrustify' to check C / C++ code style
+[0.795s] -- Configured uncrustify additional arguments: 
+[0.795s] -- Added test 'xmllint' to check XML markup files
+[0.798s] -- Configuring done
+[0.810s] -- Generating done
+[0.812s] -- Build files have been written to: /home/incubus/mars_ros2/build/delta_lidar
+[0.817s] Invoked command in '/home/incubus/mars_ros2/build/delta_lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/incubus/mars_ros2/src/Delta_2A_ros -DCMAKE_INSTALL_PREFIX=/home/incubus/mars_ros2/install/delta_lidar
+[0.821s] Invoking command in '/home/incubus/mars_ros2/build/delta_lidar': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/incubus/mars_ros2/build/delta_lidar -- -j4 -l4
+[0.860s] [35m[1mScanning dependencies of target delta_lidar_node_client[0m
+[0.860s] [35m[1mScanning dependencies of target delta_lidar_node[0m
+[0.899s] [  7%] [32mBuilding CXX object CMakeFiles/delta_lidar_node_client.dir/src/client.cpp.o[0m
+[0.903s] [ 14%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/src/node.cpp.o[0m
+[0.904s] [ 28%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/C3iroboticsLidar.cpp.o[0m
+[0.904s] [ 28%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CArcTime.cpp.o[0m
+[0.924s] In file included from [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CArcTime.cpp:16[m[K:
+[0.924s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CArcTime.h:[m[K In member function ‘[01m[Kvoid everest::hwdrivers::CArcTime::log(const char*) const[m[K’:
+[0.924s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CArcTime.h:251:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprefix[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.924s]   251 |           void log(const char *[01;35m[Kp[m[Krefix = NULL) const
+[0.924s]       |                                [01;35m[K^[m[K
+[0.955s] [ 35%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CCountDown.cpp.o[0m
+[1.357s] [ 42%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CDeviceConnection.cpp.o[0m
+[1.385s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/C3iroboticsLidar.cpp:[m[K In member function ‘[01m[Keverest::hwdrivers::TLidarGrabResult everest::hwdrivers::C3iroboticsLidar::combineScan(everest::hwdrivers::TToothScan&)[m[K’:
+[1.385s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/C3iroboticsLidar.cpp:212:67:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[1.385s]   212 |                 printf("[C3iroboticsLidar] grab scan is time out [01;35m[K%d[m[K ms! Reset grab scan state, current is %5.2f, last is %5.2f! \n",
+[1.385s]       |                                                                  [01;35m[K~^[m[K
+[1.385s]       |                                                                   [01;35m[K|[m[K
+[1.386s]       |                                                                   [01;35m[Kint[m[K
+[1.386s]       |                                                                  [32m[K%ld[m[K
+[1.386s]   213 |                           [32m[Km_params.scan_time_out_ms[m[K, tooth_scan.angle, m_last_scan_angle);
+[1.386s]       |                           [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                
+[1.386s]       |                                    [32m[K|[m[K
+[1.386s]       |                                    [32m[Ksize_t {aka long unsigned int}[m[K
+[1.386s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/C3iroboticsLidar.cpp:[m[K In member function ‘[01m[Keverest::hwdrivers::TLidarGrabResult everest::hwdrivers::C3iroboticsLidar::analysisHealthInfo(everest::hwdrivers::CLidarPacket&)[m[K’:
+[1.387s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/C3iroboticsLidar.cpp:353:51:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 2 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+[1.387s]   353 |     printf("[C3iroboticsLidar] Lidar error is [01;35m[K%5.5f[m[K!\n", [32m[Klidar_error[m[K );
+[1.387s]       |                                               [01;35m[K~~~~^[m[K      [32m[K~~~~~~~~~~~[m[K
+[1.387s]       |                                                   [01;35m[K|[m[K      [32m[K|[m[K
+[1.387s]       |                                                   [01;35m[Kdouble[m[K [32m[Kint[m[K
+[1.387s]       |                                               [32m[K%5.5d[m[K
+[1.843s] [ 50%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CLidarPacket.cpp.o[0m
+[1.846s] [ 57%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CLidarPacketReceiver.cpp.o[0m
+[2.206s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CLidarPacket.cpp:[m[K In static member function ‘[01m[Kstatic void everest::hwdrivers::CLidarPacket::bufferToData(void*, void*, size_t)[m[K’:
+[2.206s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CLidarPacket.cpp:255:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdest_ptr[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.206s]   255 | void CLidarPacket::bufferToData([01;35m[Kvoid *dest_ptr[m[K, void *src_ptr, size_t length)
+[2.206s]       |                                 [01;35m[K~~~~~~^~~~~~~~[m[K
+[2.206s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CLidarPacket.cpp:255:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksrc_ptr[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.206s]   255 | void CLidarPacket::bufferToData(void *dest_ptr, [01;35m[Kvoid *src_ptr[m[K, size_t length)
+[2.206s]       |                                                 [01;35m[K~~~~~~^~~~~~~[m[K
+[2.207s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CLidarPacket.cpp:255:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.207s]   255 | void CLidarPacket::bufferToData(void *dest_ptr, void *src_ptr, [01;35m[Ksize_t length[m[K)
+[2.207s]       |                                                                [01;35m[K~~~~~~~^~~~~~[m[K
+[2.355s] [ 64%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CLidarUnpacket.cpp.o[0m
+[2.398s] [ 71%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CSerialConnection.cpp.o[0m
+[2.670s] [ 78%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CSimulateSerial.cpp.o[0m
+[2.688s] In file included from [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:19[m[K:
+[2.688s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CArcTime.h:[m[K In member function ‘[01m[Kvoid everest::hwdrivers::CArcTime::log(const char*) const[m[K’:
+[2.688s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CArcTime.h:251:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprefix[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.689s]   251 |           void log(const char *[01;35m[Kp[m[Krefix = NULL) const
+[2.689s]       |                                [01;35m[K^[m[K
+[2.802s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:[m[K In member function ‘[01m[Kint everest::hwdrivers::CSerialConnection::internalOpen()[m[K’:
+[2.802s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:210:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktio[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.803s]   210 |  struct termios [01;35m[Ktio[m[K;
+[2.803s]       |                 [01;35m[K^~~[m[K
+[2.803s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:[m[K In member function ‘[01m[Kbool everest::hwdrivers::CSerialConnection::setBaud(int)[m[K’:
+[2.804s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:426:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktio[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.804s]   426 |  struct termios [01;35m[Ktio[m[K;
+[2.804s]       |                 [01;35m[K^~~[m[K
+[2.804s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:427:6:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbaud[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.804s]   427 |  int [01;35m[Kbaud[m[K;
+[2.804s]       |      [01;35m[K^~~~[m[K
+[2.805s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:[m[K In member function ‘[01m[Kvirtual int everest::hwdrivers::CSerialConnection::read(const char*, unsigned int, unsigned int)[m[K’:
+[2.805s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:672:14:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression >= 0 is always true [[01;35m[K-Wtype-limits[m[K]
+[2.806s]   672 |   if ([01;35m[KmsWait >= 0[m[K)
+[2.806s]       |       [01;35m[K~~~~~~~^~~~[m[K
+[3.039s] [ 85%] [32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/sdk/src/CTime.cpp.o[0m
+[3.100s] In file included from [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:19[m[K:
+[3.100s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CArcTime.h:[m[K In member function ‘[01m[Kvoid everest::hwdrivers::CArcTime::log(const char*) const[m[K’:
+[3.100s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CArcTime.h:251:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprefix[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.100s]   251 |           void log(const char *[01;35m[Kp[m[Krefix = NULL) const
+[3.100s]       |                                [01;35m[K^[m[K
+[3.108s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:[m[K In member function ‘[01m[Kbool everest::hwdrivers::CSimulateSerial::setBaud(int)[m[K’:
+[3.108s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:198:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.108s]   198 | bool CSimulateSerial::setBaud([01;35m[Kint rate[m[K)
+[3.108s]       |                               [01;35m[K~~~~^~~~[m[K
+[3.108s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:[m[K In member function ‘[01m[Kvirtual int everest::hwdrivers::CSimulateSerial::write(const char*, unsigned int)[m[K’:
+[3.109s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:225:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.109s]   225 | int CSimulateSerial::write([01;35m[Kconst char *data[m[K, unsigned int size)
+[3.109s]       |                            [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.109s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:225:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.109s]   225 | int CSimulateSerial::write(const char *data, [01;35m[Kunsigned int size[m[K)
+[3.109s]       |                                              [01;35m[K~~~~~~~~~~~~~^~~~[m[K
+[3.109s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:[m[K In member function ‘[01m[Kvirtual int everest::hwdrivers::CSimulateSerial::read(const char*, unsigned int, unsigned int)[m[K’:
+[3.110s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:241:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KmsWait[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.110s]   241 | int CSimulateSerial::read(const char *data, unsigned int size, [01;35m[Kunsigned int msWait[m[K)
+[3.110s]       |                                                                [01;35m[K~~~~~~~~~~~~~^~~~~~[m[K
+[3.114s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:[m[K In function ‘[01m[Kvoid scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.114s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:25:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdegree[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.114s]    25 |         float [01;35m[Kdegree[m[K = RAD2DEG(scan->angle_min + scan->angle_increment * i);
+[3.114s]       |               [01;35m[K^~~~~~[m[K
+[3.114s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.114s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:32:30:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst rclcpp::InitOptions&[m[K’ from expression of type ‘[01m[Kconst char [27][m[K’
+[3.114s]    32 |     rclcpp::init(argc, argv, [01;31m[K"delta_2b_lidar_node_client"[m[K);
+[3.114s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.115s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:36[m[K,
+[3.115s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[3.115s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[3.115s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[3.115s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[3.115s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[3.115s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[3.116s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[3.116s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[3.116s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[3.116s]                  from [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:12[m[K:
+[3.116s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:56:63:[m[K [01;36m[Knote: [m[Kin passing argument 3 of ‘[01m[Kvoid rclcpp::init(int, const char* const*, const rclcpp::InitOptions&)[m[K’
+[3.116s]    56 | init(int argc, char const * const argv[], [01;36m[Kconst InitOptions & init_options = InitOptions()[m[K);
+[3.117s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.117s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:33:13:[m[K [01;31m[Kerror: [m[K‘[01m[KNodeHandle[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[3.117s]    33 |     rclcpp::[01;31m[KNodeHandle[m[K n;
+[3.117s]       |             [01;31m[K^~~~~~~~~~[m[K
+[3.117s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:35:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriber[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[3.117s]    35 |     rclcpp::[01;31m[KSubscriber[m[K sub = n.subscribe<sensor_msgs::LaserScan>("/scan", 1000, scanCallback);
+[3.117s]       |             [01;31m[K^~~~~~~~~~[m[K
+[3.117s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:37:18:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin()[m[K’
+[3.117s]    37 |     rclcpp::spin([01;31m[K)[m[K;
+[3.118s]       |                  [01;31m[K^[m[K
+[3.118s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[3.118s]                  from [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:12[m[K:
+[3.118s] [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[3.118s]    45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[3.118s]       | [01;36m[K^~~~[m[K
+[3.118s] [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[3.118s] [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[3.119s]    49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[3.119s]       | [01;36m[K^~~~[m[K
+[3.119s] [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[3.256s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:50:19:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kpublish_scan[m[K’ declared void
+[3.256s]    50 | void publish_scan([01;31m[Kros[m[K::Publisher *pub,
+[3.257s]       |                   [01;31m[K^~~[m[K
+[3.257s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:50:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[3.259s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:50:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+[3.260s]    50 | void publish_scan(ros::Publisher *[01;31m[Kpub[m[K,
+[3.260s]       |                                   [01;31m[K^~~[m[K
+[3.260s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:51:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K*[m[K’ token
+[3.260s]    51 |                   _rslidar_data [01;31m[K*[m[Knodes,
+[3.261s]       |                                 [01;31m[K^[m[K
+[3.263s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:51:34:[m[K [01;31m[Kerror: [m[K‘[01m[Knodes[m[K’ was not declared in this scope
+[3.263s]    51 |                   _rslidar_data *[01;31m[Knodes[m[K,
+[3.263s]       |                                  [01;31m[K^~~~~[m[K
+[3.264s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:52:26:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Knode_count[m[K’
+[3.264s]    52 |                   size_t [01;31m[Knode_count[m[K, ros::Time start,
+[3.264s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[3.264s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:52:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[3.264s]    52 |                   size_t node_count, [01;31m[Kros[m[K::Time start,
+[3.265s]       |                                      [01;31m[K^~~[m[K
+[3.265s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:53:19:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[3.265s]    53 |                   [01;31m[Kdouble[m[K scan_time,
+[3.265s]       |                   [01;31m[K^~~~~~[m[K
+[3.266s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:54:19:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[3.266s]    54 |                   [01;31m[Kfloat[m[K angle_min, float angle_max,
+[3.266s]       |                   [01;31m[K^~~~~[m[K
+[3.266s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:54:36:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[3.267s]    54 |                   float angle_min, [01;31m[Kfloat[m[K angle_max,
+[3.267s]       |                                    [01;31m[K^~~~~[m[K
+[3.267s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:55:31:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kframe_id[m[K’
+[3.267s]    55 |                   std::string [01;31m[Kframe_id[m[K)
+[3.267s]       |                               [01;31m[K^~~~~~~~[m[K
+[3.268s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.268s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:99:30:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst rclcpp::InitOptions&[m[K’ from expression of type ‘[01m[Kconst char [20][m[K’
+[3.268s]    99 |     rclcpp::init(argc, argv, [01;31m[K"delta_2b_lidar_node"[m[K);
+[3.268s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.269s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:36[m[K,
+[3.269s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[3.269s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[3.269s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[3.270s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[3.270s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[3.270s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[3.270s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[3.271s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[3.271s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[3.271s]                  from [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:15[m[K:
+[3.271s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:56:63:[m[K [01;36m[Knote: [m[Kin passing argument 3 of ‘[01m[Kvoid rclcpp::init(int, const char* const*, const rclcpp::InitOptions&)[m[K’
+[3.271s]    56 | init(int argc, char const * const argv[], [01;36m[Kconst InitOptions & init_options = InitOptions()[m[K);
+[3.272s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.273s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:106:13:[m[K [01;31m[Kerror: [m[K‘[01m[KNodeHandle[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[3.273s]   106 |     rclcpp::[01;31m[KNodeHandle[m[K nh;
+[3.273s]       |             [01;31m[K^~~~~~~~~~[m[K
+[3.274s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:107:13:[m[K [01;31m[Kerror: [m[K‘[01m[KNodeHandle[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[3.275s]   107 |     rclcpp::[01;31m[KNodeHandle[m[K nh_private("~");
+[3.275s]       |             [01;31m[K^~~~~~~~~~[m[K
+[3.278s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:108:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_private[m[K’ was not declared in this scope
+[3.278s]   108 |     [01;31m[Knh_private[m[K.param<string>("serial_port", opt_com_path, "/dev/ttyUSB4");
+[3.279s]       |     [01;31m[K^~~~~~~~~~[m[K
+[3.279s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:108:28:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[3.279s]   108 |     nh_private.param<string[01;31m[K>[m[K("serial_port", opt_com_path, "/dev/ttyUSB4");
+[3.279s]       |                            [01;31m[K^[m[K
+[3.280s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:108:30:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[3.280s]   108 |     nh_private.param<string>([01;35m[K"serial_port"[m[K, opt_com_path, "/dev/ttyUSB4");
+[3.280s]       |                              [01;35m[K^~~~~~~~~~~~~[m[K
+[3.280s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:108:59:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[3.280s]   108 |     nh_private.param<string>("serial_port", opt_com_path, [01;35m[K"/dev/ttyUSB4"[m[K);
+[3.281s]       |                                                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.281s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:109:28:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[3.281s]   109 |     nh_private.param<string[01;31m[K>[m[K("frame_id", frame_id, "laser");
+[3.281s]       |                            [01;31m[K^[m[K
+[3.281s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:109:30:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[3.282s]   109 |     nh_private.param<string>([01;35m[K"frame_id"[m[K, frame_id, "laser");
+[3.282s]       |                              [01;35m[K^~~~~~~~~~[m[K
+[3.282s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:109:52:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[3.283s]   109 |     nh_private.param<string>("frame_id", frame_id, [01;35m[K"laser"[m[K);
+[3.284s]       |                                                    [01;35m[K^~~~~~~[m[K
+[3.284s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:112:23:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[Kscan_pub[m[K’
+[3.284s]   112 |     rclcpp::Publisher [01;31m[Kscan_pub[m[K = nh.advertise<sensor_msgs::msg::LaserScan>("scan", 1000);
+[3.285s]       |                       [01;31m[K^~~~~~~~[m[K
+[3.286s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:133:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[3.286s]   133 |     [01;31m[Kros[m[K::Time start_scan_time;
+[3.286s]       |     [01;31m[K^~~[m[K
+[3.287s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:134:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[3.287s]   134 |     [01;31m[Kros[m[K::Time end_scan_time;
+[3.287s]       |     [01;31m[K^~~[m[K
+[3.291s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:137:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_scan_time[m[K’ was not declared in this scope
+[3.291s]   137 |  [01;31m[Kstart_scan_time[m[K = rclcpp::Time::now();
+[3.292s]       |  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.292s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:137:34:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ is not a member of ‘[01m[Krclcpp::Time[m[K’
+[3.292s]   137 |  start_scan_time = rclcpp::Time::[01;31m[Know[m[K();
+[3.292s]       |                                  [01;31m[K^~~[m[K
+[3.301s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:166:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_scan_time[m[K’ was not declared in this scope
+[3.301s]   166 |     [01;31m[Kend_scan_time[m[K = rclcpp::Time::now();
+[3.301s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[3.301s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:166:35:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ is not a member of ‘[01m[Krclcpp::Time[m[K’
+[3.302s]   166 |     end_scan_time = rclcpp::Time::[01;31m[Know[m[K();
+[3.302s]       |                                   [01;31m[K^~~[m[K
+[3.302s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:168:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[3.302s]   168 |                 printf("Receive Lidar count [01;35m[K%u[m[K!\n", [32m[Klidar_scan_size[m[K);
+[3.303s]       |                                             [01;35m[K~^[m[K      [32m[K~~~~~~~~~~~~~~~[m[K
+[3.303s]       |                                              [01;35m[K|[m[K      [32m[K|[m[K
+[3.303s]       |                                              [01;35m[K|[m[K      [32m[Ksize_t {aka long unsigned int}[m[K
+[3.304s]       |                                              [01;35m[Kunsigned int[m[K
+[3.304s]       |                                             [32m[K%lu[m[K
+[3.307s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:172:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_pub[m[K’ was not declared in this scope
+[3.307s]   172 |                 publish_scan(&[01;31m[Kscan_pub[m[K, &send_lidar_scan_data[0], lidar_scan_size,
+[3.308s]       |                               [01;31m[K^~~~~~~~[m[K
+[3.311s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:172:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_scan[m[K’ was not declared in this scope
+[3.311s]   172 |                 [01;31m[Kpublish_scan[m[K(&scan_pub, &send_lidar_scan_data[0], lidar_scan_size,
+[3.311s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[3.311s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:171:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstart_node[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.311s]   171 |                 int [01;35m[Kstart_node[m[K = 0, end_node = 359;
+[3.311s]       |                     [01;35m[K^~~~~~~~~~[m[K
+[3.312s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:171:37:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kend_node[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.312s]   171 |                 int start_node = 0, [01;35m[Kend_node[m[K = 359;
+[3.312s]       |                                     [01;35m[K^~~~~~~~[m[K
+[3.313s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:191:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kusleep[m[K’ was not declared in this scope
+[3.313s]   191 |         [01;31m[Kusleep[m[K(50);
+[3.313s]       |         [01;31m[K^~~~~~[m[K
+[3.313s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:192:17:[m[K [01;31m[Kerror: [m[K‘[01m[KspinOnce[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[3.314s]   192 |         rclcpp::[01;31m[KspinOnce[m[K();
+[3.314s]       |                 [01;31m[K^~~~~~~~[m[K
+[3.437s] In file included from [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CTime.cpp:17[m[K:
+[3.437s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CLogUtitls.h:95:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::string dateTimeLocalToString(const TTimeStamp&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[3.437s]    95 | static std::string  [01;35m[KdateTimeLocalToString[m[K(const everest::hwdrivers::TTimeStamp &t)
+[3.437s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.437s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CLogUtitls.h:71:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::string renameFileExtension(std::string&, std::string)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[3.438s]    71 | static std::string [01;35m[KrenameFileExtension[m[K(std::string &file_path, std::string new_extension)
+[3.438s]       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.438s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CLogUtitls.h:59:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuint64_t getFileSize(const string&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[3.438s]    59 | static uint64_t [01;35m[KgetFileSize[m[K(const std::string &fileName)
+[3.438s]       |                 [01;35m[K^~~~~~~~~~~[m[K
+[3.438s] [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CLogUtitls.h:49:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool renameFile(const string&, const string&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[3.439s]    49 | static bool [01;35m[KrenameFile[m[K( const std::string &oldFileName, const std::string &newFileName)
+[3.439s]       |             [01;35m[K^~~~~~~~~~[m[K
+[3.645s] make[2]: *** [CMakeFiles/delta_lidar_node_client.dir/build.make:63: CMakeFiles/delta_lidar_node_client.dir/src/client.cpp.o] Error 1
+[3.645s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/delta_lidar_node_client.dir/all] Error 2
+[3.645s] make[1]: *** Waiting for unfinished jobs....
+[3.852s] make[2]: *** [CMakeFiles/delta_lidar_node.dir/build.make:63: CMakeFiles/delta_lidar_node.dir/src/node.cpp.o] Error 1
+[3.853s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/delta_lidar_node.dir/all] Error 2
+[3.853s] make: *** [Makefile:141: all] Error 2
+[3.855s] Invoked command in '/home/incubus/mars_ros2/build/delta_lidar' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/incubus/mars_ros2/build/delta_lidar -- -j4 -l4

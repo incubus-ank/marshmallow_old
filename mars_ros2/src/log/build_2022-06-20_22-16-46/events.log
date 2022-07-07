@@ -1,0 +1,378 @@
+[0.000000] (-) TimerEvent: {}
+[0.000406] (Manipul) JobQueued: {'identifier': 'Manipul', 'dependencies': OrderedDict()}
+[0.000762] (Webserver) JobQueued: {'identifier': 'Webserver', 'dependencies': OrderedDict()}
+[0.000971] (delta_lidar) JobQueued: {'identifier': 'delta_lidar', 'dependencies': OrderedDict()}
+[0.001317] (gamepad) JobQueued: {'identifier': 'gamepad', 'dependencies': OrderedDict()}
+[0.001383] (keyboard) JobQueued: {'identifier': 'keyboard', 'dependencies': OrderedDict()}
+[0.001525] (stm) JobQueued: {'identifier': 'stm', 'dependencies': OrderedDict()}
+[0.001582] (Manipul) JobStarted: {'identifier': 'Manipul'}
+[0.015718] (Webserver) JobStarted: {'identifier': 'Webserver'}
+[0.027215] (delta_lidar) JobStarted: {'identifier': 'delta_lidar'}
+[0.037728] (gamepad) JobStarted: {'identifier': 'gamepad'}
+[0.099843] (-) TimerEvent: {}
+[0.200363] (-) TimerEvent: {}
+[0.300691] (-) TimerEvent: {}
+[0.401000] (-) TimerEvent: {}
+[0.501353] (-) TimerEvent: {}
+[0.601697] (-) TimerEvent: {}
+[0.702053] (-) TimerEvent: {}
+[0.802352] (-) TimerEvent: {}
+[0.902643] (-) TimerEvent: {}
+[1.002930] (-) TimerEvent: {}
+[1.103281] (-) TimerEvent: {}
+[1.203711] (-) TimerEvent: {}
+[1.303986] (-) TimerEvent: {}
+[1.404294] (-) TimerEvent: {}
+[1.504582] (-) TimerEvent: {}
+[1.604895] (-) TimerEvent: {}
+[1.705177] (-) TimerEvent: {}
+[1.805463] (-) TimerEvent: {}
+[1.905752] (-) TimerEvent: {}
+[2.006050] (-) TimerEvent: {}
+[2.106408] (-) TimerEvent: {}
+[2.137246] (delta_lidar) JobProgress: {'identifier': 'delta_lidar', 'progress': 'cmake'}
+[2.138139] (delta_lidar) JobProgress: {'identifier': 'delta_lidar', 'progress': 'build'}
+[2.138969] (delta_lidar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/incubus/mars_ros2/src/build/delta_lidar', '--', '-j4', '-l4'], 'cwd': '/home/incubus/mars_ros2/src/build/delta_lidar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'incubus'), ('LC_TIME', 'ru_RU.UTF-8'), ('SSH_AGENT_PID', '2003'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/incubus/mars_ros2/install/rplidar_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/incubus'), ('OLDPWD', '/home/incubus/mars_ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('MANAGERPID', '1741'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/incubus/mars_ros2/src/install:/home/incubus/mars_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'incubus'), ('JOURNAL_STREAM', '8:82976'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'incubus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/incubus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ank:@/tmp/.ICE-unix/2079,unix/ank:/tmp/.ICE-unix/2079'), ('INVOCATION_ID', 'a37176e4cc4a4414995b533778046b7d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4a85a408_0fca_4d2e_b717_e692b37e7b06'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/incubus/mars_ros2/src/install/stm:/home/incubus/mars_ros2/src/install/keyboard:/home/incubus/mars_ros2/src/install/gamepad:/home/incubus/mars_ros2/src/install/delta_lidar:/home/incubus/mars_ros2/src/install/Webserver:/home/incubus/mars_ros2/src/install/Manipul:/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/stm:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/install/Webserver:/home/incubus/mars_ros2/install/Manipul:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/incubus/mars_ros2/src/build/delta_lidar'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/Manipul/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/stm/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/my_package/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Manipul/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/incubus/mars_ros2/src/install/delta_lidar:/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/src/install/stm:/home/incubus/mars_ros2/src/install/keyboard:/home/incubus/mars_ros2/src/install/gamepad:/home/incubus/mars_ros2/src/install/Webserver:/home/incubus/mars_ros2/src/install/Manipul:/home/incubus/mars_ros2/install/stm:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/Webserver:/home/incubus/mars_ros2/install/Manipul:/opt/ros/foxy')]), 'shell': False}
+[2.206584] (-) TimerEvent: {}
+[2.307210] (-) TimerEvent: {}
+[2.407607] (-) TimerEvent: {}
+[2.507961] (-) TimerEvent: {}
+[2.608377] (-) TimerEvent: {}
+[2.708665] (-) TimerEvent: {}
+[2.809039] (-) TimerEvent: {}
+[2.909378] (-) TimerEvent: {}
+[3.009715] (-) TimerEvent: {}
+[3.110045] (-) TimerEvent: {}
+[3.210375] (-) TimerEvent: {}
+[3.310662] (-) TimerEvent: {}
+[3.411678] (-) TimerEvent: {}
+[3.421270] (delta_lidar) StdoutLine: {'line': b'[ 85%] Built target delta_lidar_node\n'}
+[3.421986] (delta_lidar) StdoutLine: {'line': b'[100%] Built target delta_lidar_node_client\n'}
+[3.428314] (delta_lidar) CommandEnded: {'returncode': 0}
+[3.513296] (-) TimerEvent: {}
+[3.614246] (-) TimerEvent: {}
+[3.714682] (-) TimerEvent: {}
+[3.721177] (delta_lidar) JobProgress: {'identifier': 'delta_lidar', 'progress': 'install'}
+[3.749286] (delta_lidar) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/incubus/mars_ros2/src/build/delta_lidar'], 'cwd': '/home/incubus/mars_ros2/src/build/delta_lidar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'incubus'), ('LC_TIME', 'ru_RU.UTF-8'), ('SSH_AGENT_PID', '2003'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/incubus/mars_ros2/install/rplidar_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/incubus'), ('OLDPWD', '/home/incubus/mars_ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('MANAGERPID', '1741'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/incubus/mars_ros2/src/install:/home/incubus/mars_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'incubus'), ('JOURNAL_STREAM', '8:82976'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'incubus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/incubus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ank:@/tmp/.ICE-unix/2079,unix/ank:/tmp/.ICE-unix/2079'), ('INVOCATION_ID', 'a37176e4cc4a4414995b533778046b7d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4a85a408_0fca_4d2e_b717_e692b37e7b06'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/incubus/mars_ros2/src/install/stm:/home/incubus/mars_ros2/src/install/keyboard:/home/incubus/mars_ros2/src/install/gamepad:/home/incubus/mars_ros2/src/install/delta_lidar:/home/incubus/mars_ros2/src/install/Webserver:/home/incubus/mars_ros2/src/install/Manipul:/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/stm:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/install/Webserver:/home/incubus/mars_ros2/install/Manipul:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/incubus/mars_ros2/src/build/delta_lidar'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/Manipul/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/stm/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/my_package/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Manipul/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/incubus/mars_ros2/src/install/delta_lidar:/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/src/install/stm:/home/incubus/mars_ros2/src/install/keyboard:/home/incubus/mars_ros2/src/install/gamepad:/home/incubus/mars_ros2/src/install/Webserver:/home/incubus/mars_ros2/src/install/Manipul:/home/incubus/mars_ros2/install/stm:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/Webserver:/home/incubus/mars_ros2/install/Manipul:/opt/ros/foxy')]), 'shell': False}
+[3.782343] (delta_lidar) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.782832] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/lib/delta_lidar/delta_lidar_node\n'}
+[3.783595] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/lib/delta_lidar/delta_lidar_node_client\n'}
+[3.784306] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/launch\n'}
+[3.784549] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/launch/view_delta_lidar.launch\n'}
+[3.784686] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/launch/delta_lidar.launch\n'}
+[3.784858] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/rviz\n'}
+[3.784983] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/rviz/delta_lidar.rviz\n'}
+[3.785109] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk\n'}
+[3.785289] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include\n'}
+[3.785417] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CCountDown.h\n'}
+[3.785546] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/C3iroboticsLidarProtocol.h\n'}
+[3.785733] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CArcTime.h\n'}
+[3.785865] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CSerialConnection.h\n'}
+[3.785985] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CTime.h\n'}
+[3.786170] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CLidarPacketReceiver.h\n'}
+[3.786308] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/typedef.h\n'}
+[3.786435] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CLidarUnpacket.h\n'}
+[3.786566] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/C3iroboticsLidar.h\n'}
+[3.786701] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CDeviceConnection.h\n'}
+[3.786825] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CLidarPacket.h\n'}
+[3.787025] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CSimulateSerial.h\n'}
+[3.787179] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/include/CLogUtitls.h\n'}
+[3.787342] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src\n'}
+[3.787478] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/CSimulateSerial.cpp\n'}
+[3.787603] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/CLidarPacketReceiver.cpp\n'}
+[3.787728] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/CDeviceConnection.cpp\n'}
+[3.787857] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/C3iroboticsLidar.cpp\n'}
+[3.788062] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/CTime.cpp\n'}
+[3.788201] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/CArcTime.cpp\n'}
+[3.788569] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/CCountDown.cpp\n'}
+[3.788710] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/CLidarPacket.cpp\n'}
+[3.788851] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/CSerialConnection.cpp\n'}
+[3.789045] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/sdk/src/CLidarUnpacket.cpp\n'}
+[3.789182] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/ament_index/resource_index/package_run_dependencies/delta_lidar\n'}
+[3.789377] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/ament_index/resource_index/parent_prefix_path/delta_lidar\n'}
+[3.789498] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/environment/ament_prefix_path.sh\n'}
+[3.789688] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/environment/ament_prefix_path.dsv\n'}
+[3.789813] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/environment/path.sh\n'}
+[3.790005] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/environment/path.dsv\n'}
+[3.790136] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/local_setup.bash\n'}
+[3.790296] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/local_setup.sh\n'}
+[3.790559] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/local_setup.zsh\n'}
+[3.790782] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/local_setup.dsv\n'}
+[3.791015] (delta_lidar) StdoutLine: {'line': b'-- Installing: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/package.dsv\n'}
+[3.791673] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/ament_index/resource_index/packages/delta_lidar\n'}
+[3.791903] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/cmake/delta_lidarConfig.cmake\n'}
+[3.792104] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/cmake/delta_lidarConfig-version.cmake\n'}
+[3.792304] (delta_lidar) StdoutLine: {'line': b'-- Up-to-date: /home/incubus/mars_ros2/src/install/delta_lidar/share/delta_lidar/package.xml\n'}
+[3.799403] (delta_lidar) CommandEnded: {'returncode': 0}
+[3.814798] (-) TimerEvent: {}
+[3.915314] (-) TimerEvent: {}
+[3.958674] (delta_lidar) JobEnded: {'identifier': 'delta_lidar', 'rc': 0}
+[3.959759] (keyboard) JobStarted: {'identifier': 'keyboard'}
+[4.015492] (-) TimerEvent: {}
+[4.116239] (-) TimerEvent: {}
+[4.216639] (-) TimerEvent: {}
+[4.317037] (-) TimerEvent: {}
+[4.417470] (-) TimerEvent: {}
+[4.518121] (-) TimerEvent: {}
+[4.618578] (-) TimerEvent: {}
+[4.720788] (-) TimerEvent: {}
+[4.821200] (-) TimerEvent: {}
+[4.921612] (-) TimerEvent: {}
+[5.022055] (-) TimerEvent: {}
+[5.122984] (-) TimerEvent: {}
+[5.223426] (-) TimerEvent: {}
+[5.323817] (-) TimerEvent: {}
+[5.424237] (-) TimerEvent: {}
+[5.524658] (-) TimerEvent: {}
+[5.625048] (-) TimerEvent: {}
+[5.725450] (-) TimerEvent: {}
+[5.830155] (-) TimerEvent: {}
+[5.930741] (-) TimerEvent: {}
+[6.031199] (-) TimerEvent: {}
+[6.055256] (Webserver) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/Webserver', 'build', '--build-base', '/home/incubus/mars_ros2/src/build/Webserver/build', 'install', '--prefix', '/home/incubus/mars_ros2/src/install/Webserver', '--record', '/home/incubus/mars_ros2/src/build/Webserver/install.log', '--single-version-externally-managed'], 'cwd': '/home/incubus/mars_ros2/src/Webserver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'incubus', 'LC_TIME': 'ru_RU.UTF-8', 'SSH_AGENT_PID': '2003', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/incubus/mars_ros2/install/rplidar_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/incubus', 'OLDPWD': '/home/incubus/mars_ros2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'MANAGERPID': '1741', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/incubus/mars_ros2/src/install:/home/incubus/mars_ros2/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'incubus', 'JOURNAL_STREAM': '8:82976', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'incubus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/incubus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ank:@/tmp/.ICE-unix/2079,unix/ank:/tmp/.ICE-unix/2079', 'INVOCATION_ID': 'a37176e4cc4a4414995b533778046b7d', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4a85a408_0fca_4d2e_b717_e692b37e7b06', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.78', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/incubus/mars_ros2/src/install/stm:/home/incubus/mars_ros2/src/install/keyboard:/home/incubus/mars_ros2/src/install/gamepad:/home/incubus/mars_ros2/src/install/delta_lidar:/home/incubus/mars_ros2/src/install/Webserver:/home/incubus/mars_ros2/src/install/Manipul:/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/stm:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/install/Webserver:/home/incubus/mars_ros2/install/Manipul:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/incubus/mars_ros2/src/build/Webserver', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/Manipul/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/stm/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/my_package/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Manipul/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/incubus/mars_ros2/src/install/delta_lidar:/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/delta_lidar'}, 'shell': False}
+[6.131363] (-) TimerEvent: {}
+[6.231921] (-) TimerEvent: {}
+[6.332320] (-) TimerEvent: {}
+[6.348312] (gamepad) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/gamepad', 'build', '--build-base', '/home/incubus/mars_ros2/src/build/gamepad/build', 'install', '--prefix', '/home/incubus/mars_ros2/src/install/gamepad', '--record', '/home/incubus/mars_ros2/src/build/gamepad/install.log', '--single-version-externally-managed'], 'cwd': '/home/incubus/mars_ros2/src/gamepad', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'incubus', 'LC_TIME': 'ru_RU.UTF-8', 'SSH_AGENT_PID': '2003', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/incubus/mars_ros2/install/rplidar_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/incubus', 'OLDPWD': '/home/incubus/mars_ros2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'MANAGERPID': '1741', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/incubus/mars_ros2/src/install:/home/incubus/mars_ros2/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'incubus', 'JOURNAL_STREAM': '8:82976', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'incubus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/incubus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ank:@/tmp/.ICE-unix/2079,unix/ank:/tmp/.ICE-unix/2079', 'INVOCATION_ID': 'a37176e4cc4a4414995b533778046b7d', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4a85a408_0fca_4d2e_b717_e692b37e7b06', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.78', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/incubus/mars_ros2/src/install/stm:/home/incubus/mars_ros2/src/install/keyboard:/home/incubus/mars_ros2/src/install/gamepad:/home/incubus/mars_ros2/src/install/delta_lidar:/home/incubus/mars_ros2/src/install/Webserver:/home/incubus/mars_ros2/src/install/Manipul:/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/stm:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/install/Webserver:/home/incubus/mars_ros2/install/Manipul:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/incubus/mars_ros2/src/build/gamepad', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/Manipul/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/stm/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/my_package/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Manipul/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/incubus/mars_ros2/src/install/delta_lidar:/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/delta_lidar'}, 'shell': False}
+[6.372510] (Manipul) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/Manipul', 'build', '--build-base', '/home/incubus/mars_ros2/src/build/Manipul/build', 'install', '--prefix', '/home/incubus/mars_ros2/src/install/Manipul', '--record', '/home/incubus/mars_ros2/src/build/Manipul/install.log', '--single-version-externally-managed'], 'cwd': '/home/incubus/mars_ros2/src/Manipul', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'incubus', 'LC_TIME': 'ru_RU.UTF-8', 'SSH_AGENT_PID': '2003', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/incubus/mars_ros2/install/rplidar_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/incubus', 'OLDPWD': '/home/incubus/mars_ros2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'MANAGERPID': '1741', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/incubus/mars_ros2/src/install:/home/incubus/mars_ros2/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'incubus', 'JOURNAL_STREAM': '8:82976', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'incubus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/incubus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ank:@/tmp/.ICE-unix/2079,unix/ank:/tmp/.ICE-unix/2079', 'INVOCATION_ID': 'a37176e4cc4a4414995b533778046b7d', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4a85a408_0fca_4d2e_b717_e692b37e7b06', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.78', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/incubus/mars_ros2/src/install/stm:/home/incubus/mars_ros2/src/install/keyboard:/home/incubus/mars_ros2/src/install/gamepad:/home/incubus/mars_ros2/src/install/delta_lidar:/home/incubus/mars_ros2/src/install/Webserver:/home/incubus/mars_ros2/src/install/Manipul:/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/stm:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/install/Webserver:/home/incubus/mars_ros2/install/Manipul:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/incubus/mars_ros2/src/build/Manipul', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/incubus/mars_ros2/src/install/Manipul/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/Manipul/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/stm/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/my_package/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Manipul/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/incubus/mars_ros2/src/install/delta_lidar:/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/delta_lidar'}, 'shell': False}
+[6.432436] (-) TimerEvent: {}
+[6.532915] (-) TimerEvent: {}
+[6.633273] (-) TimerEvent: {}
+[6.733643] (-) TimerEvent: {}
+[6.760279] (Webserver) StderrLine: {'line': b"/home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[6.760769] (Webserver) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.761079] (Webserver) StderrLine: {'line': b"/home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[6.761387] (Webserver) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.833736] (-) TimerEvent: {}
+[6.934189] (-) TimerEvent: {}
+[7.034634] (-) TimerEvent: {}
+[7.049780] (gamepad) StderrLine: {'line': b"/home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[7.050221] (gamepad) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.050588] (gamepad) StderrLine: {'line': b"/home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[7.050885] (gamepad) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.134725] (-) TimerEvent: {}
+[7.157717] (Manipul) StderrLine: {'line': b"/home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[7.158205] (Manipul) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.158495] (Manipul) StderrLine: {'line': b"/home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[7.158756] (Manipul) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.234817] (-) TimerEvent: {}
+[7.335273] (-) TimerEvent: {}
+[7.435743] (-) TimerEvent: {}
+[7.536218] (-) TimerEvent: {}
+[7.636686] (-) TimerEvent: {}
+[7.737402] (-) TimerEvent: {}
+[7.837873] (-) TimerEvent: {}
+[7.938270] (-) TimerEvent: {}
+[8.038690] (-) TimerEvent: {}
+[8.139167] (-) TimerEvent: {}
+[8.239729] (-) TimerEvent: {}
+[8.340191] (-) TimerEvent: {}
+[8.440722] (-) TimerEvent: {}
+[8.461449] (Webserver) StdoutLine: {'line': b'running egg_info\n'}
+[8.540837] (-) TimerEvent: {}
+[8.636577] (Webserver) StdoutLine: {'line': b'writing ../build/Webserver/Webserver.egg-info/PKG-INFO\n'}
+[8.640930] (-) TimerEvent: {}
+[8.741450] (-) TimerEvent: {}
+[8.775793] (Webserver) StdoutLine: {'line': b'writing dependency_links to ../build/Webserver/Webserver.egg-info/dependency_links.txt\n'}
+[8.817230] (keyboard) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/keyboard', 'build', '--build-base', '/home/incubus/mars_ros2/src/build/keyboard/build', 'install', '--prefix', '/home/incubus/mars_ros2/src/install/keyboard', '--record', '/home/incubus/mars_ros2/src/build/keyboard/install.log', '--single-version-externally-managed'], 'cwd': '/home/incubus/mars_ros2/src/keyboard', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'incubus', 'LC_TIME': 'ru_RU.UTF-8', 'SSH_AGENT_PID': '2003', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/incubus/mars_ros2/install/rplidar_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/incubus', 'OLDPWD': '/home/incubus/mars_ros2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'MANAGERPID': '1741', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/incubus/mars_ros2/src/install:/home/incubus/mars_ros2/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'incubus', 'JOURNAL_STREAM': '8:82976', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'incubus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/incubus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ank:@/tmp/.ICE-unix/2079,unix/ank:/tmp/.ICE-unix/2079', 'INVOCATION_ID': 'a37176e4cc4a4414995b533778046b7d', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4a85a408_0fca_4d2e_b717_e692b37e7b06', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.78', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/incubus/mars_ros2/src/install/stm:/home/incubus/mars_ros2/src/install/keyboard:/home/incubus/mars_ros2/src/install/gamepad:/home/incubus/mars_ros2/src/install/delta_lidar:/home/incubus/mars_ros2/src/install/Webserver:/home/incubus/mars_ros2/src/install/Manipul:/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/stm:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/install/Webserver:/home/incubus/mars_ros2/install/Manipul:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/incubus/mars_ros2/src/build/keyboard', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/Manipul/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/stm/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/my_package/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Manipul/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/incubus/mars_ros2/src/install/delta_lidar:/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/delta_lidar'}, 'shell': False}
+[8.841587] (-) TimerEvent: {}
+[8.942202] (-) TimerEvent: {}
+[8.961528] (Manipul) StdoutLine: {'line': b'running egg_info\n'}
+[8.988695] (gamepad) StdoutLine: {'line': b'running egg_info\n'}
+[9.042292] (-) TimerEvent: {}
+[9.120023] (Manipul) StdoutLine: {'line': b'writing ../build/Manipul/Manipul.egg-info/PKG-INFO\n'}
+[9.142387] (-) TimerEvent: {}
+[9.153644] (gamepad) StdoutLine: {'line': b'writing ../build/gamepad/gamepad.egg-info/PKG-INFO\n'}
+[9.195219] (Webserver) StdoutLine: {'line': b'writing entry points to ../build/Webserver/Webserver.egg-info/entry_points.txt\n'}
+[9.242479] (-) TimerEvent: {}
+[9.266185] (Manipul) StdoutLine: {'line': b'writing dependency_links to ../build/Manipul/Manipul.egg-info/dependency_links.txt\n'}
+[9.292463] (gamepad) StdoutLine: {'line': b'writing dependency_links to ../build/gamepad/gamepad.egg-info/dependency_links.txt\n'}
+[9.342575] (-) TimerEvent: {}
+[9.444255] (-) TimerEvent: {}
+[9.547757] (-) TimerEvent: {}
+[9.559700] (Webserver) StdoutLine: {'line': b'writing requirements to ../build/Webserver/Webserver.egg-info/requires.txt\n'}
+[9.654140] (-) TimerEvent: {}
+[9.711983] (keyboard) StderrLine: {'line': b"/home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[9.712422] (keyboard) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.715869] (keyboard) StderrLine: {'line': b"/home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[9.716452] (keyboard) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.754234] (-) TimerEvent: {}
+[9.784012] (Manipul) StdoutLine: {'line': b'writing entry points to ../build/Manipul/Manipul.egg-info/entry_points.txt\n'}
+[9.796503] (Webserver) StdoutLine: {'line': b'writing top-level names to ../build/Webserver/Webserver.egg-info/top_level.txt\n'}
+[9.816845] (gamepad) StdoutLine: {'line': b'writing entry points to ../build/gamepad/gamepad.egg-info/entry_points.txt\n'}
+[9.854329] (-) TimerEvent: {}
+[9.957604] (-) TimerEvent: {}
+[10.058004] (-) TimerEvent: {}
+[10.109315] (Manipul) StdoutLine: {'line': b'writing requirements to ../build/Manipul/Manipul.egg-info/requires.txt\n'}
+[10.158128] (-) TimerEvent: {}
+[10.205179] (Webserver) StdoutLine: {'line': b"reading manifest file '../build/Webserver/Webserver.egg-info/SOURCES.txt'\n"}
+[10.208823] (Webserver) StdoutLine: {'line': b"writing manifest file '../build/Webserver/Webserver.egg-info/SOURCES.txt'\n"}
+[10.208987] (Webserver) StdoutLine: {'line': b'running build\n'}
+[10.209110] (Webserver) StdoutLine: {'line': b'running build_py\n'}
+[10.209229] (Webserver) StdoutLine: {'line': b'running install\n'}
+[10.209364] (Webserver) StderrLine: {'line': b'/home/incubus/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.209497] (Webserver) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.228396] (gamepad) StdoutLine: {'line': b'writing requirements to ../build/gamepad/gamepad.egg-info/requires.txt\n'}
+[10.232215] (Webserver) StdoutLine: {'line': b'running install_lib\n'}
+[10.258205] (-) TimerEvent: {}
+[10.273067] (Manipul) StdoutLine: {'line': b'writing top-level names to ../build/Manipul/Manipul.egg-info/top_level.txt\n'}
+[10.358360] (-) TimerEvent: {}
+[10.453438] (gamepad) StdoutLine: {'line': b'writing top-level names to ../build/gamepad/gamepad.egg-info/top_level.txt\n'}
+[10.456694] (Webserver) StdoutLine: {'line': b'running install_data\n'}
+[10.459909] (-) TimerEvent: {}
+[10.483951] (Webserver) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.546202] (Manipul) StdoutLine: {'line': b"reading manifest file '../build/Manipul/Manipul.egg-info/SOURCES.txt'\n"}
+[10.547942] (Manipul) StdoutLine: {'line': b"writing manifest file '../build/Manipul/Manipul.egg-info/SOURCES.txt'\n"}
+[10.548476] (Manipul) StdoutLine: {'line': b'running build\n'}
+[10.549212] (Manipul) StdoutLine: {'line': b'running build_py\n'}
+[10.550105] (Manipul) StdoutLine: {'line': b'running install\n'}
+[10.550616] (Manipul) StderrLine: {'line': b'/home/incubus/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.550763] (Manipul) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.559994] (-) TimerEvent: {}
+[10.582168] (Manipul) StdoutLine: {'line': b'running install_lib\n'}
+[10.660104] (-) TimerEvent: {}
+[10.718449] (Webserver) StdoutLine: {'line': b"removing '/home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages/Webserver-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[10.718876] (Webserver) StdoutLine: {'line': b'Copying ../build/Webserver/Webserver.egg-info to /home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages/Webserver-0.0.0-py3.8.egg-info\n'}
+[10.720397] (Webserver) StdoutLine: {'line': b'running install_scripts\n'}
+[10.760994] (-) TimerEvent: {}
+[10.850666] (Manipul) StdoutLine: {'line': b'running install_data\n'}
+[10.861127] (-) TimerEvent: {}
+[10.862604] (gamepad) StdoutLine: {'line': b"reading manifest file '../build/gamepad/gamepad.egg-info/SOURCES.txt'\n"}
+[10.866181] (gamepad) StdoutLine: {'line': b"writing manifest file '../build/gamepad/gamepad.egg-info/SOURCES.txt'\n"}
+[10.866660] (gamepad) StdoutLine: {'line': b'running build\n'}
+[10.866842] (gamepad) StdoutLine: {'line': b'running build_py\n'}
+[10.867165] (gamepad) StdoutLine: {'line': b'copying gamepad/xbox.py -> /home/incubus/mars_ros2/src/build/gamepad/build/lib/gamepad\n'}
+[10.867705] (gamepad) StdoutLine: {'line': b'running install\n'}
+[10.868044] (gamepad) StderrLine: {'line': b'/home/incubus/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.868206] (gamepad) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.884870] (gamepad) StdoutLine: {'line': b'running install_lib\n'}
+[10.897117] (Manipul) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.962179] (-) TimerEvent: {}
+[11.062590] (-) TimerEvent: {}
+[11.141355] (Manipul) StdoutLine: {'line': b"removing '/home/incubus/mars_ros2/src/install/Manipul/lib/python3.8/site-packages/Manipul-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[11.141736] (Manipul) StdoutLine: {'line': b'Copying ../build/Manipul/Manipul.egg-info to /home/incubus/mars_ros2/src/install/Manipul/lib/python3.8/site-packages/Manipul-0.0.0-py3.8.egg-info\n'}
+[11.142030] (Webserver) StdoutLine: {'line': b'Installing Flask script to /home/incubus/mars_ros2/src/install/Webserver/lib/Webserver\n'}
+[11.142921] (Manipul) StdoutLine: {'line': b'running install_scripts\n'}
+[11.143559] (Webserver) StdoutLine: {'line': b"writing list of installed files to '/home/incubus/mars_ros2/src/build/Webserver/install.log'\n"}
+[11.151492] (gamepad) StdoutLine: {'line': b'copying /home/incubus/mars_ros2/src/build/gamepad/build/lib/gamepad/xbox.py -> /home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages/gamepad\n'}
+[11.152467] (gamepad) StdoutLine: {'line': b'byte-compiling /home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages/gamepad/xbox.py to xbox.cpython-38.pyc\n'}
+[11.153605] (gamepad) StdoutLine: {'line': b'running install_data\n'}
+[11.162682] (-) TimerEvent: {}
+[11.182847] (gamepad) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.254655] (Webserver) CommandEnded: {'returncode': 0}
+[11.266653] (-) TimerEvent: {}
+[11.274053] (Webserver) JobEnded: {'identifier': 'Webserver', 'rc': 0}
+[11.275493] (stm) JobStarted: {'identifier': 'stm'}
+[11.366833] (-) TimerEvent: {}
+[11.386459] (gamepad) StdoutLine: {'line': b"removing '/home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages/gamepad-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[11.387796] (gamepad) StdoutLine: {'line': b'Copying ../build/gamepad/gamepad.egg-info to /home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages/gamepad-0.0.0-py3.8.egg-info\n'}
+[11.389568] (gamepad) StdoutLine: {'line': b'running install_scripts\n'}
+[11.474136] (-) TimerEvent: {}
+[11.574554] (-) TimerEvent: {}
+[11.583528] (Manipul) StdoutLine: {'line': b'Installing ToServo script to /home/incubus/mars_ros2/src/install/Manipul/lib/Manipul\n'}
+[11.584367] (Manipul) StdoutLine: {'line': b"writing list of installed files to '/home/incubus/mars_ros2/src/build/Manipul/install.log'\n"}
+[11.674651] (-) TimerEvent: {}
+[11.679431] (gamepad) StdoutLine: {'line': b'Installing xbox script to /home/incubus/mars_ros2/src/install/gamepad/lib/gamepad\n'}
+[11.680567] (gamepad) StdoutLine: {'line': b"writing list of installed files to '/home/incubus/mars_ros2/src/build/gamepad/install.log'\n"}
+[11.774752] (-) TimerEvent: {}
+[11.846455] (keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[11.874851] (-) TimerEvent: {}
+[11.950220] (keyboard) StdoutLine: {'line': b'writing ../build/keyboard/keyboard.egg-info/PKG-INFO\n'}
+[11.974954] (-) TimerEvent: {}
+[12.025179] (keyboard) StdoutLine: {'line': b'writing dependency_links to ../build/keyboard/keyboard.egg-info/dependency_links.txt\n'}
+[12.075050] (-) TimerEvent: {}
+[12.175416] (-) TimerEvent: {}
+[12.261815] (keyboard) StdoutLine: {'line': b'writing entry points to ../build/keyboard/keyboard.egg-info/entry_points.txt\n'}
+[12.275498] (-) TimerEvent: {}
+[12.375834] (-) TimerEvent: {}
+[12.408699] (keyboard) StdoutLine: {'line': b'writing requirements to ../build/keyboard/keyboard.egg-info/requires.txt\n'}
+[12.475937] (-) TimerEvent: {}
+[12.485254] (keyboard) StdoutLine: {'line': b'writing top-level names to ../build/keyboard/keyboard.egg-info/top_level.txt\n'}
+[12.580164] (-) TimerEvent: {}
+[12.625119] (keyboard) StdoutLine: {'line': b"reading manifest file '../build/keyboard/keyboard.egg-info/SOURCES.txt'\n"}
+[12.626867] (keyboard) StdoutLine: {'line': b"writing manifest file '../build/keyboard/keyboard.egg-info/SOURCES.txt'\n"}
+[12.627294] (keyboard) StdoutLine: {'line': b'running build\n'}
+[12.627497] (keyboard) StdoutLine: {'line': b'running build_py\n'}
+[12.627706] (keyboard) StdoutLine: {'line': b'running install\n'}
+[12.627922] (keyboard) StderrLine: {'line': b'/home/incubus/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[12.628087] (keyboard) StderrLine: {'line': b'  warnings.warn(\n'}
+[12.635097] (keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[12.663073] (gamepad) CommandEnded: {'returncode': 0}
+[12.672516] (gamepad) JobEnded: {'identifier': 'gamepad', 'rc': 0}
+[12.673612] (Manipul) CommandEnded: {'returncode': 0}
+[12.679931] (Manipul) JobEnded: {'identifier': 'Manipul', 'rc': 0}
+[12.686475] (-) TimerEvent: {}
+[12.745498] (keyboard) StdoutLine: {'line': b'running install_data\n'}
+[12.760964] (keyboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.787467] (-) TimerEvent: {}
+[12.857684] (keyboard) StdoutLine: {'line': b"removing '/home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages/keyboard-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[12.858040] (keyboard) StdoutLine: {'line': b'Copying ../build/keyboard/keyboard.egg-info to /home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages/keyboard-0.0.0-py3.8.egg-info\n'}
+[12.859070] (keyboard) StdoutLine: {'line': b'running install_scripts\n'}
+[12.887567] (-) TimerEvent: {}
+[12.987874] (-) TimerEvent: {}
+[13.020307] (keyboard) StdoutLine: {'line': b'Installing move script to /home/incubus/mars_ros2/src/install/keyboard/lib/keyboard\n'}
+[13.020860] (keyboard) StdoutLine: {'line': b"writing list of installed files to '/home/incubus/mars_ros2/src/build/keyboard/install.log'\n"}
+[13.087979] (-) TimerEvent: {}
+[13.092358] (keyboard) CommandEnded: {'returncode': 0}
+[13.103445] (keyboard) JobEnded: {'identifier': 'keyboard', 'rc': 0}
+[13.188067] (-) TimerEvent: {}
+[13.288323] (-) TimerEvent: {}
+[13.388661] (-) TimerEvent: {}
+[13.488914] (-) TimerEvent: {}
+[13.589183] (-) TimerEvent: {}
+[13.689471] (-) TimerEvent: {}
+[13.789784] (-) TimerEvent: {}
+[13.890103] (-) TimerEvent: {}
+[13.990395] (-) TimerEvent: {}
+[14.087442] (stm) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/stm', 'build', '--build-base', '/home/incubus/mars_ros2/src/build/stm/build', 'install', '--prefix', '/home/incubus/mars_ros2/src/install/stm', '--record', '/home/incubus/mars_ros2/src/build/stm/install.log', '--single-version-externally-managed'], 'cwd': '/home/incubus/mars_ros2/src/stm', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'incubus', 'LC_TIME': 'ru_RU.UTF-8', 'SSH_AGENT_PID': '2003', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/incubus/mars_ros2/install/rplidar_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/incubus', 'OLDPWD': '/home/incubus/mars_ros2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'MANAGERPID': '1741', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/incubus/mars_ros2/src/install:/home/incubus/mars_ros2/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'incubus', 'JOURNAL_STREAM': '8:82976', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'incubus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/incubus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ank:@/tmp/.ICE-unix/2079,unix/ank:/tmp/.ICE-unix/2079', 'INVOCATION_ID': 'a37176e4cc4a4414995b533778046b7d', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4a85a408_0fca_4d2e_b717_e692b37e7b06', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.78', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/incubus/mars_ros2/src/install/stm:/home/incubus/mars_ros2/src/install/keyboard:/home/incubus/mars_ros2/src/install/gamepad:/home/incubus/mars_ros2/src/install/delta_lidar:/home/incubus/mars_ros2/src/install/Webserver:/home/incubus/mars_ros2/src/install/Manipul:/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/stm:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/py_pubsub:/home/incubus/mars_ros2/install/my_package:/home/incubus/mars_ros2/install/keyboard:/home/incubus/mars_ros2/install/delta_lidar:/home/incubus/mars_ros2/install/Webserver:/home/incubus/mars_ros2/install/Manipul:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/incubus/mars_ros2/src/build/stm', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/Webserver/lib/python3.8/site-packages:/home/incubus/mars_ros2/src/install/Manipul/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/stm/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/py_pubsub/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/my_package/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/keyboard/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Webserver/lib/python3.8/site-packages:/home/incubus/mars_ros2/install/Manipul/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/incubus/mars_ros2/src/install/delta_lidar:/home/incubus/mars_ros2/install/ydlidar:/home/incubus/mars_ros2/install/rplidar_ros:/home/incubus/mars_ros2/install/delta_lidar'}, 'shell': False}
+[14.091214] (-) TimerEvent: {}
+[14.191541] (-) TimerEvent: {}
+[14.291830] (-) TimerEvent: {}
+[14.392227] (-) TimerEvent: {}
+[14.471605] (stm) StderrLine: {'line': b"/home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[14.471863] (stm) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.472102] (stm) StderrLine: {'line': b"/home/incubus/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[14.472288] (stm) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.492317] (-) TimerEvent: {}
+[14.592576] (-) TimerEvent: {}
+[14.692858] (-) TimerEvent: {}
+[14.793184] (-) TimerEvent: {}
+[14.893463] (-) TimerEvent: {}
+[14.993742] (-) TimerEvent: {}
+[15.094035] (-) TimerEvent: {}
+[15.194353] (-) TimerEvent: {}
+[15.294636] (-) TimerEvent: {}
+[15.330796] (stm) StdoutLine: {'line': b'running egg_info\n'}
+[15.394742] (-) TimerEvent: {}
+[15.418876] (stm) StdoutLine: {'line': b'writing ../build/stm/stm.egg-info/PKG-INFO\n'}
+[15.487223] (stm) StdoutLine: {'line': b'writing dependency_links to ../build/stm/stm.egg-info/dependency_links.txt\n'}
+[15.494871] (-) TimerEvent: {}
+[15.595140] (-) TimerEvent: {}
+[15.684941] (stm) StdoutLine: {'line': b'writing entry points to ../build/stm/stm.egg-info/entry_points.txt\n'}
+[15.695243] (-) TimerEvent: {}
+[15.795497] (-) TimerEvent: {}
+[15.808182] (stm) StdoutLine: {'line': b'writing requirements to ../build/stm/stm.egg-info/requires.txt\n'}
+[15.869399] (stm) StdoutLine: {'line': b'writing top-level names to ../build/stm/stm.egg-info/top_level.txt\n'}
+[15.895585] (-) TimerEvent: {}
+[15.980684] (stm) StdoutLine: {'line': b"reading manifest file '../build/stm/stm.egg-info/SOURCES.txt'\n"}
+[15.981523] (stm) StdoutLine: {'line': b"writing manifest file '../build/stm/stm.egg-info/SOURCES.txt'\n"}
+[15.981721] (stm) StdoutLine: {'line': b'running build\n'}
+[15.981833] (stm) StdoutLine: {'line': b'running build_py\n'}
+[15.981975] (stm) StdoutLine: {'line': b'running install\n'}
+[15.982145] (stm) StderrLine: {'line': b'/home/incubus/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[15.982270] (stm) StderrLine: {'line': b'  warnings.warn(\n'}
+[15.988103] (stm) StdoutLine: {'line': b'running install_lib\n'}
+[15.995685] (-) TimerEvent: {}
+[16.064096] (stm) StdoutLine: {'line': b'running install_data\n'}
+[16.081991] (stm) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.095807] (-) TimerEvent: {}
+[16.162766] (stm) StdoutLine: {'line': b"removing '/home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages/stm-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[16.163103] (stm) StdoutLine: {'line': b'Copying ../build/stm/stm.egg-info to /home/incubus/mars_ros2/src/install/stm/lib/python3.8/site-packages/stm-0.0.0-py3.8.egg-info\n'}
+[16.164085] (stm) StdoutLine: {'line': b'running install_scripts\n'}
+[16.195898] (-) TimerEvent: {}
+[16.296191] (-) TimerEvent: {}
+[16.308937] (stm) StdoutLine: {'line': b'Installing ToStm script to /home/incubus/mars_ros2/src/install/stm/lib/stm\n'}
+[16.309300] (stm) StdoutLine: {'line': b"writing list of installed files to '/home/incubus/mars_ros2/src/build/stm/install.log'\n"}
+[16.367443] (stm) CommandEnded: {'returncode': 0}
+[16.375979] (stm) JobEnded: {'identifier': 'stm', 'rc': 0}
+[16.377253] (-) EventReactorShutdown: {}

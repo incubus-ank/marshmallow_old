@@ -1,0 +1,169 @@
+[0.375s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'gamepad']
+[0.375s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f388f4c4ee0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['gamepad'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f388f4c4ee0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f388f1a0e80>)
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.448s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/incubus/mars_ros2/src'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(Delta_2A_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(Delta_2A_ros) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(Delta_2A_ros) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(Delta_2A_ros) by extensions ['colcon_pkg']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(Delta_2A_ros) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(Delta_2A_ros) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(Delta_2A_ros) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(Delta_2A_ros) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(Delta_2A_ros) by extension 'ros'
+[0.475s] DEBUG:colcon.colcon_core.package_identification:Package 'Delta_2A_ros' with type 'ros.ament_cmake' and name 'delta_lidar'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(Manipul) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(Manipul) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(Manipul) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(Manipul) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(Manipul) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(Manipul) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(Manipul) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(Manipul) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(Manipul) by extension 'ros'
+[0.476s] DEBUG:colcon.colcon_core.package_identification:Package 'Manipul' with type 'ros.ament_python' and name 'Manipul'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(Webserver) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(Webserver) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(Webserver) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(Webserver) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(Webserver) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(Webserver) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(Webserver) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(Webserver) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(Webserver) by extension 'ros'
+[0.477s] DEBUG:colcon.colcon_core.package_identification:Package 'Webserver' with type 'ros.ament_python' and name 'Webserver'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(gamepad) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(gamepad) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(gamepad) by extension 'ignore_ament_install'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(gamepad) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(gamepad) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(gamepad) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(gamepad) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(gamepad) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(gamepad) by extension 'ros'
+[0.479s] DEBUG:colcon.colcon_core.package_identification:Package 'gamepad' with type 'ros.ament_python' and name 'gamepad'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard) by extension 'ros'
+[0.480s] DEBUG:colcon.colcon_core.package_identification:Package 'keyboard' with type 'ros.ament_python' and name 'keyboard'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(stm) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(stm) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(stm) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(stm) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(stm) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(stm) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(stm) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(stm) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(stm) by extension 'ros'
+[0.482s] DEBUG:colcon.colcon_core.package_identification:Package 'stm' with type 'ros.ament_python' and name 'stm'
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.508s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'Manipul' in 'Manipul'
+[0.508s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'Webserver' in 'Webserver'
+[0.509s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'delta_lidar' in 'Delta_2A_ros'
+[0.509s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'keyboard' in 'keyboard'
+[0.509s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'stm' in 'stm'
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.513s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/incubus/mars_ros2/src/install
+[0.514s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/incubus/mars_ros2/install
+[0.516s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'cmake_target' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'cmake_clean_cache' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'cmake_clean_first' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'cmake_force_configure' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'ament_cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'catkin_cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.601s] DEBUG:colcon.colcon_core.verb:Building package 'gamepad' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/incubus/mars_ros2/src/build/gamepad', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/incubus/mars_ros2/src/install/gamepad', 'merge_install': False, 'path': '/home/incubus/mars_ros2/src/gamepad', 'symlink_install': False, 'test_result_base': None}
+[0.602s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.604s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.604s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/incubus/mars_ros2/src/gamepad' with build type 'ament_python'
+[0.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('gamepad', 'ament_prefix_path')
+[0.609s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/hook/ament_prefix_path.ps1'
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/hook/ament_prefix_path.dsv'
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/hook/ament_prefix_path.sh'
+[0.612s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.612s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.675s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/incubus/mars_ros2/src/gamepad'
+[1.676s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.676s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/incubus/mars_ros2/src/gamepad': PYTHONPATH=/home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/gamepad build --build-base /home/incubus/mars_ros2/src/build/gamepad/build install --prefix /home/incubus/mars_ros2/src/install/gamepad --record /home/incubus/mars_ros2/src/build/gamepad/install.log --single-version-externally-managed
+[5.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/incubus/mars_ros2/src/gamepad' returned '0': PYTHONPATH=/home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/gamepad build --build-base /home/incubus/mars_ros2/src/build/gamepad/build install --prefix /home/incubus/mars_ros2/src/install/gamepad --record /home/incubus/mars_ros2/src/build/gamepad/install.log --single-version-externally-managed
+[5.399s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/gamepad' for CMake module files
+[5.400s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/gamepad' for CMake config files
+[5.401s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/gamepad/lib'
+[5.401s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/gamepad/bin'
+[5.401s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/gamepad/lib/pkgconfig/gamepad.pc'
+[5.402s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/gamepad/lib/python3.8/site-packages'
+[5.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('gamepad', 'pythonpath')
+[5.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/hook/pythonpath.ps1'
+[5.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/hook/pythonpath.dsv'
+[5.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/hook/pythonpath.sh'
+[5.404s] Level 1:colcon.colcon_core.environment:checking '/home/incubus/mars_ros2/src/install/gamepad/bin'
+[5.404s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gamepad)
+[5.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/package.ps1'
+[5.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/package.dsv'
+[5.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/package.sh'
+[5.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/package.bash'
+[5.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/incubus/mars_ros2/src/install/gamepad/share/gamepad/package.zsh'
+[5.411s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/incubus/mars_ros2/src/install/gamepad/share/colcon-core/packages/gamepad)
+[5.411s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.412s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.412s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.412s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.419s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.419s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.419s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.436s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.437s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/incubus/mars_ros2/src/install/local_setup.ps1'
+[5.438s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/incubus/mars_ros2/src/install/_local_setup_util_ps1.py'
+[5.440s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/incubus/mars_ros2/src/install/setup.ps1'
+[5.443s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/incubus/mars_ros2/src/install/local_setup.sh'
+[5.444s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/incubus/mars_ros2/src/install/_local_setup_util_sh.py'
+[5.445s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/incubus/mars_ros2/src/install/setup.sh'
+[5.447s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/incubus/mars_ros2/src/install/local_setup.bash'
+[5.449s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/incubus/mars_ros2/src/install/setup.bash'
+[5.451s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/incubus/mars_ros2/src/install/local_setup.zsh'
+[5.452s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/incubus/mars_ros2/src/install/setup.zsh'

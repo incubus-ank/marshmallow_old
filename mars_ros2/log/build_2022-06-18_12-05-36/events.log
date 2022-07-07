@@ -1,0 +1,168 @@
+[0.000000] (-) TimerEvent: {}
+[0.000127] (delta_lidar) JobQueued: {'identifier': 'delta_lidar', 'dependencies': OrderedDict()}
+[0.000606] (delta_lidar) JobStarted: {'identifier': 'delta_lidar'}
+[0.010684] (delta_lidar) JobProgress: {'identifier': 'delta_lidar', 'progress': 'cmake'}
+[0.011414] (delta_lidar) JobProgress: {'identifier': 'delta_lidar', 'progress': 'build'}
+[0.012646] (delta_lidar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/incubus/mars_ros2/build/delta_lidar', '--', '-j4', '-l4'], 'cwd': '/home/incubus/mars_ros2/build/delta_lidar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'incubus'), ('LC_TIME', 'ru_RU.UTF-8'), ('SSH_AGENT_PID', '1759'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/incubus'), ('OLDPWD', '/home/incubus/mars_ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('MANAGERPID', '1580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'incubus'), ('JOURNAL_STREAM', '8:50234'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'incubus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/incubus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ank:@/tmp/.ICE-unix/1797,unix/ank:/tmp/.ICE-unix/1797'), ('INVOCATION_ID', 'b3f7c3e21cec4b1c9939d30ca4278561'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7a916e58_8141_4355_958d_a794b7eb6cb6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.584'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/incubus/mars_ros2/build/delta_lidar'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.059624] (delta_lidar) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target delta_lidar_node_client\x1b[0m\n'}
+[0.059902] (delta_lidar) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target delta_lidar_node\x1b[0m\n'}
+[0.088924] (delta_lidar) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/delta_lidar_node_client.dir/src/client.cpp.o\x1b[0m\n'}
+[0.089898] (delta_lidar) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/delta_lidar_node.dir/src/node.cpp.o\x1b[0m\n'}
+[0.099714] (-) TimerEvent: {}
+[0.200050] (-) TimerEvent: {}
+[0.300435] (-) TimerEvent: {}
+[0.400797] (-) TimerEvent: {}
+[0.501166] (-) TimerEvent: {}
+[0.601509] (-) TimerEvent: {}
+[0.701857] (-) TimerEvent: {}
+[0.802179] (-) TimerEvent: {}
+[0.902549] (-) TimerEvent: {}
+[1.002923] (-) TimerEvent: {}
+[1.103314] (-) TimerEvent: {}
+[1.203736] (-) TimerEvent: {}
+[1.304033] (-) TimerEvent: {}
+[1.376590] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.376907] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:25:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdegree\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.377079] (delta_lidar) StderrLine: {'line': b'   25 |         float \x1b[01;35m\x1b[Kdegree\x1b[m\x1b[K = RAD2DEG(scan->angle_min + scan->angle_increment * i);\n'}
+[1.377198] (delta_lidar) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.377977] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.378267] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:35:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSubscriber\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.378398] (delta_lidar) StderrLine: {'line': b'   35 |     rclcpp::\x1b[01;31m\x1b[KSubscriber\x1b[m\x1b[K sub = n.subscribe<sensor_msgs::LaserScan>("/scan", 1000, scanCallback);\n'}
+[1.378515] (delta_lidar) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.378629] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:37:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class rclcpp::Node\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Node\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.378749] (delta_lidar) StderrLine: {'line': b'   37 |     auto lidar_info_sub = node->\x1b[01;31m\x1b[Kn\x1b[m\x1b[K.subscribe<sensor_msgs::msg::LaserScan>(\n'}
+[1.378856] (delta_lidar) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.378964] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:37:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.379092] (delta_lidar) StderrLine: {'line': b'   37 |     auto lidar_info_sub = node->n.subscribe<sensor_msgs::msg::LaserScan\x1b[01;31m\x1b[K>\x1b[m\x1b[K(\n'}
+[1.379202] (delta_lidar) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.379312] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:38:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[1.379409] (delta_lidar) StderrLine: {'line': b'   38 |                         \x1b[01;35m\x1b[K"scan"\x1b[m\x1b[K, 1000, scanCallback);\n'}
+[1.379497] (delta_lidar) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.379585] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:38:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kright operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[1.379678] (delta_lidar) StderrLine: {'line': b'   38 |                         "scan", 1000, \x1b[01;35m\x1b[KscanCallback\x1b[m\x1b[K);\n'}
+[1.379779] (delta_lidar) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.404149] (-) TimerEvent: {}
+[1.428823] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:50:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[Kpublish_scan\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[1.429068] (delta_lidar) StderrLine: {'line': b'   50 | void publish_scan(\x1b[01;31m\x1b[Kros\x1b[m\x1b[K::Publisher *pub,\n'}
+[1.429182] (delta_lidar) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.429275] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:50:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.430165] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:50:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.430839] (delta_lidar) StderrLine: {'line': b'   50 | void publish_scan(ros::Publisher *\x1b[01;31m\x1b[Kpub\x1b[m\x1b[K,\n'}
+[1.431011] (delta_lidar) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.431226] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:51:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.431594] (delta_lidar) StderrLine: {'line': b'   51 |                   _rslidar_data \x1b[01;31m\x1b[K*\x1b[m\x1b[Knodes,\n'}
+[1.431849] (delta_lidar) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.433933] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:51:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knodes\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.434103] (delta_lidar) StderrLine: {'line': b'   51 |                   _rslidar_data *\x1b[01;31m\x1b[Knodes\x1b[m\x1b[K,\n'}
+[1.434231] (delta_lidar) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.434368] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:52:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Knode_count\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.434540] (delta_lidar) StderrLine: {'line': b'   52 |                   size_t \x1b[01;31m\x1b[Knode_count\x1b[m\x1b[K, ros::Time start,\n'}
+[1.434658] (delta_lidar) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.434779] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:52:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.434905] (delta_lidar) StderrLine: {'line': b'   52 |                   size_t node_count, \x1b[01;31m\x1b[Kros\x1b[m\x1b[K::Time start,\n'}
+[1.435014] (delta_lidar) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.435125] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:53:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.435232] (delta_lidar) StderrLine: {'line': b'   53 |                   \x1b[01;31m\x1b[Kdouble\x1b[m\x1b[K scan_time,\n'}
+[1.435342] (delta_lidar) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.435453] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:54:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.435568] (delta_lidar) StderrLine: {'line': b'   54 |                   \x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K angle_min, float angle_max,\n'}
+[1.435719] (delta_lidar) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.435960] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:54:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.436581] (delta_lidar) StderrLine: {'line': b'   54 |                   float angle_min, \x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K angle_max,\n'}
+[1.436971] (delta_lidar) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.437109] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:55:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kframe_id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.437234] (delta_lidar) StderrLine: {'line': b'   55 |                   std::string \x1b[01;31m\x1b[Kframe_id\x1b[m\x1b[K)\n'}
+[1.437354] (delta_lidar) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.437472] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.437594] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:108:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::string frame_id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.437716] (delta_lidar) StderrLine: {'line': b'  108 |     string \x1b[01;31m\x1b[Kframe_id\x1b[m\x1b[K;\n'}
+[1.437837] (delta_lidar) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.437956] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:105:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::string frame_id\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[1.438085] (delta_lidar) StderrLine: {'line': b'  105 |     std::string \x1b[01;36m\x1b[Kframe_id\x1b[m\x1b[K = "laser";\n'}
+[1.438224] (delta_lidar) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.438335] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:111:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNodeHandle\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.438450] (delta_lidar) StderrLine: {'line': b'  111 |     rclcpp::\x1b[01;31m\x1b[KNodeHandle\x1b[m\x1b[K nh;\n'}
+[1.438560] (delta_lidar) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.438672] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:112:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNodeHandle\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.438786] (delta_lidar) StderrLine: {'line': b'  112 |     rclcpp::\x1b[01;31m\x1b[KNodeHandle\x1b[m\x1b[K nh_private("~");\n'}
+[1.438898] (delta_lidar) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.439008] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:113:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knh_private\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.439121] (delta_lidar) StderrLine: {'line': b'  113 |     \x1b[01;31m\x1b[Knh_private\x1b[m\x1b[K.param<string>("serial_port", port, "/dev/ttyUSB4");\n'}
+[1.439234] (delta_lidar) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.439343] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:113:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.439465] (delta_lidar) StderrLine: {'line': b'  113 |     nh_private.param<string\x1b[01;31m\x1b[K>\x1b[m\x1b[K("serial_port", port, "/dev/ttyUSB4");\n'}
+[1.439574] (delta_lidar) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.439685] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:113:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[1.439800] (delta_lidar) StderrLine: {'line': b'  113 |     nh_private.param<string>(\x1b[01;35m\x1b[K"serial_port"\x1b[m\x1b[K, port, "/dev/ttyUSB4");\n'}
+[1.439909] (delta_lidar) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.440043] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:113:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kright operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[1.440158] (delta_lidar) StderrLine: {'line': b'  113 |     nh_private.param<string>("serial_port", port, \x1b[01;35m\x1b[K"/dev/ttyUSB4"\x1b[m\x1b[K);\n'}
+[1.440271] (delta_lidar) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.440392] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:114:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.440506] (delta_lidar) StderrLine: {'line': b'  114 |     nh_private.param<string\x1b[01;31m\x1b[K>\x1b[m\x1b[K("frame_id", frame_id, "laser");\n'}
+[1.440627] (delta_lidar) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.440737] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:114:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[1.440953] (delta_lidar) StderrLine: {'line': b'  114 |     nh_private.param<string>(\x1b[01;35m\x1b[K"frame_id"\x1b[m\x1b[K, frame_id, "laser");\n'}
+[1.441068] (delta_lidar) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.441181] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:114:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kright operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[1.441291] (delta_lidar) StderrLine: {'line': b'  114 |     nh_private.param<string>("frame_id", frame_id, \x1b[01;35m\x1b[K"laser"\x1b[m\x1b[K);\n'}
+[1.441400] (delta_lidar) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.441508] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:139:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.441621] (delta_lidar) StderrLine: {'line': b'  139 |     \x1b[01;31m\x1b[Kros\x1b[m\x1b[K::Time start_scan_time;\n'}
+[1.441725] (delta_lidar) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.441814] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:140:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.441919] (delta_lidar) StderrLine: {'line': b'  140 |     \x1b[01;31m\x1b[Kros\x1b[m\x1b[K::Time end_scan_time;\n'}
+[1.442027] (delta_lidar) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.443320] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:143:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstart_scan_time\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.443561] (delta_lidar) StderrLine: {'line': b'  143 |  \x1b[01;31m\x1b[Kstart_scan_time\x1b[m\x1b[K = rclcpp::Time::now();\n'}
+[1.443688] (delta_lidar) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.443806] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:143:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Know\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.443923] (delta_lidar) StderrLine: {'line': b'  143 |  start_scan_time = rclcpp::Time::\x1b[01;31m\x1b[Know\x1b[m\x1b[K();\n'}
+[1.444053] (delta_lidar) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.448822] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:172:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kend_scan_time\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.449132] (delta_lidar) StderrLine: {'line': b'  172 |     \x1b[01;31m\x1b[Kend_scan_time\x1b[m\x1b[K = rclcpp::Time::now();\n'}
+[1.449261] (delta_lidar) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.449375] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:172:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Know\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.449488] (delta_lidar) StderrLine: {'line': b'  172 |     end_scan_time = rclcpp::Time::\x1b[01;31m\x1b[Know\x1b[m\x1b[K();\n'}
+[1.449597] (delta_lidar) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.449703] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:174:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%u\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[1.449839] (delta_lidar) StderrLine: {'line': b'  174 |                 printf("Receive Lidar count \x1b[01;35m\x1b[K%u\x1b[m\x1b[K!\\n", \x1b[32m\x1b[Klidar_scan_size\x1b[m\x1b[K);\n'}
+[1.449950] (delta_lidar) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~^\x1b[m\x1b[K      \x1b[32m\x1b[K~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.450058] (delta_lidar) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K|\x1b[m\x1b[K      \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[1.450167] (delta_lidar) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K|\x1b[m\x1b[K      \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[1.450274] (delta_lidar) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[Kunsigned int\x1b[m\x1b[K\n'}
+[1.450383] (delta_lidar) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[1.454967] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:178:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublish_scan\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.455268] (delta_lidar) StderrLine: {'line': b'  178 |                 \x1b[01;31m\x1b[Kpublish_scan\x1b[m\x1b[K(&scan_pub, &send_lidar_scan_data[0], lidar_scan_size,\n'}
+[1.455406] (delta_lidar) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.455525] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:177:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kstart_node\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.455642] (delta_lidar) StderrLine: {'line': b'  177 |                 int \x1b[01;35m\x1b[Kstart_node\x1b[m\x1b[K = 0, end_node = 359;\n'}
+[1.455768] (delta_lidar) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.455885] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:177:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kend_node\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.456019] (delta_lidar) StderrLine: {'line': b'  177 |                 int start_node = 0, \x1b[01;35m\x1b[Kend_node\x1b[m\x1b[K = 359;\n'}
+[1.456148] (delta_lidar) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.456512] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:197:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusleep\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.456653] (delta_lidar) StderrLine: {'line': b'  197 |         \x1b[01;31m\x1b[Kusleep\x1b[m\x1b[K(50);\n'}
+[1.456765] (delta_lidar) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.457139] (delta_lidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:198:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KspinOnce\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.457278] (delta_lidar) StderrLine: {'line': b'  198 |         rclcpp::\x1b[01;31m\x1b[KspinOnce\x1b[m\x1b[K();\n'}
+[1.457402] (delta_lidar) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.504258] (-) TimerEvent: {}
+[1.604615] (-) TimerEvent: {}
+[1.704968] (-) TimerEvent: {}
+[1.765898] (delta_lidar) StderrLine: {'line': b'make[2]: *** [CMakeFiles/delta_lidar_node_client.dir/build.make:63: CMakeFiles/delta_lidar_node_client.dir/src/client.cpp.o] Error 1\n'}
+[1.766149] (delta_lidar) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/delta_lidar_node_client.dir/all] Error 2\n'}
+[1.766237] (delta_lidar) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[1.805060] (-) TimerEvent: {}
+[1.905341] (-) TimerEvent: {}
+[2.005624] (-) TimerEvent: {}
+[2.105920] (-) TimerEvent: {}
+[2.206242] (-) TimerEvent: {}
+[2.306531] (-) TimerEvent: {}
+[2.390137] (delta_lidar) StderrLine: {'line': b'make[2]: *** [CMakeFiles/delta_lidar_node.dir/build.make:63: CMakeFiles/delta_lidar_node.dir/src/node.cpp.o] Error 1\n'}
+[2.390401] (delta_lidar) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/delta_lidar_node.dir/all] Error 2\n'}
+[2.390550] (delta_lidar) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.392368] (delta_lidar) CommandEnded: {'returncode': 2}
+[2.406667] (-) TimerEvent: {}
+[2.441403] (delta_lidar) JobEnded: {'identifier': 'delta_lidar', 'rc': 2}
+[2.452766] (-) EventReactorShutdown: {}

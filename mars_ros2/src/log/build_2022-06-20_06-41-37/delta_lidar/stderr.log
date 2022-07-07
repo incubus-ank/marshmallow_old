@@ -1,0 +1,104 @@
+In file included from [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CArcTime.cpp:16[m[K:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CArcTime.h:[m[K In member function ‘[01m[Kvoid everest::hwdrivers::CArcTime::log(const char*) const[m[K’:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CArcTime.h:251:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprefix[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  251 |           void log(const char *[01;35m[Kp[m[Krefix = NULL) const
+      |                                [01;35m[K^[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/C3iroboticsLidar.cpp:[m[K In member function ‘[01m[Keverest::hwdrivers::TLidarGrabResult everest::hwdrivers::C3iroboticsLidar::combineScan(everest::hwdrivers::TToothScan&)[m[K’:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/C3iroboticsLidar.cpp:212:67:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  212 |                 printf("[C3iroboticsLidar] grab scan is time out [01;35m[K%d[m[K ms! Reset grab scan state, current is %5.2f, last is %5.2f! \n",
+      |                                                                  [01;35m[K~^[m[K
+      |                                                                   [01;35m[K|[m[K
+      |                                                                   [01;35m[Kint[m[K
+      |                                                                  [32m[K%ld[m[K
+  213 |                           [32m[Km_params.scan_time_out_ms[m[K, tooth_scan.angle, m_last_scan_angle);
+      |                           [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                
+      |                                    [32m[K|[m[K
+      |                                    [32m[Ksize_t {aka long unsigned int}[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/C3iroboticsLidar.cpp:[m[K In member function ‘[01m[Keverest::hwdrivers::TLidarGrabResult everest::hwdrivers::C3iroboticsLidar::analysisHealthInfo(everest::hwdrivers::CLidarPacket&)[m[K’:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/C3iroboticsLidar.cpp:353:51:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 2 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+  353 |     printf("[C3iroboticsLidar] Lidar error is [01;35m[K%5.5f[m[K!\n", [32m[Klidar_error[m[K );
+      |                                               [01;35m[K~~~~^[m[K      [32m[K~~~~~~~~~~~[m[K
+      |                                                   [01;35m[K|[m[K      [32m[K|[m[K
+      |                                                   [01;35m[Kdouble[m[K [32m[Kint[m[K
+      |                                               [32m[K%5.5d[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CLidarPacket.cpp:[m[K In static member function ‘[01m[Kstatic void everest::hwdrivers::CLidarPacket::bufferToData(void*, void*, size_t)[m[K’:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CLidarPacket.cpp:255:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdest_ptr[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  255 | void CLidarPacket::bufferToData([01;35m[Kvoid *dest_ptr[m[K, void *src_ptr, size_t length)
+      |                                 [01;35m[K~~~~~~^~~~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CLidarPacket.cpp:255:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksrc_ptr[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  255 | void CLidarPacket::bufferToData(void *dest_ptr, [01;35m[Kvoid *src_ptr[m[K, size_t length)
+      |                                                 [01;35m[K~~~~~~^~~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CLidarPacket.cpp:255:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  255 | void CLidarPacket::bufferToData(void *dest_ptr, void *src_ptr, [01;35m[Ksize_t length[m[K)
+      |                                                                [01;35m[K~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:19[m[K:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CArcTime.h:[m[K In member function ‘[01m[Kvoid everest::hwdrivers::CArcTime::log(const char*) const[m[K’:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CArcTime.h:251:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprefix[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  251 |           void log(const char *[01;35m[Kp[m[Krefix = NULL) const
+      |                                [01;35m[K^[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:[m[K In member function ‘[01m[Kint everest::hwdrivers::CSerialConnection::internalOpen()[m[K’:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:210:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktio[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  210 |  struct termios [01;35m[Ktio[m[K;
+      |                 [01;35m[K^~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:[m[K In member function ‘[01m[Kbool everest::hwdrivers::CSerialConnection::setBaud(int)[m[K’:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:426:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktio[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  426 |  struct termios [01;35m[Ktio[m[K;
+      |                 [01;35m[K^~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:427:6:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbaud[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  427 |  int [01;35m[Kbaud[m[K;
+      |      [01;35m[K^~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:[m[K In member function ‘[01m[Kvirtual int everest::hwdrivers::CSerialConnection::read(const char*, unsigned int, unsigned int)[m[K’:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSerialConnection.cpp:672:14:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression >= 0 is always true [[01;35m[K-Wtype-limits[m[K]
+  672 |   if ([01;35m[KmsWait >= 0[m[K)
+      |       [01;35m[K~~~~~~~^~~~[m[K
+In file included from [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:19[m[K:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CArcTime.h:[m[K In member function ‘[01m[Kvoid everest::hwdrivers::CArcTime::log(const char*) const[m[K’:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CArcTime.h:251:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprefix[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  251 |           void log(const char *[01;35m[Kp[m[Krefix = NULL) const
+      |                                [01;35m[K^[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:[m[K In member function ‘[01m[Kbool everest::hwdrivers::CSimulateSerial::setBaud(int)[m[K’:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:198:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  198 | bool CSimulateSerial::setBaud([01;35m[Kint rate[m[K)
+      |                               [01;35m[K~~~~^~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:[m[K In member function ‘[01m[Kvirtual int everest::hwdrivers::CSimulateSerial::write(const char*, unsigned int)[m[K’:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:225:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  225 | int CSimulateSerial::write([01;35m[Kconst char *data[m[K, unsigned int size)
+      |                            [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:225:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  225 | int CSimulateSerial::write(const char *data, [01;35m[Kunsigned int size[m[K)
+      |                                              [01;35m[K~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:[m[K In member function ‘[01m[Kvirtual int everest::hwdrivers::CSimulateSerial::read(const char*, unsigned int, unsigned int)[m[K’:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CSimulateSerial.cpp:241:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KmsWait[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  241 | int CSimulateSerial::read(const char *data, unsigned int size, [01;35m[Kunsigned int msWait[m[K)
+      |                                                                [01;35m[K~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:[m[K In function ‘[01m[Kvoid scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/client.cpp:25:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdegree[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   25 |         float [01;35m[Kdegree[m[K = RAD2DEG(scan->angle_min + scan->angle_increment * i);
+      |               [01;35m[K^~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:176:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  176 |                 printf("Receive Lidar count [01;35m[K%u[m[K!\n", [32m[Klidar_scan_size[m[K);
+      |                                             [01;35m[K~^[m[K      [32m[K~~~~~~~~~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K      [32m[K|[m[K
+      |                                              [01;35m[K|[m[K      [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lu[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:179:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstart_node[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  179 |                 int [01;35m[Kstart_node[m[K = 0, end_node = 359;
+      |                     [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/src/node.cpp:179:37:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kend_node[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  179 |                 int start_node = 0, [01;35m[Kend_node[m[K = 359;
+      |                                     [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/src/CTime.cpp:17[m[K:
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CLogUtitls.h:95:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::string dateTimeLocalToString(const TTimeStamp&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   95 | static std::string  [01;35m[KdateTimeLocalToString[m[K(const everest::hwdrivers::TTimeStamp &t)
+      |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CLogUtitls.h:71:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::string renameFileExtension(std::string&, std::string)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   71 | static std::string [01;35m[KrenameFileExtension[m[K(std::string &file_path, std::string new_extension)
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CLogUtitls.h:59:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuint64_t getFileSize(const string&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   59 | static uint64_t [01;35m[KgetFileSize[m[K(const std::string &fileName)
+      |                 [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/incubus/mars_ros2/src/Delta_2A_ros/sdk/include/CLogUtitls.h:49:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool renameFile(const string&, const string&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   49 | static bool [01;35m[KrenameFile[m[K( const std::string &oldFileName, const std::string &newFileName)
+      |             [01;35m[K^~~~~~~~~~[m[K
