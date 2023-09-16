@@ -1,5 +1,5 @@
  <h1 align="center">
-  marshmallow
+  marshmallow (old project)
 </h1>
 
 Репозиторий проекта содержит: 
